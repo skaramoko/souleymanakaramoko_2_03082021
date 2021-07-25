@@ -1,0 +1,208 @@
+p
+{
+    /* Quelques règles par défaut */
+}
+@media all and (min-width: 1024px) and (max-width: 1280px)
+{
+ 
+}
+#logo a img
+{
+    width:150px;
+} 
+nav ul
+{
+    display: flex;   
+    float: right;
+    position:relative;
+    nav-left: 150;
+    bottom: 2cm;
+}    
+ul
+{
+    list-style-type: none;
+}
+
+.localite td
+{
+    border: 1px solid gainsboro;
+}
+
+.localite img
+{
+    height: 00.4cm;
+}
+
+.choix td
+{
+    border: 1px solid gainsboro;
+}
+.choix img
+{
+    background-color: blue;
+    border: 1px solid gainsboro;
+    width: 12px;
+    border-radius: 2cm;
+    height: 0.4cm;
+}
+
+td
+{
+    border-radius: 2cm;
+}
+article
+{
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+    margin-right: 30cm;
+    background-color: ghostwhite;
+}
+p
+{
+    font-family: unset;
+    font-size: 10;
+}
+h1
+{
+    font-family: serif;
+    font-size: 12px;
+}
+.line1 img
+{
+    width: 3cm;
+    height: 2cm;
+    border-radius: 9px;
+}
+
+.line1 
+{
+    width: 15cm;
+    display: flex;   
+    justify-content: space-between 2cm;
+    margin-bottom: 1cm;   
+}
+
+.toto
+{
+    margin-left: 1cm;
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+}
+.tata
+{
+    margin-right: 1cm;
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+}
+.titi
+{
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+    margin-right: 2cm;
+}
+.line2
+{
+    width: 15cm;
+    display: flex;
+    margin-bottom: 1cm;
+}
+.mimi
+{
+    margin-left: 1cm;
+    margin-right: 1cm;
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+}
+.meto
+{
+    margin-right: 1cm;
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+}
+.mota
+{
+    border: 1px solid gainsboro;
+    border-radius: 9px;
+}
+
+.line2 img
+{
+    width: 3cm;
+    height: 2cm;
+    border-radius: 9px;
+}
+
+.lineverticale img
+{
+    width: 3cm;
+    height: 2cm;
+    border-radius: 9px;
+}
+.lineverticale
+{
+    float: right;
+    border: 1px solid gainsboro;
+    margin-right: 40cm;
+    border-radius: 9px;
+}
+.activite
+{
+
+}
+.activA img
+{
+    height: 6cm;
+    width: 4cm;
+    border-radius: 9px;
+}
+.activB
+{
+    border: 1px solid gainsboro;
+    margin-right: 40cm;
+    border-radius: 9px;
+}
+.activB img
+{
+    width: 4cm;
+    height: 3cm;
+    border-radius: 9px;
+}
+
+.activC img
+{
+    height: 6cm;
+    width: 4cm;
+    border-radius: 9px;
+}
+
+.activD img
+{
+    width: 4cm;
+    height: 3cm;
+    border-radius: 9px;
+}
+.activD
+{
+    border: 1px solid gainsboro;
+    margin-right: 40cm;
+    border-radius: 9px;
+}
+
+footer
+{
+    width: 25cm;
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.pied2
+{
+    padding-right: 4cm;
+    padding-left: 3cm;
+}
+
+.pied3
+{
+    padding-right: 4cm;
+}
