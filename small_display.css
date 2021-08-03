@@ -1,0 +1,100 @@
+
+
+@media screen and (max-width: 1280px) 
+{
+
+
+     .bloc-page
+    {
+        margin: auto;
+
+    }
+    header h1
+    {
+        font-size: 16px;
+    }
+    nav ul
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    article
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .group
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .mimi
+    {
+        display: flex;
+        margin-right: 1cm;
+    }
+
+    .line2
+    {
+        margin-left: 1cm;
+    }
+
+    .line3
+    {
+        margin-left: 1cm;
+    }
+    .toto
+    {
+        display: flex;
+        margin-right: 1cm;
+        
+    }
+    .tata
+    {
+        display: flex;
+        margin-right: 1cm;
+    }
+    .mami
+    {
+        display: flex;
+    }
+    .lineverticale
+    {
+        margin-left: 0.5cm;
+    }
+
+    .meme
+    {
+        display: flex;
+    }
+    .meto
+    {
+        display: flex;
+        margin-right: 1cm;
+    }
+    .titi
+    {
+        display: flex;
+    }
+    .mota
+    {
+        display: flex;
+    }
+
+    .papi
+    {
+        display: flex;
+    }
+
+    .End
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

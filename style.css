@@ -1,42 +1,65 @@
-p
+
+    
+
+body
 {
-    /* Quelques règles par défaut */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-@media all and (min-width: 1024px) and (max-width: 1280px)
-{
- 
-}
+
 #logo a img
 {
     width:150px;
-} 
+}
+.haut_page table
+{
+    float: right;
+    margin-bottom: 5cm;
+}
+
 nav ul
 {
-    display: flex;   
+    display: flex;  
     float: right;
     position:relative;
-    nav-left: 150;
+    margin-right: 4cm;
     bottom: 2cm;
-}    
+    list-style-type: none;
+} 
+
+nav a
+{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 1cm;
+}
+
 ul
 {
     list-style-type: none;
 }
 
-.localite td
+
+
+nav ul
 {
-    border: 1px solid gainsboro;
+    list-style-type: none;
+
 }
 
 .localite img
 {
-    height: 00.4cm;
+    height: 0.4cm;
+}
+.localite
+{
+    font-size: 14px;
 }
 
 .choix td
 {
     border: 1px solid gainsboro;
 }
+
 .choix img
 {
     background-color: blue;
@@ -45,164 +68,347 @@ ul
     border-radius: 2cm;
     height: 0.4cm;
 }
+span
+{
+    color: blue;
+}
 
 td
 {
     border-radius: 2cm;
 }
-article
+section
 {
-    border: 1px solid gainsboro;
-    border-radius: 9px;
-    margin-right: 30cm;
-    background-color: ghostwhite;
+    display: flex;
+    flex-direction: column;
 }
-p
+section h1
 {
-    font-family: unset;
-    font-size: 10;
-}
-h1
-{
-    font-family: serif;
-    font-size: 12px;
-}
-.line1 img
-{
-    width: 3cm;
-    height: 2cm;
-    border-radius: 9px;
+    margin-left: 0.5cm;
+    font-size: 16px
 }
 
-.line1 
+article
 {
-    width: 15cm;
-    display: flex;   
-    justify-content: space-between 2cm;
-    margin-bottom: 1cm;   
+    display: flex;
+    justify-content: space-between;
+}
+
+.milieu
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 9px;
+    margin-left: 0.5cm;
+    background-color: ghostwhite;
+    font-size: 12px;
+}
+.teteline
+{
+    margin-left: 1cm;
+}
+.group
+{
+    display: flex;
 }
 
 .toto
 {
-    margin-left: 1cm;
-    border: 1px solid gainsboro;
+    border: 5px solid white;
     border-radius: 9px;
+    background-color: white;
 }
+
 .tata
 {
-    margin-right: 1cm;
-    border: 1px solid gainsboro;
+    border: 5px solid white;
+    background-color: white;
     border-radius: 9px;
 }
+
 .titi
 {
-    border: 1px solid gainsboro;
+    border: 5px solid white;
+    background-color:white;
     border-radius: 9px;
-    margin-right: 2cm;
 }
+.line1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: 1.5cm;
+    margin-right: 0.5cm;
+}
+
+.line1 img
+{
+    width: 5cm;
+    height: 3cm;
+    border-radius: 9px;
+}
+
 .line2
 {
-    width: 15cm;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0.5cm;
+    margin-top: 1cm;
     margin-bottom: 1cm;
 }
+.line3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1.5cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+}
+.line3 img
+{
+    width: 5cm;
+    height: 3cm;
+    border: 1px solid white;
+    border-radius: 9px;
+}
+
 .mimi
 {
-    margin-left: 1cm;
-    margin-right: 1cm;
-    border: 1px solid gainsboro;
+    border: 5px solid white;
+    background-color: white;
     border-radius: 9px;
+    margin-top: 0.5cm;
 }
+
 .meto
 {
-    margin-right: 1cm;
-    border: 1px solid gainsboro;
+    border: 5px solid white;
+    background-color: white;
     border-radius: 9px;
+    margin-top: 0.5cm;
+    margin-bottom: 1.5cm;
 }
+
 .mota
 {
-    border: 1px solid gainsboro;
+    border: 5px solid white;
+    background-color: white;
     border-radius: 9px;
+    margin-top: 0.5cm;
+    margin-bottom: 1.5cm;
+}
+.tete
+{
+    display: flex;
+    justify-content: space-between;
+}
+.tete2
+{
+    margin-right: 3cm;
+}
+.mami
+{
+    border: 5px solid white;
+    border-radius: 9px;
+    background-color: white;
+    margin-top: 1cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    display: flex;
+    display: inline;
+}
+
+.mami img
+{
+
+    float:left;
+}
+
+.papi
+{
+    border: 5px solid white;
+    border-radius: 9px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    background-color: white;
+    margin-top: 0.6cm;
+    margin-bottom: 1.5cm;
+    display: flex;
+}
+
+.papi img
+{
+    float: left;
+}
+
+.meme
+{
+    border: 5px solid white;
+    border-radius: 9px;
+    background-color: white;
+    margin-top: 1cm;
+    margin-bottom: 0.6cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    display: flex;
+}
+
+.meme img
+{
+    float: left;
 }
 
 .line2 img
 {
-    width: 3cm;
-    height: 2cm;
+    width: 5cm;
+    height: 3cm;
     border-radius: 9px;
 }
 
 .lineverticale img
 {
-    width: 3cm;
-    height: 2cm;
+    margin-right: 0.5cm;
+    width: 3.5cm;
+    height: 3cm;
     border-radius: 9px;
+}
+
+.lineverticale p
+{
+    font-size: 12px;
 }
 .lineverticale
 {
-    float: right;
-    border: 1px solid gainsboro;
-    margin-right: 40cm;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
     border-radius: 9px;
+    margin-right: 3.5cm;
+    background-color: ghostwhite;
 }
-.activite
+.lineverticale h1
 {
-
+    margin-left: 0.5cm;
 }
+.activite p
+{
+    font-size: 12px;
+}
+.activA
+{
+    border: 1px solid white;
+    border-radius: 9px;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+    background-color: white;
+    border-bottom-color: aliceblue;
+}
+
 .activA img
 {
-    height: 6cm;
-    width: 4cm;
+    height: 7.2cm;
+    width: 6cm;
     border-radius: 9px;
 }
+
 .activB
 {
-    border: 1px solid gainsboro;
-    margin-right: 40cm;
+    margin-top: 0.5cm;
     border-radius: 9px;
+    margin-bottom: 0.3cm;
+    
+    
 }
+.activB1
+{
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: white;
+    border-bottom-color: aliceblue;
+}
+.activB2
+{
+    border: 1px solid white;
+    border-radius: 9px;
+    margin-top: 0.3cm;
+    background-color: white;
+    border-bottom-color: aliceblue;
+}
+
 .activB img
 {
-    width: 4cm;
-    height: 3cm;
+    width: 6cm;
+    height: 2.8cm;
     border-radius: 9px;
+}
+.activC
+{
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: white;
+    border-bottom-color: aliceblue;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    display: flex;
+    flex-direction: column;
 }
 
 .activC img
 {
-    height: 6cm;
-    width: 4cm;
-    border-radius: 9px;
-}
-
-.activD img
-{
-    width: 4cm;
-    height: 3cm;
+    height: 7.2cm;
+    width: 6cm;
     border-radius: 9px;
 }
 .activD
 {
-    border: 1px solid gainsboro;
-    margin-right: 40cm;
+    margin-left: 0cm;
+    margin-bottom: 0.5cm;
+}
+
+.activD img
+{
+    width: 6cm;
+    height: 2.8cm;
     border-radius: 9px;
 }
 
-footer
+.activD1
 {
-    width: 25cm;
+    border: 1px solid white;
+    border-radius: 9px;
+    margin-top: 0.5cm;
+    margin-bottom: 0.3cm;
+    background-color: white;
+    border-bottom-color: aliceblue;
+}
+.activD2
+{
+    border: 1px solid white;
+    border-radius: 9px;
+    background-color: white;
+    border-bottom-color: aliceblue;
+}
+.End
+{
     display: flex;
     justify-content: space-between;
-    background-color: aliceblue;
+    margin-bottom: 1cm;
+    background-color: white;
+    font-size: 12px;
 }
 
-.pied2
-{
-    padding-right: 4cm;
-    padding-left: 3cm;
-}
 
-.pied3
+footer
 {
-    padding-right: 4cm;
+    display: flex;
+    justify-content: space-between;
+    background-color: ghostwhite;
+    border: 1px solid white;
+    font-size: 12px;
 }
