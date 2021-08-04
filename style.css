@@ -5,6 +5,65 @@ body
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.localite
+{
+    border: 1px solid white;
+    display: flex;
+    margin-right: 17.2cm;
+    margin-bottom: 0.5cm;
+}
+
+.loc1, .loc2
+{
+    border: 1px solid gainsboro;
+    padding-top: 14px;
+    
+}
+.loc1
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: gainsboro;
+}
+
+.loc3
+{
+    border: 1px solid gainsboro;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+.loc3 p
+{
+    color: white;
+}
+
+.choix
+{
+    display: flex;
+}
+
+.chx1, .chx2, .chx3, .chx4
+{
+    display: flex;
+    margin-left: 0.5cm;
+    border: 1px solid gainsboro;
+    height: 27px;
+    padding-top: 8px;
+    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+}
+.chx1a .chx2a .chx3a .chx4a
+{
+    border: 1px solid gainsboro;
+   
+}
 
 #logo a img
 {
@@ -15,13 +74,16 @@ body
     float: right;
     margin-bottom: 5cm;
 }
+header
+{
+    margin-left:1cm;
+}
 
 nav ul
 {
     display: flex;  
     float: right;
     position:relative;
-    margin-right: 4cm;
     bottom: 2cm;
     list-style-type: none;
 } 
@@ -30,7 +92,7 @@ nav a
 {
     text-decoration: none;
     list-style-type: none;
-    margin-left: 1cm;
+    margin-left: 0.3cm;
 }
 
 ul
@@ -43,7 +105,7 @@ ul
 nav ul
 {
     list-style-type: none;
-
+    margin-right: 8cm;
 }
 
 .localite img
@@ -92,6 +154,7 @@ article
 {
     display: flex;
     justify-content: space-between;
+    margin-left: 0.5cm;
 }
 
 .milieu
@@ -288,7 +351,8 @@ article
     flex-direction: column;
     border: 1px solid white;
     border-radius: 9px;
-    margin-right: 3.5cm;
+    margin-right: 8cm;
+    margin-left: 0.5cm;
     background-color: ghostwhite;
 }
 .lineverticale h1
@@ -306,6 +370,7 @@ article
     margin-top: 0.5cm;
     margin-bottom: 0.5cm;
     margin-left: 0.5cm;
+    margin-right: 1.5cm;
     background-color: white;
     border-bottom-color: aliceblue;
 }
@@ -321,6 +386,7 @@ article
 {
     margin-top: 0.5cm;
     border-radius: 9px;
+    margin-right: 1.5cm;
     margin-bottom: 0.3cm;
     
     
@@ -354,6 +420,7 @@ article
     background-color: white;
     border-bottom-color: aliceblue;
     margin-top: 0.5cm;
+    margin-right: 1.5cm;
     margin-bottom: 0.5cm;
     display: flex;
     flex-direction: column;
@@ -397,12 +464,26 @@ article
 .End
 {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 1cm;
+    margin-left: 0.5cm;
     background-color: white;
     font-size: 12px;
 }
 
+.except
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.except1
+{
+    display: flex;
+}
+.except2
+{
+    display: flex;
+}
 
 footer
 {
@@ -411,4 +492,5 @@ footer
     background-color: ghostwhite;
     border: 1px solid white;
     font-size: 12px;
+    margin-right: 8cm;
 }

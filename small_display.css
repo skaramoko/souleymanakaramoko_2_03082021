@@ -16,7 +16,11 @@
     nav ul
     {
         display: flex;
-        flex-direction: column;
+        
+    }
+    nav a
+    {
+        margin-right: 0cm;
     }
     article
     {
@@ -61,6 +65,7 @@
     .lineverticale
     {
         margin-left: 0.5cm;
+        margin-right: 0cm;
     }
 
     .meme
@@ -86,15 +91,15 @@
         display: flex;
     }
 
-    .End
+    .except
     {
         display: flex;
-        flex-direction: column;
+        justify-content: space-between;
     }
+    
     footer
     {
         display: flex;
-        flex-direction: column;
     }
 
 }
