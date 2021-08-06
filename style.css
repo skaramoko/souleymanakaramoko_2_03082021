@@ -52,17 +52,23 @@ body
     display: flex;
     margin-left: 0.5cm;
     border: 1px solid gainsboro;
-    height: 27px;
+    height: 22px;
     padding-top: 8px;
     border-bottom-left-radius: 17px;
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
     border-bottom-right-radius: 17px;
 }
-.chx1a .chx2a .chx3a .chx4a
+
+.chx1a, .chx2a, .chx3a, .chx4a
 {
     border: 1px solid gainsboro;
-   
+    height: 22px;
+    width: 22px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 08px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 #logo a img
@@ -76,7 +82,7 @@ body
 }
 header
 {
-    margin-left:1cm;
+    margin-left:1.5cm;
 }
 
 nav ul
@@ -100,12 +106,10 @@ ul
     list-style-type: none;
 }
 
-
-
 nav ul
 {
     list-style-type: none;
-    margin-right: 8cm;
+    margin-right: 12cm;
 }
 
 .localite img
@@ -117,19 +121,6 @@ nav ul
     font-size: 14px;
 }
 
-.choix td
-{
-    border: 1px solid gainsboro;
-}
-
-.choix img
-{
-    background-color: blue;
-    border: 1px solid gainsboro;
-    width: 12px;
-    border-radius: 2cm;
-    height: 0.4cm;
-}
 span
 {
     color: blue;
@@ -139,22 +130,26 @@ td
 {
     border-radius: 2cm;
 }
+
 section
 {
     display: flex;
     flex-direction: column;
 }
+
 section h1
 {
     margin-left: 0.5cm;
-    font-size: 16px
+    font-size: 14px
 }
 
+header h1
+{
+    font-size: 18px;
+}
 article
 {
     display: flex;
-    justify-content: space-between;
-    margin-left: 0.5cm;
 }
 
 .milieu
@@ -163,14 +158,12 @@ article
     flex-direction: column;
     border: 1px solid white;
     border-radius: 9px;
-    margin-left: 0.5cm;
+    margin-left: 1.5cm;
+    margin-right: 0.7cm;
     background-color: ghostwhite;
-    font-size: 12px;
+    font-size: 11px;
 }
-.teteline
-{
-    margin-left: 1cm;
-}
+
 .group
 {
     display: flex;
@@ -203,13 +196,13 @@ article
     justify-content: space-between;
     margin-top: 1cm;
     margin-bottom: 1cm;
-    margin-left: 1.5cm;
+    margin-left: 0.5cm;
     margin-right: 0.5cm;
 }
 
 .line1 img
 {
-    width: 5cm;
+    width: 4.5cm;
     height: 3cm;
     border-radius: 9px;
 }
@@ -223,18 +216,26 @@ article
     margin-top: 1cm;
     margin-bottom: 1cm;
 }
+
+.line2 img
+{
+    width: 4.5cm;
+    height: 3cm;
+    border-radius: 9px;
+}
+
 .line3
 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 1.5cm;
+    margin-right: 0.5cm;
     margin-top: 1cm;
     margin-bottom: 1cm;
 }
 .line3 img
 {
-    width: 5cm;
+    width: 4.5cm;
     height: 3cm;
     border: 1px solid white;
     border-radius: 9px;
@@ -245,7 +246,6 @@ article
     border: 5px solid white;
     background-color: white;
     border-radius: 9px;
-    margin-top: 0.5cm;
 }
 
 .meto
@@ -280,15 +280,14 @@ article
     border-radius: 9px;
     background-color: white;
     margin-top: 1cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
     display: flex;
     display: inline;
 }
 
 .mami img
 {
-
     float:left;
 }
 
@@ -296,10 +295,9 @@ article
 {
     border: 5px solid white;
     border-radius: 9px;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
     background-color: white;
-    margin-top: 0.6cm;
     margin-bottom: 1.5cm;
     display: flex;
 }
@@ -314,10 +312,10 @@ article
     border: 5px solid white;
     border-radius: 9px;
     background-color: white;
-    margin-top: 1cm;
-    margin-bottom: 0.6cm;
-    margin-left: 1cm;
-    margin-right: 1cm;
+    margin-top: 0.7cm;
+    margin-bottom: 0.7cm;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
     display: flex;
 }
 
@@ -326,67 +324,62 @@ article
     float: left;
 }
 
-.line2 img
-{
-    width: 5cm;
-    height: 3cm;
-    border-radius: 9px;
-}
-
 .lineverticale img
 {
     margin-right: 0.5cm;
-    width: 3.5cm;
+    width: 3cm;
     height: 3cm;
     border-radius: 9px;
 }
 
 .lineverticale p
 {
-    font-size: 12px;
+    font-size: 11px;
 }
+
 .lineverticale
 {
     display: flex;
     flex-direction: column;
     border: 1px solid white;
     border-radius: 9px;
-    margin-right: 8cm;
-    margin-left: 0.5cm;
     background-color: ghostwhite;
 }
+
 .lineverticale h1
 {
     margin-left: 0.5cm;
 }
+
 .activite p
 {
-    font-size: 12px;
+    font-size: 11px;
 }
+
 .activA
 {
     border: 1px solid white;
     border-radius: 9px;
-    margin-top: 0.5cm;
+    margin-top: 0.7cm;
     margin-bottom: 0.5cm;
     margin-left: 0.5cm;
-    margin-right: 1.5cm;
+    margin-right: 0.5cm;
     background-color: white;
     border-bottom-color: aliceblue;
 }
 
 .activA img
 {
-    height: 7.2cm;
+    height: 6.9cm;
     width: 6cm;
     border-radius: 9px;
 }
 
 .activB
 {
-    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+    margin-top: 1.7cm;
     border-radius: 9px;
-    margin-right: 1.5cm;
     margin-bottom: 0.3cm;
     
     
@@ -410,7 +403,7 @@ article
 .activB img
 {
     width: 6cm;
-    height: 2.8cm;
+    height: 2.7cm;
     border-radius: 9px;
 }
 .activC
@@ -419,29 +412,29 @@ article
     border-radius: 9px;
     background-color: white;
     border-bottom-color: aliceblue;
-    margin-top: 0.5cm;
-    margin-right: 1.5cm;
+    margin-top: 1.7cm;
     margin-bottom: 0.5cm;
+    margin-right: 0.5cm;
     display: flex;
     flex-direction: column;
 }
 
 .activC img
 {
-    height: 7.2cm;
+    height: 6.9cm;
     width: 6cm;
     border-radius: 9px;
 }
 .activD
 {
-    margin-left: 0cm;
+    margin-top: 1.2cm;
     margin-bottom: 0.5cm;
 }
 
 .activD img
 {
     width: 6cm;
-    height: 2.8cm;
+    height: 2.7cm;
     border-radius: 9px;
 }
 
@@ -465,24 +458,9 @@ article
 {
     display: flex;
     margin-bottom: 1cm;
-    margin-left: 0.5cm;
+    margin-left: 1cm;
     background-color: white;
     font-size: 12px;
-}
-
-.except
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-.except1
-{
-    display: flex;
-}
-.except2
-{
-    display: flex;
 }
 
 footer
@@ -492,5 +470,5 @@ footer
     background-color: ghostwhite;
     border: 1px solid white;
     font-size: 12px;
-    margin-right: 8cm;
+    margin-right: 11cm;
 }

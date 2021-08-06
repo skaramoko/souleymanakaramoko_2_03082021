@@ -16,66 +16,61 @@
     nav ul
     {
         display: flex;
+        margin-left: 15cm;
         
     }
-    nav a
-    {
-        margin-right: 0cm;
-    }
+    
+    
     article
     {
         display: flex;
         flex-direction: column;
+        margin-right: none;
     }
+
     .group
     {
         display: flex;
         flex-direction: column;
+        margin-right
     }
     .mimi
     {
         display: flex;
-        margin-right: 1cm;
+
     }
 
-    .line2
+    .line1, .line2, .line3
     {
-        margin-left: 1cm;
+        margin-left: 0.5cm;
     }
 
-    .line3
-    {
-        margin-left: 1cm;
-    }
-    .toto
+    .toto, .tata
     {
         display: flex;
-        margin-right: 1cm;
+
         
     }
-    .tata
-    {
-        display: flex;
-        margin-right: 1cm;
-    }
+
     .mami
     {
         display: flex;
     }
+
     .lineverticale
     {
-        margin-left: 0.5cm;
-        margin-right: 0cm;
+        margin-left:1.5cm;
     }
 
     .meme
     {
         display: flex;
     }
+
     .meto
     {
         display: flex;
-        margin-right: 1cm;
+        margin-righ
     }
     .titi
     {
@@ -86,7 +81,7 @@
         display: flex;
     }
 
-    .papi
+    .mami, .meme, .papi
     {
         display: flex;
     }
@@ -99,7 +94,9 @@
     
     footer
     {
+        width: 27cm;
         display: flex;
+        justify-content: space-between;
     }
 
 }
