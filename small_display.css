@@ -70,7 +70,6 @@
     .meto
     {
         display: flex;
-        margin-righ
     }
     .titi
     {
@@ -92,6 +91,7 @@
         justify-content: space-between;
     }
     
+    
     footer
     {
         width: 27cm;
@@ -99,4 +99,26 @@
         justify-content: space-between;
     }
 
+
+}
+
+
+@media screen and (mini-width: 375px)( max-width: 812px)
+{
+    body
+    {
+        margin: auto;
+    }
+
+    .toto
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .End
+    {
+        display: flex;
+        flex-direction: column;
+    }
 }
