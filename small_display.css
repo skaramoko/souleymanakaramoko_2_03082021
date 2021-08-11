@@ -103,7 +103,7 @@
 }
 
 
-@media screen and (mini-width: 375px)( max-width: 812px)
+@media screen and (max-width: 1024)
 {
     body
     {
@@ -116,9 +116,21 @@
         flex-direction: column;
     }
 
-    .End
+    .group img
     {
-        display: flex;
-        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .End img
+    {
+        width: auto;
+        height: auto;
+    }
+    
+    footer
+    {
+        width: auto;
+
     }
 }
