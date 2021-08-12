@@ -5,7 +5,6 @@ body
 {
     margin: auto;
     max-width: 1350px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .localite
@@ -92,11 +91,13 @@ body
 .chxa1
 {
     border: 1px solid gainsboro;
-  border-radius: 19px;
-    margin-top: 0.3cm;
-    margin-bottom: 0.3cm;
-    width: 20px;
+    border-radius:19px;
+    width: 15px;
     height: 20px;
+    padding-top: 3px;
+    padding-left: 9px;
+    margin-top: 10px;
+
 
 }
 
@@ -119,12 +120,6 @@ body
 #logo a img
 {
     width:150px;
-}
-
-.haut_page table
-{
-    float: right;
-    margin-bottom: 5cm;
 }
 
 header
@@ -154,9 +149,9 @@ ul
 }
 
 
-nav ul:hover
+nav a:hover
 {
-    border-top: overline solid blue;
+    border-top: 2px overline solid blue;
 }
 
 .localite img
@@ -172,11 +167,6 @@ nav ul:hover
 span
 {
     color: blue;
-}
-
-td
-{
-    border-radius: 2cm;
 }
 
 section
@@ -423,7 +413,7 @@ article
 
 .activite p
 {
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .activA
@@ -496,6 +486,7 @@ article
     width: 6cm;
     border-radius: 9px;
 }
+
 .activD
 {
     margin-top: 1.2cm;
@@ -518,6 +509,7 @@ article
     background-color: white;
     border-bottom-color: aliceblue;
 }
+
 .activD2
 {
     border: 1px solid white;
@@ -525,6 +517,7 @@ article
     background-color: white;
     border-bottom-color: aliceblue;
 }
+
 .End
 {
     display: flex;
