@@ -209,44 +209,12 @@ article
     display: flex;
 }
 
-.toto
-{
-    border: 4px solid white;
-    border-radius: 9px;
-    background-color: white;
-}
-
-.tata
-{
-    border: 4px solid white;
-    background-color: white;
-    border-radius: 9px;
-}
-
-.titi
-{
-    border: 4px solid white;
-    background-color:white;
-    border-radius: 9px;
-}
-
 .line1
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
+    margin-top: 0.5cm;
     margin-left: 0.5cm;
-    margin-right: 0.5cm;
-}
-
-.line1 img
-{
-    width: 4.5cm;
-    height: 3cm;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
 }
 
 .line2
@@ -254,62 +222,47 @@ article
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 0.5cm;
-    margin-top: 1cm;
+    margin-top: 0.5cm;
     margin-bottom: 1cm;
-}
-
-.line2 img
-{
-    width: 4.5cm;
-    height: 3cm;
-    border-top-left-radius: 9px;
-    border-top-right-radius: 9px;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
 }
 
 .line3
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     margin-right: 0.5cm;
-    margin-top: 1cm;
+    margin-top: 0.5cm;
     margin-bottom: 1cm;
 }
 
-.line3 img
+.toto, .tata, .titi, .mimi, .meto, .mota
+{
+    border: 3px solid white;
+    border-radius: 9px;
+    background-color: white;
+}
+
+.toto1, .tata1, .titi1, .mimi1, .meto1, .mota1
+{
+    margin-bottom: 5px;
+}
+
+.mimi, .meto, .mota
+{
+    margin-top: 0.5cm;
+}
+
+.line1 img, .line2 img, .line3 img
 {
     width: 4.5cm;
     height: 3cm;
-    border: 1px solid white;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-}
+}    
 
-.mimi
-{
-    border: 4px solid white;
-    background-color: white;
-    border-radius: 9px;
-}
 
-.meto
-{
-    border: 4px solid white;
-    background-color: white;
-    border-radius: 9px;
-    margin-top: 0.5cm;
-    margin-bottom: 1.5cm;
-}
-
-.mota
-{
-    border: 4px solid white;
-    background-color: white;
-    border-radius: 9px;
-    margin-top: 0.5cm;
-    margin-bottom: 1.5cm;
-}
 
 .tete
 {
@@ -322,82 +275,47 @@ article
     margin-right: 3cm;
 }
 
-.mami
-{
-    border: 4px solid white;
-    border-radius: 9px;
-    background-color: white;
-    margin-top: 1cm;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    display: flex;
-    display: inline;
-}
-
-.mami img
-{
-    float:left;
-}
-
-.papi
-{
-    border: 4px solid white;
-    border-radius: 9px;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    background-color: white;
-    margin-bottom: 1.5cm;
-    display: flex;
-}
-
-.papi img
-{
-    float: left;
-}
-
-.meme
-{
-    border: 4px solid white;
-    border-radius: 9px;
-    background-color: white;
-    margin-top: 0.7cm;
-    margin-bottom: 0.7cm;
-    margin-left: 0.5cm;
-    margin-right: 0.5cm;
-    display: flex;
-}
-
-.meme img
-{
-    float: left;
-}
-
 .lineverticale img
 {
-    margin-right: 0.5cm;
     width: 3cm;
     height: 2.5cm;
     border-bottom-left-radius: 9px;
     border-top-left-radius: 9px;
 }
 
-.lineverticale p
-{
-    font-size: 11px;
-}
-
 .lineverticale
 {
-    display: flex;
-    flex-direction: column;
+    font-size: 11px;
     border: 1px solid white;
     border-radius: 9px;
     background-color: #F2F2F2;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
 }
 
 .lineverticale h1
 {
     margin-left: 0.5cm;
+}
+
+.mami, .meme, .papi
+{
+    display: flex;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 9px;
+    margin-top: 0.5cm;
+
+}
+
+.mami1, .meme1, .papi1
+{
+    margin-right: 7px;
+}
+
+.mami2, .meme2, .papi2
+{
+    width: 2.5cm;
 }
 
 .teta
