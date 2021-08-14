@@ -330,121 +330,84 @@ article
 }
 
 
+
+
+.activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img
+{
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    width: 5.9cm;
+}
+
+.activA, .activB1, .activB2, .activC, .activD1, .activD2
+{
+       box-shadow: 0px 3px 2px gainsboro;
+
+}
+
 .activite p
 {
     font-size: 10px;
 }
 
-.activA
+.activA, .activC
 {
     border: 1px solid white;
     border-radius: 9px;
-    margin-top: 0.7cm;
     margin-bottom: 0.5cm;
     margin-left: 0.5cm;
     margin-right: 0.5cm;
     background-color: white;
-    border-bottom-color: aliceblue;
 }
 
-.activA img
+.activA img, .activC img
 {
-    height: 6.9cm;
-    width: 5.2cm;
-    border-radius: 9px;
+    height: 7.1cm;
 }
 
-.activB
+.activB img, .activD img
 {
-    margin-right: 0.5cm;
-    margin-top: 1.7cm;
-    border-radius: 9px;
+    height: 2.7cm;
+}
+
+.activB1, .activD1
+{
+    margin-bottom: 0.5cm;
+}
+
+.activB, .activD
+{ 
     margin-bottom: 0.3cm;    
 }
 
-.activB1
+.activA, .activB, .activC, .activD, .atm
+{
+    margin-top: 0.2cm;
+}
+
+
+.activB1, .activB2, .activD1, .activD2
 {
     border: 1px solid white;
     border-radius: 9px;
     background-color: white;
-    border-bottom-color: aliceblue;
 }
 
-.activB2
-{
-    border: 1px solid white;
-    border-radius: 9px;
-    margin-top: 0.3cm;
-    background-color: white;
-    border-bottom-color: aliceblue;
-}
 
-.activB img
+aside
 {
-    width: 6cm;
-    height: 2.7cm;
-    border-radius: 9px;
-}
-
-.activC
-{
-    border: 1px solid white;
-    border-radius: 9px;
-    background-color: white;
-    border-bottom-color: aliceblue;
-    margin-top: 1.7cm;
-    margin-bottom: 0.5cm;
-    margin-right: 0.5cm;
     display: flex;
     flex-direction: column;
-}
-
-.activC img
-{
-    height: 6.9cm;
-    width: 6cm;
-    border-radius: 9px;
-}
-
-.activD
-{
-    margin-top: 1.2cm;
-    margin-bottom: 0.5cm;
-}
-
-.activD img
-{
-    width: 6cm;
-    height: 2.7cm;
-    border-radius: 9px;
-}
-
-.activD1
-{
-    border: 1px solid white;
-    border-radius: 9px;
-    margin-top: 0.5cm;
-    margin-bottom: 0.3cm;
     background-color: white;
-    border-bottom-color: aliceblue;
-}
-
-.activD2
-{
-    border: 1px solid white;
-    border-radius: 9px;
-    background-color: white;
-    border-bottom-color: aliceblue;
-}
-
-.End
-{
-    display: flex;
-    margin-bottom: 1cm;
     margin-left: 1cm;
-    background-color: white;
     font-size: 12px;
 }
+
+.actimarseil
+{
+    display: flex;
+}
+
 
 footer
 {
