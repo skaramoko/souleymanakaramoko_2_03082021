@@ -3,8 +3,15 @@
 
 body
 {
-    
+    max-width: 1350px;
+    margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.global
+{
+    padding: 0px 0px 0px 15px;
+    margin: auto;
 }
 
 .localite
@@ -122,18 +129,21 @@ body
     width:150px;
 }
 
-header, article, aside, footer
+.pied, .pied1, .pied2
 {
-    width: 1280px;
-    margin: auto;
+    width: 33.33%;
+} 
+
+.pied
+{
+    padding: 0px 0px 0px 25px;
 }
 
-footer
+.pied3
 {
-    width: 1280px;
+    padding: 0px 25px 0px 0px;
 }
-
-
+    
 nav ul
 {
     display: flex;  
@@ -425,7 +435,5 @@ footer
     justify-content: space-between;
     background-color: #F2F2F2;
     border: 1px solid white;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 

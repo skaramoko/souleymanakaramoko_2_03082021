@@ -16,11 +16,6 @@
         flex-direction: column;
     }
 
-    article, .group
-    {
-        display: none;
-        
-    }
 
     .milieu
     {
