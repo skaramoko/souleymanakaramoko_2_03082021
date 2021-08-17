@@ -353,6 +353,7 @@ article
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     width: 5.9cm;
+    object-fit: cover;
 }
 
 .activA, .activB1, .activB2, .activC, .activD1, .activD2
