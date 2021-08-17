@@ -1,136 +1,49 @@
 
-
-@media screen and (max-width: 1280px) 
+    
+@media screen and (max-width: 480px)
 {
-
-
-     .bloc-page
-    {
-        margin: auto;
-
-    }
-    header h1
-    {
-        font-size: 16px;
-    }
-    nav ul
-    {
-        display: flex;
-        margin-left: 15cm;
-        
-    }
-    
-    
-    article
-    {
-        display: flex;
-        flex-direction: column;
-        margin-right: none;
-    }
-
-    .group
-    {
-        display: flex;
-        flex-direction: column;
-        margin-right
-    }
-    .mimi
-    {
-        display: flex;
-
-    }
 
     .line1, .line2, .line3
     {
-        margin-left: 0.5cm;
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .toto, .tata, .titi, .mimi, .meto, .mota, .meme, .mami, .papi
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    .toto, .tata
+    article, .group
     {
-        display: flex;
-
+        display: none;
         
     }
 
-    .mami
-    {
-        display: flex;
-    }
-
-    .lineverticale
-    {
-        margin-left:1.5cm;
-    }
-
-    .meme
-    {
-        display: flex;
-    }
-
-    .meto
-    {
-        display: flex;
-    }
-    .titi
-    {
-        display: flex;
-    }
-    .mota
-    {
-        display: flex;
-    }
-
-    .mami, .meme, .papi
-    {
-        display: flex;
-    }
-
-    .except
-    {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    
-    footer
-    {
-        width: 27cm;
-        display: flex;
-        justify-content: space-between;
-    }
-
-
-}
-
-
-@media screen and (max-width: 1024)
-{
-    body
-    {
-        margin: auto;
-    }
-
-    .toto
+    .milieu
     {
         display: flex;
         flex-direction: column;
     }
 
-    .group img
+    aside
     {
-        width: auto;
-        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
-    .End img
-    {
-        width: auto;
-        height: auto;
-    }
     
     footer
     {
-        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
 
     }
+
+
+
 }
