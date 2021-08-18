@@ -3,7 +3,7 @@
 
 body
 {
-    max-width: 1350px;
+    max-width: 980px;
     margin: auto;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -150,7 +150,6 @@ nav ul
     float: right;
     margin-top: -40px;
     list-style-type: none;
-    margin-right: 370px;
 } 
 
 nav a
