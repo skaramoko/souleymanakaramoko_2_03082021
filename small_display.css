@@ -1,9 +1,11 @@
     
 @media screen and (max-width: 375px){
      
-    nav a
+    nav ul
     {
-        float: right;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .global
@@ -19,6 +21,7 @@
         width: 280px;
         
     }
+
     .localite
     {
         width: 240px;
@@ -28,13 +31,13 @@
     {
         width: 200px;
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 0px;
     }
 
 
     .mami, .meme, .papi
     {
-        width: 270px;
+        width: 282px;
         margin-right: 5px;
     }
 
@@ -47,9 +50,10 @@
     {
         margin-left: 10px;
     }
+
     .activA img, .activB img, .activC img, .activD img
     {
-        width: 270px;
+        width: 295px;
     }
 
     .group
@@ -71,6 +75,16 @@
         width: auto;
         display: flex;
         flex-direction: column;
+    }
+
+    .lineverticale
+    {
+        width: 295px;
+    }
+
+    .teta
+    {
+        margin-left: -15px;
     }
 
     .actimarseil
