@@ -41,19 +41,19 @@
         margin-right: 5px;
     }
 
-    .titi img, .mota img
+    .titi img, .mota img, .titi2, .mota2
     {
-        margin-left: 10px;
-    }
-
-    .titi2, .mota2
-    {
-        margin-left: 10px;
+        margin-left: 15px;
     }
 
     .activA img, .activB img, .activC img, .activD img
     {
-        width: 295px;
+        width: 285px;
+    }
+    
+    .activA, .activB, .activC, .activD
+    {
+        margin-left: -8px;
     }
 
     .group
@@ -61,6 +61,11 @@
         width: auto;
         display: flex;
         flex-direction: column-reverse;
+        background-color: white;
+    }
+
+    .milieu
+    {
         background-color: white;
     }
 
@@ -109,7 +114,7 @@
 
     aside img
     {
-        width: 270px;
+        width: 260px;
     }
     
     footer
