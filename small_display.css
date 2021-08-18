@@ -59,9 +59,9 @@
     .group
     {
         width: auto;
-        margin: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        background-color: white;
     }
 
     .choix
@@ -74,7 +74,7 @@
     {
         width: auto;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .lineverticale
