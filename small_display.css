@@ -1,35 +1,102 @@
-
     
-@media screen and (max-width: 480px)
-{
+@media screen and (max-width: 375px){
+     
+    nav a
+    {
+        float: right;
+    }
 
-    .line1, .line2, .line3
+    .global
+    {
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
+    {
+        width: 280px;
+        
+    }
+    .localite
+    {
+        width: 240px;
+    }
+
+    .tout, .tout1, .tout2, .tout3
+    {
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+
+    .mami, .meme, .papi
+    {
+        width: 270px;
+        margin-right: 5px;
+    }
+
+    .titi img, .mota img
+    {
+        margin-left: 10px;
+    }
+
+    .titi2, .mota2
+    {
+        margin-left: 10px;
+    }
+    .activA img, .activB img, .activC img, .activD img
+    {
+        width: 270px;
+    }
+
+    .group
+    {
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choix
     {
         display: flex;
         flex-direction: column;
     }
-     
-    .toto, .tata, .titi, .mimi, .meto, .mota, .meme, .mami, .papi
+
+    article
     {
         width: auto;
         display: flex;
         flex-direction: column;
     }
 
-
-    .milieu
+    .actimarseil
     {
-        display: flex;
-        flex-direction: column;
-    }
-
-    aside
-    {
+        width: auto;
         margin: auto;
         display: flex;
         flex-direction: column;
     }
 
+    .pied2, .pied3
+    {
+        padding: 0px 0px 0px 25px;
+    }
+
+    aside
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    aside img
+    {
+        width: 270px;
+    }
     
     footer
     {
