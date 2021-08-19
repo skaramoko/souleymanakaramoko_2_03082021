@@ -14,6 +14,10 @@ body
     margin: auto;
 }
 
+em{
+    color: rgb(212, 205, 205) ;
+}
+
 .localite
 {
     border: 2px solid white;
@@ -276,8 +280,12 @@ article
     height: 3cm;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-}    
-
+}  
+  
+.mimi
+{
+    margin-bottom: 0.2cm;
+}
 
 
 .tete
@@ -307,6 +315,7 @@ article
     background-color: #F2F2F2;
     padding-left: 0.5cm;
     padding-right: 0.5cm;
+    width: 7.5cm;
 }
 
 .lineverticale h1
@@ -336,12 +345,13 @@ article
 
 .teta
 {
+    margin-left: -0.5cm;
     display: flex;
 }
 
 .teta1
 {
-    margin-left: 3.4cm;
+    margin-left: 3.7cm;
     margin-top: 12px;
 }
 
