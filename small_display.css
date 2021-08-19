@@ -134,3 +134,35 @@
 
 
 }
+
+@media screen and (max-width: 768px){
+    
+    .global{
+        
+        margin: auto;
+    }
+
+    nav ul{
+        margin-right: -140px;
+    }
+    .lineverticale{
+        width: 400px;
+    }
+
+    aside{
+        margin-right: 20px;
+    }
+
+    footer{
+        margin-right: -140px;
+    }
+     
+    .activA img, .activB img, .activC img, .activD img{
+        width: 208px;
+    }
+    .localite{
+        width: 250px;
+    }
+
+
+}

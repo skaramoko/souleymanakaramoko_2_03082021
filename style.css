@@ -133,19 +133,24 @@ em{
     width:150px;
 }
 
-.pied, .pied1, .pied2
+.pied, .pied2, .pied3
 {
     width: 33.33%;
 } 
 
+.pied2
+{
+    padding-top: 10px;
+}
+
 .pied
 {
-    padding: 0px 0px 0px 25px;
+    padding: 10px 0px 0px 25px;
 }
 
 .pied3
 {
-    padding: 0px 25px 0px 0px;
+    padding: 10px 25px 0px 0px;
 }
     
 nav ul
