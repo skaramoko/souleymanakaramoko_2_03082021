@@ -1,46 +1,49 @@
     
 @media screen and (max-width: 375px){
     
-    
+    .global{
+        max-width: 375px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
 
     nav ul
     {
-        display: flex;
+        display:flex;
         flex-direction: column;
-
+        margin-right: 20px;
     }
 
-    .global
+    .choix
     {
-        width: auto;
-        height: auto;
         display: flex;
-        flex-direction: column;
+        flex-flow: wrap;
     }
 
     .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
     {
-        width: 280px;
-        
+        width: 220px; 
+    }
+
+    .activA img, .activB img, .activC img, .activD img
+    {
+        width: 220px;
+    }
+
+    .lineverticale
+    {
+        width: 220px;
     }
 
     .localite
     {
-        width: 240px;
+        width: 220px;
     }
-
-    .tout, .tout1, .tout2, .tout3
-    {
-        width: 200px;
-        margin-top: 5px;
-        margin-left: 0px;
-    }
-
 
     .mami, .meme, .papi
     {
-        width: 282px;
-        margin-right: 5px;
+        width: 220px;
     }
 
     .titi img, .mota img, .titi2, .mota2
@@ -48,10 +51,7 @@
         margin-left: 15px;
     }
 
-    .activA img, .activB img, .activC img, .activD img
-    {
-        width: 285px;
-    }
+    
     
     .activA, .activB, .activC, .activD
     {
@@ -62,6 +62,12 @@
     {
         height: 3cm;
     }
+
+    .activB img, .activD img
+    {
+        padding-right: -10px;
+    }
+
     .group
     {
         width: auto;
@@ -75,11 +81,7 @@
         background-color: white;
     }
 
-    .choix
-    {
-        display: flex;
-        flex-direction: column;
-    }
+   
 
     article
     {
@@ -88,19 +90,20 @@
         flex-direction: column-reverse;
     }
 
-    .lineverticale
-    {
-        width: 295px;
-    }
-
     .teta
     {
         margin-left: -15px;
     }
 
+    .teta1
+    {
+        margin-left: -30px;
+
+    }
+
     .actimarseil
     {
-        width: auto;
+        width: 220px;
         margin: auto;
         display: flex;
         flex-direction: column;
