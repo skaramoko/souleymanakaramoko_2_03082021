@@ -14,6 +14,11 @@ body
     margin: auto;
 }
 
+#logo a img
+{
+    width:150px;
+}
+
 em{
     color: rgb(212, 205, 205) ;
 }
@@ -67,6 +72,11 @@ em{
 {
     width: 3.5cm;
     padding-left: 15px;
+}
+
+.fichoi, .fichoi1
+{
+    display: flex;
 }
 
 .choix
@@ -128,15 +138,19 @@ em{
     margin-top: 5px;
 }
 
-#logo a img
-{
-    width:150px;
-}
-
 .pied, .pied2, .pied3
 {
     width: 33.33%;
 } 
+.teteline
+{
+    margin: 15px 0px 0px 20px;
+}
+
+.teta
+{
+    margin: 15px 0px 0px 5px;
+}
 
 .pied2
 {
@@ -299,9 +313,9 @@ article
     justify-content: space-between;
 }
 
-.tete2
+.teta1
 {
-    margin-right: 3cm;
+    margin: 0px 0px 0px 160px;
 }
 
 .lineverticale img
@@ -350,18 +364,8 @@ article
 
 .teta
 {
-    margin-left: -0.5cm;
     display: flex;
 }
-
-.teta1
-{
-    margin-left: 3.7cm;
-    margin-top: 12px;
-}
-
-
-
 
 .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img
 {
