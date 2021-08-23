@@ -54,7 +54,7 @@ em{
     border: 1px solid gainsboro;
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
-    background-color: blue;
+    background-color: #0065FC;
     border: 1px solid blue;
     
     
@@ -88,10 +88,10 @@ em{
 {
     display: flex;
     border: 1px solid hsl(180, 47%, 93%);
-    width: 21px;
+    width: 18px;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 5px;
+    padding-right: 8px;
     padding-left: 7px;
     margin-right: 5px;
     border-radius: 17px;
@@ -130,12 +130,13 @@ em{
 
 .tout
 {
-    margin-left: 0.5cm;  
+    margin-left: 0px;  
 }
 
 .choix strong
 {
     margin-top: 5px;
+    padding-right: 25px;
 }
 
 .pied, .pied2, .pied3
@@ -173,13 +174,18 @@ nav ul
     float: right;
     margin-top: -40px;
     list-style-type: none;
-} 
+}
+
+.navlist
+{
+    display: flex;
+}
 
 nav a
 {
     text-decoration: none;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 
@@ -191,7 +197,7 @@ ul
 
 nav a:hover
 {
-    border-top: 2px solid blue;
+    border-top: 2px solid #0065FC;
 }
 
 .localite img
@@ -206,7 +212,7 @@ nav a:hover
 
 span
 {
-    color: blue;
+    color: #0065FC;
 }
 
 

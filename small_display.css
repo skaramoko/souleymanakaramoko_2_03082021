@@ -13,11 +13,6 @@
         flex-direction: column;
     }
 
-    .haut_page
-    {
-        display: inline-block;
-    }
-
     #logo a img
     {
         width: 100px;
@@ -29,6 +24,17 @@
         display: flex;
         flex-direction: column-reverse;
         margin-top: -65px;
+    }
+
+    .navlist
+    {
+        margin-top: 20px;
+        margin-left: -420px;
+        display: flex;
+    }
+    .navlist1
+    {
+        margin-left: -240px;
     }
 
     .fichoi
@@ -63,44 +69,19 @@
 
     .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
     {
-        width: 220px; 
+        width: 250px; 
     }
 
     .activA img, .activB img, .activC img, .activD img
     {
-        width: 220px;
-    }
-
-    .lineverticale
-    {
-        width: 220px;
-        margin-left: -8px;
-    }
-
-    .localite
-    {
-        width: 220px;
-    }
-
-    .mami, .meme, .papi
-    {
-        width: 220px;
-    }
-
-    .titi img, .mota img, .titi2, .mota2
-    {
-        margin-left: 15px;
-    }
-
-    .atm
-    {
-        margin-left: 22px;
-    }
+        width: 250px;
     
+    }
     
     .activA, .activB, .activC, .activD
     {
-        margin-left: -10px;
+        width: 250px;
+        margin-left: 20px;
     }
     
     .activA img, .activC img
@@ -111,6 +92,40 @@
     .activB, .activD
     {
          padding-right: -5px;
+    }
+
+    .actimarseil
+    {
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lineverticale
+    {
+        width: 260px;
+        margin-left: 3px;
+        padding-left: 15px;
+    }
+
+    .localite
+    {
+        width: 220px;
+    }
+
+    .mami, .meme, .papi
+    {
+        width: 250px;
+    }
+
+    .titi img, .mota img, .titi2, .mota2
+    {
+        margin-left: 15px;
+    }
+
+    .atm
+    {
+        margin-left: 22px;
     }
 
     .group
@@ -145,14 +160,6 @@
         margin-left: 110px;
     }
 
-    .actimarseil
-    {
-        width: 220px;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
     .pied2, .pied3
     {
         padding: 0px 0px 0px 25px;
@@ -174,8 +181,8 @@
     {
         display: flex;
         flex-direction: column;
-        width: 240px;   
-        margin-left: 33px;
+        width: 100%;
+        margin: 0px;
     }
 
 
