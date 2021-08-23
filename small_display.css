@@ -56,6 +56,11 @@
         flex-flow: wrap;
     }
 
+    .chxa2
+    {
+        font-size: 9px;
+    }
+
     .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
     {
         width: 220px; 
@@ -69,6 +74,7 @@
     .lineverticale
     {
         width: 220px;
+        margin-left: -8px;
     }
 
     .localite
@@ -86,11 +92,15 @@
         margin-left: 15px;
     }
 
+    .atm
+    {
+        margin-left: 22px;
+    }
     
     
     .activA, .activB, .activC, .activD
     {
-        margin-left: -8px;
+        margin-left: -10px;
     }
     
     .activA img, .activC img
@@ -98,9 +108,9 @@
         height: 3cm;
     }
 
-    .activB img, .activD img
+    .activB, .activD
     {
-        padding-right: -10px;
+         padding-right: -5px;
     }
 
     .group
