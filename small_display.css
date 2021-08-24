@@ -227,8 +227,8 @@
         
         margin: auto;
     }
-
-    nav ul{
+    nav ul
+    {
         margin-right: -140px;
     }
 
@@ -241,12 +241,16 @@
     }
      
     .activA img, .activB img, .activC img, .activD img{
-        width: 208px;
+        width: 100%;
     }
 
     .localite{
         width: 350px;
     }
 
+    .pied, .pied2, .pied3
+    {
+        width: auto;
+    }
 
 }
