@@ -26,6 +26,29 @@
         margin-top: -65px;
     }
 
+
+    .loc3 p
+    {
+        display: none;
+    }
+
+    .loc3 em
+    {
+        display: contents;
+    }
+
+    .loc3 i
+    {
+        width: 10px;
+        padding: 10px 10px;
+    }
+
+    .loc2
+    {
+        width: 170px;
+        padding-left: 50px;
+    }
+
     .navlist
     {
         margin-top: 20px;
@@ -62,9 +85,15 @@
         flex-flow: wrap;
     }
 
+    .chxa1
+    {
+        margin-bottom: 5px;
+    }
+
     .chxa2
     {
-        font-size: 9px;
+        margin-top: 6px;
+        font-size: 11px;
     }
 
     .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
@@ -110,7 +139,9 @@
 
     .localite
     {
+        display: flex;
         width: 220px;
+
     }
 
     .mami, .meme, .papi
@@ -157,7 +188,8 @@
 
     .teta1
     {
-        margin-left: 110px;
+        margin-left: 138px;
+        margin-right:
     }
 
     .pied2, .pied3

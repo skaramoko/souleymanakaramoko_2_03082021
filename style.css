@@ -33,6 +33,11 @@ em{
     height: 0.9cm;
 }
 
+.loc3 em
+{
+    display: none;
+}
+
 .loc1, .loc2
 {
     border: 1px solid gainsboro;
