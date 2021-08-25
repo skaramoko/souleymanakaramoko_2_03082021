@@ -1,11 +1,17 @@
 
-    
 
-body
-{
+
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('raleway-black.woff2') format('woff2'),
+    url('raleway-black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;    
+}
+
+body{
     max-width: 980px;
     margin: auto;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .global

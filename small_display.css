@@ -1,152 +1,46 @@
-    
+     
 @media screen and (max-width: 375px){
     
-    body
-    {
-       max-width: 375px;
-       margin: auto;
-    }
-
-    .global{
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #logo a img
-    {
-        width: 100px;
-        margin-bottom: 30px;
-    }
+    
 
     nav ul
-    {   
-        display: flex;
-        flex-direction: column-reverse;
-        margin-top: -65px;
-    }
-
-
-    .loc3 p
-    {
-        display: none;
-    }
-
-    .loc3 em
-    {
-        display: contents;
-    }
-
-    .loc3 i
-    {
-        width: 10px;
-        padding: 10px 10px;
-    }
-
-    .loc2
-    {
-        width: 170px;
-        padding-left: 50px;
-    }
-
-    .navlist
-    {
-        margin-top: 20px;
-        margin-left: -420px;
-        display: flex;
-    }
-    .navlist1
-    {
-        margin-left: -260px;
-    }
-
-    .fichoi
-    {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding-left: -10px;
-
-    }
-
-    .fichoi1
     {
         display: flex;
         flex-direction: column;
+
     }
-    
-    .tout2
+
+    .global
     {
-        margin-bottom: 10px;
-    }
-    
-    .choix
-    {
+        width: auto;
+        height: auto;
         display: flex;
-        flex-flow: wrap;
-    }
-
-    .chxa1
-    {
-        margin-bottom: 5px;
-    }
-
-    .chxa2
-    {
-        margin-top: 6px;
-        font-size: 11px;
+        flex-direction: column;
     }
 
     .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
     {
-        width: 250px; 
-    }
-
-    .activA img, .activB img, .activC img, .activD img
-    {
-        width: 250px;
-    
-    }
-    
-    .activA, .activB, .activC, .activD
-    {
-        width: 250px;
-        margin-left: 20px;
-    }
-    
-    .activA img, .activC img
-    {
-        height: 3cm;
-    }
-
-    .activB, .activD
-    {
-         padding-right: -5px;
-    }
-
-    .actimarseil
-    {
-        width: 250px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .lineverticale
-    {
-        width: 260px;
-        margin-left: 3px;
-        padding-left: 15px;
+        width: 280px;
+        
     }
 
     .localite
     {
-        display: flex;
-        width: 220px;
-
+        width: 240px;
     }
+
+    .tout, .tout1, .tout2, .tout3
+    {
+        width: 200px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+
 
     .mami, .meme, .papi
     {
-        width: 250px;
+        width: 282px;
+        margin-right: 5px;
     }
 
     .titi img, .mota img, .titi2, .mota2
@@ -154,11 +48,20 @@
         margin-left: 15px;
     }
 
-    .atm
+    .activA img, .activB img, .activC img, .activD img
     {
-        margin-left: 22px;
+        width: 285px;
     }
-
+    
+    .activA, .activB, .activC, .activD
+    {
+        margin-left: -8px;
+    }
+    
+    .activA img, .activC img
+    {
+        height: 3cm;
+    }
     .group
     {
         width: auto;
@@ -172,7 +75,11 @@
         background-color: white;
     }
 
-   
+    .choix
+    {
+        display: flex;
+        flex-direction: column;
+    }
 
     article
     {
@@ -181,15 +88,22 @@
         flex-direction: column-reverse;
     }
 
-    .teta
+    .lineverticale
     {
-        margin-left: 5px;
+        width: 295px;
     }
 
-    .teta1
+    .teta
     {
-        margin-left: 138px;
-        margin-right:
+        margin-left: -15px;
+    }
+
+    .actimarseil
+    {
+        width: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .pied2, .pied3
@@ -199,7 +113,7 @@
 
     aside
     {
-        
+        width: auto;
         display: flex;
         flex-direction: column;
     }
@@ -211,10 +125,10 @@
     
     footer
     {
+        margin: auto;
         display: flex;
         flex-direction: column;
-        width: 100%;
-        margin: 0px;
+
     }
 
 
@@ -227,9 +141,12 @@
         
         margin: auto;
     }
-    nav ul
-    {
+
+    nav ul{
         margin-right: -140px;
+    }
+    .lineverticale{
+        width: 400px;
     }
 
     aside{
@@ -241,16 +158,11 @@
     }
      
     .activA img, .activB img, .activC img, .activD img{
-        width: 100%;
+        width: 208px;
     }
-
     .localite{
-        width: 350px;
+        width: 250px;
     }
 
-    .pied, .pied2, .pied3
-    {
-        width: auto;
-    }
 
 }
