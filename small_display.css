@@ -1,263 +1,163 @@
      
 @media screen and (max-width: 320px){
     
-    .global
-    {
-        font-size: 10px;
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
+    .global{
+       font-size: 11px;
     }
-
+    
+    #logo a img
+    {
+       width: 70px;
+    }
     nav ul
     {
         display: flex;
         flex-direction: column-reverse;
     }
-    
+
+    nav a:hover
+    {
+        border-bottom: 2px solid #0065fc;
+    }
     nav a:hover
     {
         border-top: none;
     }
-
-    nav a:hover
+    .navlist
     {
-    border-bottom: 2px solid #0065FC;
+        margin-top: 10px;
+        margin-left: -155px;
     }
-
-    #logo a img
+    .navlist1
     {
-        margin-top: 5px;
-        width:70px;
+        margin-top: 15px;
     }
-    
     header h1
     {
-        margin-top: 30px;
+        font-size: 11px;
+        margin-top: 15px;
+    }
+
+    .localite
+    {
+       width: 320px;
+    }
+    .loc2
+    {
+        padding: 5px 20px 5px 40px;
     }
     .loc3 p
     {
         display: none;
     }
-
     .loc3 em
     {
         display: contents;
-    }
-
-    .loc2
-    {
-        width: 300px;
-        padding-left: 30px;
-        padding-right: 20px;
-    }
-
-
-    .loc3 i
-    {
-        margin: 10px 10px 0px 10px;
         
     }
-
-    .navlist1
+    .loc3 i
     {
-        margin-top: 15px;
-        margin-left: -200px;
+        padding: 10px 10px 5px 10px;
     }
-
-    .navlist
-    {
-        margin-top: 15px;   
-        margin-left: -370px;
-    }
+    
     .fichoi
     {
         margin-top: 5px;
+       display: flex;
     }
-
-    .tout3
+    .choix, .fichoi1
     {
-        margin-top: 5px;   
+       margin-top: 5px;
+       display: flex;
+       flex-direction: column;
     }
-
-    .fichoi1
+    .tout2
     {
-        margin-top: 5px;
-        display: flex;
-        flex-direction: column;
+        width: 130px;
+        margin-bottom: 5px;
     }
-
-    .tout2, .tout3
-    {
-        height: 22px;
-    }
-
     .tout3
     {
         width: 150px;
     }
 
-    .tout2
+    article
     {
-        width: 100px;
-    }
-    .tout, .tout1
-    {
-        height: 22px;
-    }
-    .chx1, .chx3, .chx5, .chx7
-    {
-        width: 8px;
-        height: 10px;
-    }
-
-    .chxa1 i
-    {
-        padding: -5px 5px 0px 0px;
-        
-    }
-
-    .chxa2
-    {
-        margin-top: 5px;
-    }
-
-    .toto img, .tata img, .titi img, .meto img, .mimi img, .mota img
-    {
-        width: 260px;
-        
-    }
-
-    .teta strong
-    {
-        margin-left: 15px;
-    }
-    .teta1
-    {
-        margin-left: 135px;
-    }
-    .lineverticale
-    {
-        padding-right: 5px;
-    }
-
-    .mami, .meme, .papi
-    {
-        width: 260px;
-    }
-
-    .titi img, .mota img, .titi2, .mota2
-    {
-        margin-left: 15px;
-    }
-
-    .activA img, .activB img, .activC img, .activD img
-    {
-        width: 285px;
-    }
-    
-    .activA, .activB, .activC, .activD
-    {
-        margin-left: -8px;
-    }
-    
-    .activA img, .activC img
-    {
-        height: 3cm;
-    }
-    .group
-    {
-        width: auto;
+       
+        width: 330px;
         display: flex;
         flex-direction: column-reverse;
-        background-color: white;
     }
 
     .milieu
     {
-        background-color: white;
+        margin-left: -10px;
+       width: auto;
+       display: flex;
+       flex-direction: column;
     }
 
-    .choix
+    .group
     {
-        display: flex;
-        flex-direction: column;
+       width: auto;
+       display: flex;
+       flex-direction: column;
     }
-
-    article
+    .milieu, .lineverticale
     {
-        width: auto;
-        display: flex;
-        flex-direction: column-reverse;
+        margin-left: -10px;
     }
-
-    .teta
-    {
-        margin-left: -15px;
-    }
-
+    
     .actimarseil
     {
-        width: auto;
-        margin: auto;
-        flex-direction: column;
+       display: flex;
+       flex-direction: column;
     }
 
-    .pied2, .pied3
+    .toto, .tata, .titi, .mimi, .meme, .mami, .papi, .mota, .meto
     {
-        padding: 0px 0px 0px 25px;
+       margin: 5px 5px 5px 5px;
+       width: auto;
     }
-
-    aside
+    .toto img, .tata img, .titi img, .mimi img, .mota img, .meto img
     {
-        width: auto;
-        display: flex;
-        flex-direction: column;
+        width: 270px;
     }
-
     aside img
     {
-        width: 260px;
+        width: 270px;
     }
-    
+    .activA img, .activB img, .activC img, .activD img
+    {
+        height: 3cm;
+        width: 270px;
+    }
+    .activA, .activB, .activD
+    {
+        margin-left: 8px;
+    }
+    .titi, .mota, /*.toto, .tata, .mimi, .mota*/
+    {
+        margin-left: 15px;
+
+    }
+    .activC
+    {
+        margin-left: 7px;
+    }
     footer
     {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-
+       margin-left: 5px;
+       display: flex;
+       flex-direction: column;
     }
-
-
-
-}
-
-@media screen and (max-width: 768px){
-    
-    .global{
-        
-        margin: auto;
+    .pied1, .pied2
+    {
+        margin: 5px 5px 5px 25px;
     }
-
-    nav ul{
-        margin-right: -140px;
+    .pied3
+    {
+        margin-left: 25px;
     }
-
-    aside{
-        margin-right: 20px;
-    }
-
-    footer{
-        margin-right: -140px;
-    }
-     
-    .activA img, .activB img, .activC img, .activD img{
-        width: 208px;
-    }
-    .localite{
-        width: 250px;
-    }
-
 
 }
