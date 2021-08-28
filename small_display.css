@@ -136,15 +136,16 @@
     {
         margin-left: 8px;
     }
-    .titi, .mota, /*.toto, .tata, .mimi, .mota*/
+    .titi, .mota,
     {
         margin-left: 15px;
-
     }
+
     .activC
     {
         margin-left: 7px;
     }
+
     footer
     {
        margin-left: 5px;
@@ -160,4 +161,171 @@
         margin-left: 25px;
     }
 
+}
+
+
+
+@media screen and (max-width: 375px){
+
+    .global{
+        font-size: 11px;
+    }
+     
+    #logo a img
+    {
+        width: 70px;
+    } 
+    nav ul
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    nav a:hover
+    {
+        border-bottom: 2px solid #0065fc;
+    }
+    nav a:hover
+    {
+        border-top: none;
+    }
+    header h1
+    {
+        font-size: 12px;
+        margin-top: 40px;
+    }
+    .localite
+    {
+        width: 375px;
+    }
+
+    .loc2
+    {
+        padding-left: 60px;
+        padding-right: 40px;
+    }
+
+    .tout2
+    {
+        margin-bottom: 5px;
+        width: 130px;
+    }
+
+    .tout3
+    {
+        width: 150px;
+    }
+    .navlist
+    {
+        margin-top: 20px;
+        margin-left: -200px;
+    }
+    .navlist1
+    {
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+    .loc3 p
+    {
+        display: none;
+    }
+    .loc3 em
+    {
+        display: contents;
+        
+    }
+    .loc3 i
+    {
+        padding: 10px 10px 5px 10px;
+    }
+    .fichoi
+    {
+        margin-top: 10px;
+       display: flex;
+    }
+
+    .choix, .fichoi1
+    {
+       margin-top: 5px;
+       display: flex;
+       flex-direction: column;
+    }
+    .chx1, .chx3, .chx5, .chx7
+    {
+        padding: 10px 6px 10px 8px;
+    }
+    .choix strong
+    {
+        padding-top: 5px;
+    }
+    .mami, .meme, .papi
+    {
+        width: 290px;
+
+    }
+    .mami img, .meme img, .papi img
+    {
+        height: 3cm;
+    }
+    article
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .milieu img
+    {
+        width: 290px;
+    }
+    .actimarseil img
+    {
+        width: 290px;
+        height: 3cm;
+    }
+
+    .actimarseil, .milieu, .group, .lineverticale
+    {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .pied1, .pied2
+    {
+        margin: 5px 5px 5px 25px;
+    }
+    .pied3
+    {
+        margin-left: 25px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 414px)
+    
 }
