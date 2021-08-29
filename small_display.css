@@ -26,25 +26,20 @@
     .navlist
     {
         margin-top: 10px;
-        margin-left: -155px;
     }
     .navlist1
     {
         margin-top: 15px;
     }
+
     header h1
     {
         font-size: 11px;
         margin-top: 15px;
     }
-
     .localite
     {
-       width: 320px;
-    }
-    .loc2
-    {
-        padding: 5px 20px 5px 40px;
+        width: 100%;
     }
     .loc3 p
     {
@@ -196,7 +191,7 @@
     }
     .localite
     {
-        width: 375px;
+        width: 100%;
     }
 
     .loc2
@@ -218,7 +213,7 @@
     .navlist
     {
         margin-top: 20px;
-        margin-left: -200px;
+        margin-left: 
     }
     .navlist1
     {
@@ -274,11 +269,11 @@
     }
     .milieu img
     {
-        width: 290px;
+        width: 100%px;
     }
     .actimarseil img
     {
-        width: 290px;
+        width: 100%px;
         height: 3cm;
     }
 
@@ -291,6 +286,7 @@
 
     footer
     {
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
