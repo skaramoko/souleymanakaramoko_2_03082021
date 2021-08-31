@@ -4,11 +4,12 @@
     .global{
        font-size: 11px;
     }
-    
+
     #logo a img
     {
-       width: 70px;
+        width: 70px;
     }
+    
     nav ul
     {
         display: flex;
@@ -18,20 +19,19 @@
     nav a:hover
     {
         border-bottom: 2px solid #0065fc;
+        
     }
+
     nav a:hover
     {
         border-top: none;
     }
+
     .navlist
     {
+        margin-right: none;
         margin-top: 10px;
     }
-    .navlist1
-    {
-        margin-top: 15px;
-    }
-
     header h1
     {
         font-size: 11px;
@@ -40,17 +40,14 @@
     .localite
     {
         width: 100%;
-    }
-    .loc3 p
-    {
-        display: none;
-    }
+    }  
+
     .loc3 em
     {
         display: contents;
-        
     }
-    .loc3 i
+
+    .loc3 em
     {
         padding: 10px 10px 5px 10px;
     }
@@ -70,26 +67,26 @@
     {
         width: 130px;
         margin-bottom: 5px;
+
     }
     .tout3
     {
         width: 150px;
+
     }
 
     article
     {
-       
-        width: 330px;
         display: flex;
         flex-direction: column-reverse;
     }
 
     .milieu
     {
-        margin-left: -10px;
        width: auto;
        display: flex;
        flex-direction: column;
+       width: 115%;
     }
 
     .group
@@ -98,230 +95,85 @@
        display: flex;
        flex-direction: column;
     }
-    .milieu, .lineverticale
-    {
-        margin-left: -10px;
-    }
     
     .actimarseil
     {
        display: flex;
        flex-direction: column;
     }
+    .line1 img, .line2 img, .line3 img
+    {
+        width: 280px;
+        height: 110px;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+    }
 
-    .toto, .tata, .titi, .mimi, .meme, .mami, .papi, .mota, .meto
+    .toto, .tata, .titi, .mimi, .meto, .mota
     {
-       margin: 5px 5px 5px 5px;
-       width: auto;
+        border: 5px solid white;
+        border-radius: 9px;
+        width: 280px;
+        margin-bottom: 10px;
+        box-shadow: 0px 3px 2px gainsboro;
     }
-    .toto img, .tata img, .titi img, .mimi img, .mota img, .meto img
-    {
-        width: 270px;
-    }
-    aside img
-    {
-        width: 270px;
-    }
-    .activA img, .activB img, .activC img, .activD img
-    {
-        height: 3cm;
-        width: 270px;
-    }
-    .activA, .activB, .activD
+    .titi, .mota
     {
         margin-left: 8px;
     }
-    .titi, .mota,
+    .toto, .tata, .meto, .mimi
     {
-        margin-left: 15px;
+        margin-left: -8px;
     }
-
-    .activC
+    .lineverticale img
     {
-        margin-left: 7px;
-    }
-
-    footer
-    {
-       margin-left: 5px;
-       display: flex;
-       flex-direction: column;
-    }
-    .pied1, .pied2
-    {
-        margin: 5px 5px 5px 25px;
-    }
-    .pied3
-    {
-        margin-left: 25px;
-    }
-
-}
-
-
-
-@media screen and (max-width: 375px){
-
-    .global{
-        font-size: 11px;
-    }
-     
-    #logo a img
-    {
-        width: 70px;
-    } 
-    nav ul
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    nav a:hover
-    {
-        border-bottom: 2px solid #0065fc;
-    }
-    nav a:hover
-    {
-        border-top: none;
-    }
-    header h1
-    {
-        font-size: 12px;
-        margin-top: 40px;
-    }
-    .localite
-    {
-        width: 100%;
-    }
-
-    .loc2
-    {
-        padding-left: 60px;
-        padding-right: 40px;
-    }
-
-    .tout2
-    {
-        margin-bottom: 5px;
         width: 130px;
+        height: 120px;
+        border-bottom-left-radius: 9px;
+        border-top-left-radius: 9px;
+    }
+    .lineverticale
+    {
+        border: 1px solid white;
+        border-radius: 9px;
+        background-color: #F2F2F2;
+        width: 280px;
+        padding-left: 10px;
     }
 
-    .tout3
-    {
-        width: 150px;
-    }
-    .navlist
-    {
-        margin-top: 20px;
-        margin-left: 
-    }
-    .navlist1
-    {
-        margin-top: 15px;
-        margin-left: -20px;
-    }
-    .loc3 p
-    {
-        display: none;
-    }
-    .loc3 em
-    {
-        display: contents;
-        
-    }
-    .loc3 i
-    {
-        padding: 10px 10px 5px 10px;
-    }
-    .fichoi
-    {
-        margin-top: 10px;
-       display: flex;
-    }
-
-    .choix, .fichoi1
-    {
-       margin-top: 5px;
-       display: flex;
-       flex-direction: column;
-    }
-    .chx1, .chx3, .chx5, .chx7
-    {
-        padding: 10px 6px 10px 8px;
-    }
-    .choix strong
-    {
-        padding-top: 5px;
-    }
     .mami, .meme, .papi
     {
+        display: flex;
+        border: 3px solid white;
+        background-color: white;
+        border-radius: 9px;
+        width: 280px;
+        margin-bottom: 10px;
+    }
+    .activA img, .activB img, .activC img, .activD img
+    {
         width: 290px;
-
     }
-    .mami img, .meme img, .papi img
+    .activA, .activB1, .activB2, .activC, .activD1, .activD2
     {
-        height: 3cm;
-    }
-    article
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .milieu img
-    {
-        width: 100%px;
-    }
-    .actimarseil img
-    {
-        width: 100%px;
-        height: 3cm;
+        width: 290px;
     }
 
-    .actimarseil, .milieu, .group, .lineverticale
+    .activD, .activB, .activC, .activA
     {
-        display: flex;
-        flex-direction: column;
-
+        margin-left: 8px;
     }
 
     footer
     {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .pied1, .pied2
-    {
-        margin: 5px 5px 5px 25px;
-    }
-    .pied3
-    {
-        margin-left: 25px;
+       display: flex;
+       flex-direction: column;
     }
 
-    
+    .pied2, .pied3
+    {
+        margin: 5px 5px 5px 10px;
+    }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen  and (max-width: 414px)
-    
-}

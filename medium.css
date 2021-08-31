@@ -1,0 +1,286 @@
+@media screen and (max-width: 375px){
+
+    .global{
+         font-size: 11px;
+    }
+    #logo a img
+    {
+         width: 70px;
+    }  
+
+    nav ul
+    {
+         display: flex;
+         flex-direction: column-reverse;
+         float: right;
+         margin-top: -30px;
+    }
+
+    nav a:hover
+    {
+         border-bottom: 2px solid #0065fc;
+    }
+    .navlist
+    {
+        margin-top: 2px;
+        margin-right: 50px;
+        display: flex;
+        margin-left: -220px;
+
+    }
+    
+    .navi
+    {
+         margin-left: 50px;
+    }
+
+     header h1
+    {
+         font-size: 12px;
+         margin-top: 40px;
+    }
+    .localite
+    {
+         border: 2px solid white;
+         display: flex;
+         height: 30px;
+
+    }
+
+    .loc1, .loc2
+    {
+         border: 1px solid gainsboro;
+    }
+    
+    .loc2
+    {
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    
+     
+    .loc1 i, .loc3 i 
+    {
+         height: 10px;
+    }
+    .loc1
+    {
+         padding-left: 10px;
+         padding-right: 10px;
+         border-bottom-left-radius: 12px;
+         border-top-left-radius: 12px;
+         background-color: gainsboro;
+    }
+    .loc3
+    {
+         border: 1px solid gainsboro;
+         border-bottom-right-radius: 12px;
+         border-top-right-radius: 12px;
+         border:  1px solid blue;
+    }
+
+    .loc3 em
+    {
+         padding: 10px 10px 5px 10px;
+    }
+    
+    .tout2
+    {
+         margin-bottom: 5px;
+         width: 130px;
+         height: 20px;
+    }
+
+    .tout3
+    {
+         width: 110px;
+         height: 20px;
+    }
+    
+
+    .navlist
+    {
+         margin-top: 20px; 
+    }  
+
+    .navlist1
+    {
+         margin-top: 15px;
+     
+    }
+
+    .loc3 p
+    {
+         display: none;
+    }
+
+    .loc3 em
+    {
+         display: contents;  
+    }
+
+    .choix, .fichoi1
+    {
+         margin-top: 5px;
+         display: flex;
+         flex-direction: column;
+    }
+
+    .fichoi
+    {
+        margin-top: 5px;
+        display: flex;
+    }
+    .fichoi
+    {
+         margin-top: 5px;
+         display: flex;
+    }
+
+    .loc3 i
+    {
+         padding: 10px 10px 5px 10px;
+    }
+
+    .tout2
+    {
+         width: 100px;
+         margin-bottom: 5px;
+         height: 20px;
+    }
+    .tout3
+    {
+         width: 150px;
+         height: 20px;
+    }
+
+    
+
+    .chx1, .chx3, .chx5, .chx7
+    {
+         display: flex;
+         border:  1px solid hsl(180, 47%, 93%);
+         background-color: #c8d8f0;
+         height: 15px;
+         width: 15px;
+    }
+    .tout, .tout1, .tout2, .tout3
+    {
+         display: flex;
+         border: 1px solid gainsboro;
+         border-radius: 17px;
+         height: 27px;
+    }
+    .chxa1
+    {
+         border: 1px solid gainsboro;
+         border-radius: 19px;
+    }
+    .chxa
+    {
+         display: flex;
+    }
+    .tateline
+    {
+         margin: 15px 0px 0px 5px;
+    }
+    .teta
+    {
+         margin: 15px 0px 0px 5px;
+    }
+    article
+    {
+         display: flex;
+         flex-direction: column-reverse;
+    }
+    .group
+    {
+        display: flex;
+        flex-direction: column;
+    }
+     .milieu
+     {
+          width: 95%;
+     }
+    .line1 img, .line2 img, .line3 img
+    {
+         width: 330px;
+         height: 130px;
+         border-top-left-radius: 9px;
+         border-top-right-radius: 9px;
+    }
+    .toto, .tata, .titi, .mimi, .meto, .mota
+    {
+         border: 5px solid white;
+         border-radius: 9px;
+         width: 330px;
+         margin-bottom: 10px;
+         box-shadow: 0px 3px 2px gainsboro;
+    }
+    .lineverticale img
+    {
+         width: 150px;
+         height: 130px;
+         border-bottom-left-radius: 9px;
+         border-top-left-radius: 9px;
+    }
+    .lineverticale
+    {
+         border: 1px solid white;
+         border-radius: 9px;
+         background-color: #F2F2F2;
+         width: 330px;
+         padding-left: 10px;
+    }
+ 
+    .mami, .meme, .papi
+    {
+         display: flex;
+         border: 3px solid white;
+         background-color: white;
+         border-radius: 9px;
+         width: 330px;
+         margin-bottom: 10px;
+    }
+    .actimarseil
+    {
+         display: flex;
+        flex-direction: column;
+    }
+    .activA img, .activB img, .activC img, .activD img
+    {
+         width: 330px;
+         height: 130px;
+         border-top-left-radius: 9px;
+         border-top-right-radius: 9px;
+    }
+    .activA, .activB1, .activB2, .activC, .activD1, .cativD2 
+    {
+         width: 330px;
+        
+         border: 1px solid white;
+         border-radius: 9px;
+         box-shadow: 0px 3px 2px gainsboro;
+         margin-bottom: 10px;
+
+    }
+
+    footer
+    {
+         display: flex;
+         flex-direction: column;
+         margin-top: 20px;
+         background-color: #F2F2F2;
+         width: 350px;
+
+    }
+ 
+    .pied, .pied2, .pied3
+    {
+         margin-top: 20px;
+         padding-top: 20px;
+    }
+
+ 
+
+}

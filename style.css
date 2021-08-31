@@ -2,7 +2,6 @@
 
 
 body{
-    
     max-width: 980px;
     margin: auto;
     font-family: 'Raleway', Verdana, Tahoma, sans-serif;
@@ -11,17 +10,64 @@ body{
   
 .global
 {
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 7px;
     margin: auto;
 }
 
 #logo a img
 {
-    width:150px;
+    width:80px;
 }
+
 
 em{
     color: rgb(212, 205, 205) ;
+}
+nav ul
+{
+    display: flex;  
+    float: right;
+    margin-top: -37px;
+    list-style-type: none;
+}
+
+.navlist
+{
+    margin-right: 20px;
+    display: flex;
+}
+.navi
+{
+    margin-left: 20px;
+}
+
+nav a
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+ul
+{
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+
+nav a:hover
+{
+    border-top: 2px solid #0065FC;
+}
+
+.localite img
+{
+    height: 0.4cm;
+}
+
+.localite
+{
+    font-size: 14px;
 }
 
 .localite
@@ -32,11 +78,6 @@ em{
     margin-bottom: 0.5cm;
     padding-top: 4px;
     height: 0.9cm;
-}
-
-.loc3 em
-{
-    display: none;
 }
 
 .loc1, .loc2
@@ -61,9 +102,7 @@ em{
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
     background-color: #0065FC;
-    border: 1px solid blue;
-    
-    
+    border: 1px solid blue;    
 }
 
 .loc3 p
@@ -72,8 +111,13 @@ em{
     margin-top: 8px;
     padding-left: 5px;
     padding-right: 5px;
-
 }
+
+.loc3 em
+{
+    display: none;
+}
+
 .loc2
 {
     width: 3.5cm;
@@ -144,11 +188,6 @@ em{
     margin-top: 5px;
     padding-right: 25px;
 }
-
-.pied, .pied2, .pied3
-{
-    width: 33.33%;
-} 
 .teteline
 {
     margin: 15px 0px 0px 20px;
@@ -157,63 +196,6 @@ em{
 .teta
 {
     margin: 15px 0px 0px 5px;
-}
-
-.pied2
-{
-    padding-top: 10px;
-}
-
-.pied
-{
-    padding: 10px 0px 0px 25px;
-}
-
-.pied3
-{
-    padding: 10px 25px 0px 0px;
-}
-    
-nav ul
-{
-    display: flex;  
-    float: right;
-    margin-top: -40px;
-    list-style-type: none;
-}
-
-.navlist
-{
-    display: flex;
-}
-
-nav a
-{
-    text-decoration: none;
-    list-style-type: none;
-    margin-right: 35px;
-}
-
-
-ul
-{
-    list-style-type: none;
-}
-
-
-nav a:hover
-{
-    border-top: 2px solid #0065FC;
-}
-
-.localite img
-{
-    height: 0.4cm;
-}
-
-.localite
-{
-    font-size: 14px;
 }
 
 span
@@ -230,7 +212,6 @@ section
 
 section h1
 {
-    margin-left: 0.5cm;
     font-size: 14px
 }
 
@@ -364,11 +345,6 @@ article
 
 }
 
-.mami1, .meme1, .papi1
-{
-    margin-right: 7px;
-}
-
 .mami2, .meme2, .papi2
 {
     width: 2.5cm;
@@ -468,4 +444,21 @@ footer
     background-color: #F2F2F2;
     border: 1px solid white;
 }
+.pied, .pied2, .pied3
+{
+    width: 33.33%;
+} 
+.pied2
+{
+    padding-top: 10px;
+}
 
+.pied
+{
+    padding: 10px 0px 0px 10px;
+}
+
+.pied3
+{
+    padding: 10px 25px 0px 0px;
+}
