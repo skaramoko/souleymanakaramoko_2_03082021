@@ -17,6 +17,7 @@ body{
 #logo a img
 {
     width:80px;
+    margin-top: 10px;
 }
 
 
@@ -51,7 +52,7 @@ nav a
 ul
 {
     list-style-type: none;
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 
@@ -281,6 +282,11 @@ article
     margin-bottom: 5px;
 }
 
+.toto2, .tata2, .titi2, .mimi2, .meto2, .mota2
+{
+    margin-left: 10px;
+}
+
 .mimi, .meto, .mota
 {
     margin-top: 0.5cm;
@@ -317,6 +323,7 @@ article
     height: 2.5cm;
     border-bottom-left-radius: 9px;
     border-top-left-radius: 9px;
+    margin-right: 10px;
 }
 
 .lineverticale
@@ -381,6 +388,7 @@ article
     margin-bottom: 0.5cm;
     margin-right: 0.5cm;
     background-color: white;
+    height: 8.1cm;
 }
 
 .activC
@@ -395,17 +403,19 @@ article
 
 .activB img, .activD img
 {
-    height: 2.7cm;
+    height: 2.9cm;
 }
 
 .activB1, .activD1
 {
     margin-bottom: 0.5cm;
+
 }
 
 .activB, .activD
 { 
-    margin-bottom: 0.3cm;    
+    margin-bottom: 0.3cm; 
+      
 }
 
 .activA, .activB, .activC, .activD, .atm
@@ -419,6 +429,12 @@ article
     border: 1px solid white;
     border-radius: 9px;
     background-color: white;
+    height: 3.8cm;
+}
+
+.actimarseil strong
+{
+    margin-left: 10px;
 }
 
 

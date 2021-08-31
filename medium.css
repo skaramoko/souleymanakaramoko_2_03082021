@@ -19,23 +19,24 @@
     nav a:hover
     {
          border-bottom: 2px solid #0065fc;
+         border-top: none;
     }
     .navlist
     {
         margin-top: 2px;
         margin-right: 50px;
         display: flex;
-        margin-left: -170px;
+        margin-left: -190px;
 
     }
     .navlist1
     {
-         margin-right: 40px;
+         margin-right: 20px;
     }
     
     .navi
     {
-         margin-left: 20px;
+         margin-left: 30px;
 
     }
 
@@ -110,7 +111,7 @@
 
     .navlist1
     {
-         margin-top: 15px;
+         margin-top: 10px;
      
     }
 
@@ -140,6 +141,10 @@
     {
          margin-top: 5px;
          display: flex;
+    }
+    .chxa2
+    {
+         margin-top: 5px;
     }
 
     .loc3 i
@@ -269,39 +274,46 @@
          border-top-left-radius: 9px;
          border-top-right-radius: 9px;
     }
-    .activA, .activB1, .activB2, .activC, .activD1, .cativD2 
+    .activA, .activB1, .activB2, .activC, .activD1, .activD2 
     {
          width: 330px;
          border: 1px solid white;
          border-radius: 9px;
          box-shadow: 0px 3px 2px gainsboro;
-         margin-bottom: 10px;
+         margin-top: 10px;
+         height: 160px;
     }
      .activA, .activB1, .activB2, .activD1, .activD2
-     {
+    {
           margin-left: 10px;
-     }
+    }
      .activC
-     {
-          margin-left: 10px;
-     }
+    {
+          margin: 10px;
+    }
+    
+    
 
     footer
     {
          display: flex;
          flex-direction: column;
-         margin-top: 20px;
+         margin-top: 10px;
          background-color: #F2F2F2;
          width: 100%;
 
     }
  
-    .pied, .pied2, .pied3
+     .pied2, .pied3
     {
-         margin-top: 20px;
-         padding-top: 20px;
+         margin-left: 20px;
+         width: 310px;
     }
-
+     .pied
+    {
+          margin-left: 10px;
+          width: 310px;
+    }
  
 
 }
