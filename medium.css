@@ -1,14 +1,14 @@
 @media screen and (max-width: 375px){
 
-    .global{
+     .global{
          font-size: 11px;
     }
-    #logo a img
+     #logo a img
     {
          width: 70px;
     }  
 
-    nav ul
+     nav ul
     {
          display: flex;
          flex-direction: column-reverse;
@@ -16,19 +16,20 @@
          margin-top: -30px;
     }
 
-    nav a:hover
+     nav a:hover
     {
          border-bottom: 2px solid #0065fc;
          border-top: none;
     }
+
     .navlist
     {
         margin-top: 2px;
         margin-right: 50px;
         display: flex;
         margin-left: -190px;
-
     }
+
     .navlist1
     {
          margin-right: 20px;
@@ -69,7 +70,8 @@
     {
          height: 10px;
     }
-    .loc1
+
+     .loc1
     {
          padding-left: 10px;
          padding-right: 10px;
@@ -77,6 +79,7 @@
          border-top-left-radius: 12px;
          background-color: gainsboro;
     }
+
     .loc3
     {
          border: 1px solid gainsboro;
@@ -137,11 +140,13 @@
         margin-top: 5px;
         display: flex;
     }
+
     .fichoi
     {
          margin-top: 5px;
          display: flex;
     }
+
     .chxa2
     {
          margin-top: 5px;
@@ -158,6 +163,7 @@
          margin-bottom: 5px;
          height: 20px;
     }
+
     .tout3
     {
          width: 150px;
@@ -174,6 +180,7 @@
          height: 15px;
          width: 15px;
     }
+
     .tout, .tout1, .tout2, .tout3
     {
          display: flex;
@@ -181,38 +188,46 @@
          border-radius: 17px;
          height: 27px;
     }
+
     .chxa1
     {
          border: 1px solid gainsboro;
          border-radius: 19px;
     }
+
     .chxa
     {
          display: flex;
     }
+
     .tateline
     {
          margin: 15px 0px 0px 5px;
     }
+
     .teta
     {
          margin: 15px 0px 0px 5px;
     }
+
     article
     {
          display: flex;
          flex-direction: column-reverse;
     }
+
     .group
     {
         display: flex;
         flex-direction: column-reverse;
     }
+
      .milieu
      {
           width: 95%;
           background-color: white;
      }
+
     .line1 img, .line2 img, .line3 img
     {
          width: 317px;
@@ -220,6 +235,7 @@
          border-top-left-radius: 9px;
          border-top-right-radius: 9px;
     }
+
     .toto, .tata, .titi, .mimi, .meto, .mota
     {
          border: 5px solid white;
@@ -233,6 +249,7 @@
     {
          margin-left: -10px;
     }
+
     .titi, .mota
     {
          margin-left: 10px;
@@ -245,6 +262,11 @@
          border-bottom-left-radius: 9px;
          border-top-left-radius: 9px;
     }
+    .teta1
+    {
+         margin-left: 205px;
+    }
+
     .lineverticale
     {
          border: 1px solid white;
@@ -263,11 +285,13 @@
          width: 320px;
          margin-bottom: 10px;
     }
+
     .actimarseil
     {
          display: flex;
         flex-direction: column;
     }
+
     .activA img, .activB img, .activC img, .activD img
     {
          width: 330px;
@@ -275,6 +299,7 @@
          border-top-left-radius: 9px;
          border-top-right-radius: 9px;
     }
+
     .activA, .activB1, .activB2, .activC, .activD1, .activD2 
     {
          width: 330px;
@@ -284,16 +309,16 @@
          margin-top: 10px;
          height: 160px;
     }
+
      .activA, .activB1, .activB2, .activD1, .activD2
     {
           margin-left: 10px;
     }
+
      .activC
     {
           margin: 10px;
     }
-    
-    
 
     footer
     {
@@ -310,6 +335,7 @@
          margin-left: 20px;
          width: 310px;
     }
+
      .pied
     {
           margin-left: 10px;

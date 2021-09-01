@@ -367,6 +367,7 @@ article
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     width: 5.9cm;
+    margin-bottom: 5px;
     object-fit: cover;
 }
 
@@ -398,7 +399,7 @@ article
 
 .activA img, .activC img
 {
-    height: 7.1cm;
+    height: 7.3cm;
 }
 
 .activB img, .activD img
@@ -432,7 +433,7 @@ article
     height: 3.8cm;
 }
 
-.actimarseil strong
+.actimarseil b
 {
     margin-left: 10px;
 }
