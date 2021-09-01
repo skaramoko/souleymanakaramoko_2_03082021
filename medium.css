@@ -50,7 +50,7 @@
     {
          border: 2px solid white;
          display: flex;
-         height: 30px;
+         height: 35px;
 
     }
 
@@ -61,8 +61,8 @@
     
     .loc2
     {
-        padding-right: 80px;
-        padding-left: 80px;
+        padding-right: 60px;
+        padding-left: 60px;
     }
     
      
@@ -92,7 +92,27 @@
     {
          padding: 10px 10px 5px 10px;
     }
+    .choix strong:hover
+    {
+        color: #F2F2F2;
+    }
     
+    .tout:hover
+    {
+        background-color: #0065FC;
+    }
+    .tout1:hover
+    {
+        background-color: #0065FC;
+    }
+    .tout2:hover
+    {
+        background-color: #0065FC;
+    }
+    .tout3:hover
+    {
+        background-color: #0065FC;
+    }
     .tout2
     {
          margin-bottom: 5px;

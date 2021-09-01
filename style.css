@@ -81,7 +81,7 @@ nav a:hover
     height: 0.9cm;
 }
 
-.loc1, .loc2
+.loc1
 {
     border: 1px solid gainsboro;
     padding-top: 8px;
@@ -103,7 +103,7 @@ nav a:hover
     border-bottom-right-radius: 12px;
     border-top-right-radius: 12px;
     background-color: #0065FC;
-    border: 1px solid blue;    
+    border: 1px solid #0065FC;    
 }
 
 .loc3 p
@@ -121,8 +121,20 @@ nav a:hover
 
 .loc2
 {
-    width: 3.5cm;
-    padding-left: 15px;
+    width: 4cm;
+    border: 1px solid gainsboro;
+
+}
+
+.loc2 input
+{
+    height: 28px;
+    padding-left: 20px
+}
+
+input
+{
+    border: none;
 }
 
 .fichoi, .fichoi1
@@ -149,6 +161,27 @@ nav a:hover
     background-color: #c8d8f0;
 }
 
+.choix strong:hover
+{
+    color: #F2F2F2;
+}
+
+.tout:hover
+{
+    background-color: #0065FC;
+}
+.tout1:hover
+{
+    background-color: #0065FC;
+}
+.tout2:hover
+{
+    background-color: #0065FC;
+}
+.tout3:hover
+{
+    background-color: #0065FC;
+}
 
 .tout, .tout1, .tout2, .tout3
 {
@@ -367,7 +400,6 @@ article
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     width: 5.9cm;
-    margin-bottom: 5px;
     object-fit: cover;
 }
 
@@ -377,10 +409,7 @@ article
 
 }
 
-.activite p
-{
-    font-size: 10px;
-}
+
 
 .activA, .activC
 {
@@ -399,12 +428,12 @@ article
 
 .activA img, .activC img
 {
-    height: 7.3cm;
+    height: 7.1cm;
 }
 
 .activB img, .activD img
 {
-    height: 2.9cm;
+    height: 2.79cm;
 }
 
 .activB1, .activD1
@@ -430,12 +459,13 @@ article
     border: 1px solid white;
     border-radius: 9px;
     background-color: white;
-    height: 3.8cm;
+    height: 3.76cm;
 }
 
-.actimarseil b
+.actimarseil p
 {
     margin-left: 10px;
+    font-size: 13px;
 }
 
 
