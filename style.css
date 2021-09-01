@@ -161,7 +161,7 @@ input
     background-color: #c8d8f0;
 }
 
-.choix strong:hover
+.fichoi strong:hover
 {
     color: #F2F2F2;
 }
@@ -331,6 +331,7 @@ article
     height: 3cm;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
+    object-fit: cover;
 }  
   
 .mimi

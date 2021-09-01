@@ -92,7 +92,7 @@
     {
          padding: 10px 10px 5px 10px;
     }
-    .choix strong:hover
+    .fichoi strong:hover
     {
         color: #F2F2F2;
     }
@@ -310,6 +310,11 @@
     {
          display: flex;
         flex-direction: column;
+    }
+
+    .actimarseil p
+    {
+         margin-top: 8px;
     }
 
     .activA img, .activB img, .activC img, .activD img
