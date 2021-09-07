@@ -228,6 +228,10 @@
     {
          margin: 15px 0px 0px 5px;
     }
+    .teta1
+    {
+         margin-left: 150px;
+    }
 
     .teta
     {
@@ -286,10 +290,7 @@
          border-bottom-left-radius: 9px;
          border-top-left-radius: 9px;
     }
-    .teta1
-    {
-         margin-left: 205px;
-    }
+  
 
     .lineverticale
     {

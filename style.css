@@ -240,7 +240,10 @@ span
 {
     color: #0065FC;
 }
-
+header h1
+{
+    font-size: 18px;
+}
 
 section
 {
@@ -250,13 +253,10 @@ section
 
 section h1
 {
-    font-size: 14px
+    font-size: 16px
+    
 }
 
-header h1
-{
-    font-size: 18px;
-}
 
 article
 {
@@ -283,7 +283,6 @@ article
 {
     display: flex;
     flex-direction: column;
-    margin-top: 0.5cm;
     margin-left: 0.5cm;
 }
 
@@ -291,8 +290,7 @@ article
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 0.5cm;
+    justify-content: space-between; 
     margin-bottom: 1cm;
     margin-left: 0.5cm;
     margin-right: 0.5cm;
@@ -303,7 +301,6 @@ article
     display: flex;
     flex-direction: column;
     margin-right: 0.5cm;
-    margin-top: 0.5cm;
     margin-bottom: 1cm;
 }
 
@@ -352,7 +349,15 @@ article
 
 .teta1
 {
-    margin: 0px 0px 0px 160px;
+    margin: 0px 0px 0px 110px;
+}
+.teta, .teta1
+{
+    margin-top: 20px;
+}
+.teta
+{
+    font-size: 14px;
 }
 
 .lineverticale img
@@ -373,11 +378,6 @@ article
     padding-left: 0.5cm;
     padding-right: 0.5cm;
     width: 7.5cm;
-}
-
-.lineverticale h1
-{
-    margin-left: 0.5cm;
 }
 
 .mami, .meme, .papi
