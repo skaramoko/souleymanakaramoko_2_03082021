@@ -8,7 +8,7 @@
          width: 70px;
     }  
 
-     nav ul
+     nav
     {
          display: flex;
          flex-direction: column-reverse;

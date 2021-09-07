@@ -24,7 +24,7 @@ body{
 em{
     color: rgb(212, 205, 205) ;
 }
-nav ul
+nav 
 {
     display: flex;  
     float: right;
