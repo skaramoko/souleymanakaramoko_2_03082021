@@ -49,6 +49,7 @@ nav a
 {
     text-decoration: none;
     list-style-type: none;
+    color: #0065FC;
 }
 
 
@@ -61,7 +62,7 @@ ul
 
 nav a:hover
 {
-    border-top: 2px solid #0065FC;
+    border-top: 2px solid #0065FC;                    
 }
 
 .localite img
