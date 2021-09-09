@@ -1,3 +1,185 @@
+@media  screen and (max-width: 1024px) {
+     .navlist1{
+          margin-right: 10px;
+     }
+     article h1{
+          margin-left: -20px;
+     }
+     .teta1{
+          margin-left: 140px;
+     }
+
+    .line1 img, .line2 img, .line3 img{
+         width: 190px;
+    }
+    .mami, .meme, .papi, .mami img, .meme img, .papi img{
+         height: 144px;
+    }
+    .lineverticale{
+         width: 315px;
+    }
+    .mami img, .meme img, .papi img{
+         width: 140px;
+    }
+    .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
+         width: 239px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+     .global{
+          font-size: 14px;
+          
+     }
+
+     #logo a img{
+          width: 80px;
+     }
+     article h1, h2, h3{
+          font-size: 11px;
+     }
+     article h1{
+          margin-left: -20px;
+     }
+     .teta1{
+          margin-top: 12px;
+          margin-left: 100px;
+     }
+     .line1 img, .line2 img, .line3 img{
+          width: 130px;
+          height: 100px;
+     }
+     .lineverticale{
+          width: 230px;
+     }
+     
+     .mami, .meme, .papi{
+          width: 210px;
+          height: 100px;
+     }
+     .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
+          width: 175px;
+     
+     }
+     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
+          width: 175px;
+     }
+     .activA img, .activC img{
+          height: 270px;
+     }
+     .pied{
+          margin-right: 40px;
+     }
+     
+}
+
+
+
+@media screen and (max-width:568px){
+     #logo{
+          width: 80px;
+     }
+     .global{
+          font-size: 10px;
+     }
+     header h1{
+          font-size: 11px;
+     }
+     .localite{
+          font-size: 8px;
+          width: 100px;
+          height: 20px;
+     }
+     .tout, .tout1, .tout2, .tout3{
+          height: 20px;
+     }
+     .chx1, .chx3, .chx5, .chx7{
+          width: 10px;
+     }
+     input{
+          font-size: 8px;
+     }
+
+     .milieu p, em, span, strong{
+          font-size: 8px;
+     }
+     .milieu h1, h2{
+          font-size: 8px;
+     }
+     .line1 img, .line2 img, .line3 img{
+          width: 90px;
+          height: 60px;
+     }
+     .toto, .tata, .titi, .mimi, .meto, .mota{
+          width: 90px;
+          height: 120px;
+     }
+     .teta{
+          font-size: 8px;
+     }
+     .teta1{
+          margin-left: 70px;
+     }
+     .lineverticale{
+          width: 160px;
+     }
+     .lineverticale h3{
+          font-size: 8px;
+     }
+
+     .lineverticale img{
+          width: 80px;
+          height: 80px;
+     }
+     .lineverticale p, .lineverticale strong{
+          font-size: 8px;
+     }
+     .meme i, .mami i, .papi i{
+          font-size: 8px;
+     }
+     .line1 i, .line2 i, .line3 i {
+          font-size: 6px;
+     }
+     .meme, .mami, .papi{
+          height: 80px;
+          width: 160px;
+     }
+     .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
+          width: 125px;
+     }
+     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
+          width: 125px;
+     }   
+     .actimarseil p{
+          font-size: 8px;
+     } 
+     aside h1{
+          font-size: 10px;
+     } 
+     footer{
+          font-size: 8px;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 375px){
 
      .global{
@@ -253,7 +435,6 @@
 
      .milieu
      {
-          width: 95%;
           background-color: white;
      }
 
@@ -378,4 +559,7 @@
     }
  
 
+}
+@media screen and (max-width:) {
+     
 }

@@ -2,7 +2,7 @@
 
 
 body{
-    max-width: 990px;
+    max-width: 1280px;
     margin: auto;
     font-family: 'Raleway', Verdana, Tahoma, sans-serif;
 }
@@ -56,13 +56,14 @@ nav a
 ul
 {
     list-style-type: none;
-    margin-right: 10px;
+    
 }
 
 
 nav a:hover
 {
-    border-top: 2px solid #0065FC;                    
+    border-top: 2px solid #0065FC;
+                      
 }
 
 .localite img
@@ -337,8 +338,8 @@ article
 
 .line1 img, .line2 img, .line3 img
 {
-    width: 189px;
-    height: 3cm;
+    width: 280px;
+    height: 180px;
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
     object-fit: cover;
@@ -384,9 +385,9 @@ article
     border: 1px solid white;
     border-radius: 9px;
     background-color: #F2F2F2;
-    padding: 0px 15px 0px 15px;
+    padding: 0px 14px 0px 14px;
     margin-left: 15px;
-    width: 7.5cm;
+    width: 310px;
 }
 
 .mami, .meme, .papi
@@ -401,7 +402,7 @@ article
 
 .mami2, .meme2, .papi2
 {
-    width: 2.5cm;
+    width: 300px;
 }
 
 .teta
@@ -413,7 +414,7 @@ article
 {
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-    width: 230px;
+    width: 305px;
     object-fit: cover;
 }
 
