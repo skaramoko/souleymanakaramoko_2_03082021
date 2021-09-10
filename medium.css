@@ -755,6 +755,43 @@
 }
 
 
-@media screen and (max-width: 320px) {
-     
+@media screen and (max-width: 320px){
+
+     .navlist{
+          margin-left: -180px;
+     }
+
+     .loc2{
+          padding-left: 47px;
+          padding-right: 47px;
+     }
+     .teta1{
+          margin-left: 200px;
+     }
+
+     .mami, .meme, .papi{
+          width: 300px;
+     }
+     .lineverticale{
+          width: 320px;
+     }
+     .lineverticale img{
+          width: 150px;
+     }
+     .line1 img, .line2 img, .line3 img{
+          width: 310px;
+     }
+     .toto, .tata, .titi, .mimi, .meto, .mota{
+          width: 310px;
+          margin-left: -5px;
+     }
+     .actimarseil img{
+          width: 310px;
+     }
+     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
+          width: 310px;
+     }
+     footer{
+          width: 320px;
+     }
 }
