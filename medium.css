@@ -60,12 +60,18 @@
      }
      
      .mami, .meme, .papi{
-          width: 210px;
+          width: 220px;
           height: 100px;
+     }
+     .mami img, .meme img, .papi img{
+          height: 100px;
+          width: 110px;
      }
      .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
           width: 175px;
-     
+     }
+     .actimarseil p{
+          font-size: 11px;
      }
      .activA, .activB1, .activB2, .activC, .activD1, .activD2{
           width: 175px;
@@ -96,11 +102,21 @@
           width: 100px;
           height: 20px;
      }
+     .loc2 input{
+          margin-top: -2px;
+     }
+     .loc1, .loc3{
+          margin-bottom:-5px;
+     }
+     
      .tout, .tout1, .tout2, .tout3{
           height: 20px;
      }
      .chx1, .chx3, .chx5, .chx7{
           width: 10px;
+     }
+     .chxa2 p{
+          margin-top: 15px;
      }
      input{
           font-size: 8px;
@@ -118,7 +134,7 @@
      }
      .toto, .tata, .titi, .mimi, .meto, .mota{
           width: 90px;
-          height: 120px;
+          height: 140px;
      }
      .teta{
           font-size: 8px;
@@ -143,6 +159,9 @@
      .meme i, .mami i, .papi i{
           font-size: 8px;
      }
+     .mami{
+          margin-top: 10px;
+     }
      .line1 i, .line2 i, .line3 i {
           font-size: 6px;
      }
@@ -153,9 +172,20 @@
      .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
           width: 125px;
      }
-     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
+     .activB1, .activB2, .activD1, .activD2{
           width: 125px;
-     }   
+          height: 112px;
+     } 
+     .activB1 img, .activB2 img, .activD1 img, .activD2 img{
+          height: 88px;
+     }  
+     .activA, .activC{
+          height: 245px;
+          width: 125px;
+     }
+     .activA img, .activC img{
+          height: 220px;
+     }
      .actimarseil p{
           font-size: 8px;
      } 
@@ -166,13 +196,6 @@
           font-size: 8px;
      }
 }
-
-
-
-
-
-
-
 
 
 
@@ -560,6 +583,8 @@
  
 
 }
-@media screen and (max-width:) {
+
+
+@media screen and (max-width: 320px) {
      
 }

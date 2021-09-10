@@ -372,8 +372,8 @@ article
 
 .lineverticale img
 {
-    width: 3cm;
-    height: 2.5cm;
+    width: 130px;
+    height: 150px;
     border-bottom-left-radius: 9px;
     border-top-left-radius: 9px;
     margin-right: 10px;
@@ -387,7 +387,7 @@ article
     background-color: #F2F2F2;
     padding: 0px 14px 0px 14px;
     margin-left: 15px;
-    width: 310px;
+    width: 300px;
 }
 
 .mami, .meme, .papi
@@ -397,6 +397,7 @@ article
     background-color: white;
     border-radius: 9px;
     margin-top: 0.5cm;
+    height: 150px;
 
 }
 
@@ -414,7 +415,7 @@ article
 {
     border-top-left-radius: 9px;
     border-top-right-radius: 9px;
-    width: 305px;
+    width: 303px;
     object-fit: cover;
 }
 
