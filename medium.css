@@ -195,7 +195,127 @@
      footer{
           font-size: 8px;
      }
+
+
+
+
+
+
 }
+@media screen and (max-width: 414px){
+
+     #logo{
+          width: 70px;
+     }
+
+     .tout1, .tout2{
+          width: 70px;
+     }
+     .tout{
+          width: 70px;
+     }
+     .tout3{
+          width: 110px;
+     }
+     .tout strong, .tout1 strong, .tout2 strong, .tout3 strong{
+          font-size: 6px;
+     }
+     .fichoi{
+          margin-left: -10px;
+     }
+
+     article{
+          display: flex;
+          flex-direction: column;
+     }
+     .line1, .line2, .line3{
+          margin-right: 8px;
+     }
+     .line1{
+          margin-left: -3px;
+     }
+     
+     .toto, .tata, .titi, .mimi, .meto, .mota{
+          width:113px ;
+          height: 120px;
+     }
+     .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
+          width:113px ;
+     }
+     .milieu{
+          width: 368px;
+     }
+     .lineverticale{
+          display:flex;
+          flex-direction: column;
+          width: 390px;
+          height: 140px;
+          margin-left: 0px;
+          padding: 0px 0px 0px 10px;
+     }
+     .lineverticale img{
+          width: 55px;
+          height: 70px;
+          margin-right: 5px;
+     }
+     .lineverticale strong, .lineverticale p{
+          font-size: 6px;
+     }
+     .teta1{
+          margin-left: 290px;
+     }
+     .element i{
+          font-size: 6px;
+     }
+     .teta{
+          margin-top: 5px;
+     }
+     .element{
+          display: flex;
+     }
+     .mami, .meme, .papi{
+          width: 114px;
+          height: 70px;
+          margin-right: 10px;
+          margin-top: 5px;
+     }
+     .atm h1{
+          font-size: 8px;
+     }
+     .activA, .activC{
+          height: 170px;
+          width: 91px;
+          margin-right: 9px;
+     }
+     .activA img, .activC img{
+          height: 150px;
+          width: 90px;
+     }
+     .activB1, .activB2, .activD1, .activD2{
+          height: 80px;
+          width: 91px;
+     }
+     .activB1 img, .activB2 img, .activD1 img, .activD2 img{
+          height: 60px;
+          width: 90px;
+          
+     }
+     .activB{
+          margin-right: 9px;
+     }
+     .activB1, .activD1{
+          margin-bottom: 9px;
+     }
+     .actimarseil p{
+          font-size: 6px;
+     }
+
+}    
+
+
+
+     
+
 
 
 
