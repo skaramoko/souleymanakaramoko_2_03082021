@@ -29,15 +29,78 @@
 
 
 
+@media screen and (max-width: 800px){
+
+     .global{
+          font-size: 12px;
+     }
+     header h1{
+          font-size: 14px;
+     }
+     article h1, h2, h3{
+          font-size: 12px;
+     }
+     
+     .teta1 i{
+          margin-left: -10px;
+     }
+     .choix strong{
+          margin-top: 10px;
+     }
+     .chx1, .chx3, .chx5, .chx7{
+          padding-top: 8px;
+     }
+     .chxa2{
+          margin-top: 5px;
+          margin-left:5px;
+          
+     }
+
+     .line1 img, .line2 img, .line3 img{
+          width: 140px;
+          height: 130px;
+     }
+     .lineverticale img{
+          width: 130px;
+          height: 100px;
+     }
+     .mami, .meme, .papi{
+          height: 100px;
+          width: 240px; 
+     }
+     .lineverticale{
+          width: 240px;
+     }
+     .atm h1{
+          font-size: 12px;
+     }
+     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
+          width: 183px;
+     }
+     .activA img, .activB img, .activC img, .activD img{
+          width: 183px;
+     }
+     .actimarseil p{
+          font-size: 12px;
+     }
+     footer{
+          margin: auto;
+          font-size: 12px;
+     }
+}
+
+
 
 
 @media screen and (max-width: 768px) {
 
      .global{
-          font-size: 14px;
+          font-size: 11px;
           
      }
-
+     .choix strong{
+          font-size: 10px;
+     }
      #logo a img{
           width: 80px;
      }
@@ -197,11 +260,9 @@
      }
 
 
+}          
 
 
-
-
-}
 @media screen and (max-width: 414px){
 
      #logo{
@@ -576,7 +637,7 @@
     }
     .teta1
     {
-         margin-left: 250px;
+         margin-left: 240px;
          font-size: 10px;
     }
 
@@ -674,7 +735,7 @@
          border: 3px solid white;
          background-color: white;
          border-radius: 9px;
-         width: 350px;
+         width: 345px;
          height: 110px;
          margin-bottom: 10px;
     }
@@ -757,39 +818,48 @@
 
 @media screen and (max-width: 320px){
 
+     .global{
+          margin: auto;
+     }
+
+     header h1{
+          font-size: 11px;
+     }
+
      .navlist{
           margin-left: -180px;
      }
 
      .loc2{
-          padding-left: 47px;
-          padding-right: 47px;
+          padding-left: 40px;
+          padding-right: 40px;
      }
      .teta1{
-          margin-left: 200px;
+          margin-left: 180px;
      }
 
      .mami, .meme, .papi{
-          width: 300px;
+          width: 290px;
      }
      .lineverticale{
-          width: 320px;
+          width: 310px;
+          height: 480px;
      }
      .lineverticale img{
           width: 150px;
      }
      .line1 img, .line2 img, .line3 img{
-          width: 310px;
+          width: 300px;
      }
      .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 310px;
+          width: 300px;
           margin-left: -5px;
      }
      .actimarseil img{
-          width: 310px;
+          width: 300px;
      }
      .activA, .activB1, .activB2, .activC, .activD1, .activD2{
-          width: 310px;
+          width: 300px;
      }
      footer{
           width: 320px;
