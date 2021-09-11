@@ -165,27 +165,45 @@
           width: 100px;
           height: 20px;
      }
+     .loc1{
+          height: 20px;
+     }
+     .loc3{
+          height: 28px;
+     }
      .loc2 input{
           margin-top: -2px;
+          font-size: 11px;
+     }
+     .loc2{
+          height: 27px;
+     }
+     .loc1 i{
+          font-size: 11px;
+     }
+     .loc3 p{
+          font-size: 11px;
      }
      .loc1, .loc3{
           margin-bottom:-5px;
      }
+     .fichoi strong, .fichoi1 strong{
+          margin-top: 2px;
+     }
      
      .tout, .tout1, .tout2, .tout3{
           height: 20px;
+          padding: 7px 0px 0px 0px;
      }
      .chx1, .chx3, .chx5, .chx7{
           width: 10px;
+          margin-top: -7px;
      }
      .chxa2 p{
           margin-top: 15px;
      }
-     input{
-          font-size: 8px;
-     }
 
-     .milieu p, em, span, strong{
+     .milieu p, .milieu i, .milieu strong{
           font-size: 8px;
      }
      .milieu h1, h2{
@@ -199,11 +217,17 @@
           width: 90px;
           height: 140px;
      }
+     .teteline{
+          margin-top: 5px;
+          font-size: 10px;
+     }
      .teta{
-          font-size: 8px;
+          font-size: 10px;
+          margin-top: 5px;
      }
      .teta1{
           margin-left: 70px;
+          margin-top: 7px;
      }
      .lineverticale{
           width: 160px;
@@ -225,9 +249,7 @@
      .mami{
           margin-top: 10px;
      }
-     .line1 i, .line2 i, .line3 i {
-          font-size: 6px;
-     }
+
      .meme, .mami, .papi{
           height: 80px;
           width: 160px;
@@ -255,8 +277,11 @@
      aside h1{
           font-size: 10px;
      } 
-     footer{
+     .actimarseil p{
           font-size: 8px;
+     }
+     footer, footer strong{
+          font-size: 10px;
      }
 
 
@@ -265,21 +290,43 @@
 
 @media screen and (max-width: 414px){
 
+     nav{
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     header h1{
+          margin-top: 30px;
+     }
+
+     .navlist{
+          margin-left: -200px;
+          margin-top: 20px;
+         
+     }
+
      #logo{
           width: 70px;
           font-size: 11px;
      }
+     
      .loc1 i{
           width: 10px;
      }
      .loc2 input, .loc3 p{
-          font-size: 10px;
+          font-size: 11px;
+     }
+     input{
+          width: 300px;
+
      }
      .loc3{
           padding-bottom: 5px;
+          height: 23px;
      }
      .loc2{
-          height: 23px;
+          height: 28px;
+          padding-left: 70px;
+          padding-right: 75px;
      }
      .teta h3, .teta1{
           font-size: 10px;
@@ -303,18 +350,40 @@
      .tout3{
           width: 120px;
      }
+     .choix{
+          display: flex;
+          flex-direction: column;
+     }
+     
+     .fichoi, .fichoi1 strong{
+          font-size: 10px;
+          margin-top: 0px;
+     }
      .fichoi{
-          margin-left: -20px;
+          margin-top: 10px;
+          margin-bottom: 10px;
      }
-     .choix strong{
-          font-size: 8px;
-          margin-top: 5px;
-     }
-     
      .chx1, .chx3, .chx5, .chx7{
-          padding-top: 3px;
+          padding-top: 7px;
      }
-     
+     .fichoi1{
+          display: flex;
+          flex-direction: column;
+
+     }
+     .tout{
+          width: 100px;
+     }
+     .tout1{
+          width: 80px;
+     }
+     .tout2{
+          width: 110px;
+          margin-bottom: 10px;
+     }
+     .tout3{
+          width: 150px;
+     }
      article{
           display: flex;
           flex-direction: column-reverse;
@@ -392,6 +461,7 @@
           width: 370px;
           height: 100px;
           margin-right: 10px;
+          margin-bottom: 15px;
           margin-top: 5px;
      }
      .atm h1{
@@ -528,6 +598,7 @@
          border-bottom-left-radius: 12px;
          border-top-left-radius: 12px;
          background-color: gainsboro;
+         height: 25px;
     }
 
     .loc3
@@ -884,15 +955,29 @@
 @media screen and (max-width: 320px){
 
      .global{
-          margin: auto;
+          margin-right: 0px;
      }
-
+     .tout1{
+          width: 100px;
+     }
+     .chx1 i, .chx3 i, .chx5 i, .chx7 i{
+          padding: 5px 5px 5px 0px;
+          width: 20px;
+     }
+     .chx1, .chx3, .chx5, .chx7{
+          width: 15px;
+     }
      header h1{
           font-size: 11px;
      }
-
+     .choix strong{
+          font-size: 10px;
+     }
      .navlist{
           margin-left: -180px;
+     }
+     .loc1{
+          height: 25px;
      }
 
      .loc2{
@@ -929,4 +1014,6 @@
      footer{
           width: 320px;
      }
+
+
 }
