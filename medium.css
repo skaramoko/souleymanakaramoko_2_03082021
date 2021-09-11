@@ -278,11 +278,21 @@
      .tout3{
           width: 110px;
      }
-     .tout strong, .tout1 strong, .tout2 strong, .tout3 strong{
-          font-size: 6px;
+     .tout3{
+          width: 120px;
      }
      .fichoi{
           margin-left: -10px;
+     }
+     .choix strong{
+          font-size: 7px;
+          margin-top: 5px;
+     }
+     .chx1, .chx3, .chx5, .chx7{
+          padding-top: 5px;
+     }
+     .fichoi{
+          margin-left: -20px;
      }
 
      article{
