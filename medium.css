@@ -27,6 +27,7 @@
 
 }
 
+/* MEDIA WIDTH 800*/
 
 
 @media screen and (max-width: 800px){
@@ -89,7 +90,7 @@
      }
 }
 
-
+/*media width */
 
 
 @media screen and (max-width: 768px) {
@@ -148,6 +149,7 @@
      
 }
 
+/*MEDIA WIDTH 568*/
 
 
 @media screen and (max-width:568px){
@@ -287,6 +289,8 @@
 
 }          
 
+/* MEDIA WIDTH 414*/
+
 
 @media screen and (max-width: 414px){
 
@@ -297,13 +301,39 @@
      header h1{
           margin-top: 30px;
      }
-
+     
+      nav a:hover
+     {
+         border-bottom: 2px solid #0065fc;
+         border-top: none;
+     }
+     .tout:hover
+     {
+        background-color: #0065FC;
+     }
+     .tout1:hover
+     {
+        background-color: #0065FC;
+     }
+     .tout2:hover
+     {
+        background-color: #0065FC;
+     }
+     .tout3:hover
+     {
+        background-color: #0065FC;
+     }
      .navlist{
           margin-left: -200px;
           margin-top: 20px;
          
      }
-
+     .loc3 p{
+          display: none;
+     }
+     .loc3 i{
+          display: contents;
+     }
      #logo{
           width: 70px;
           font-size: 11px;
@@ -312,19 +342,21 @@
      .loc1 i{
           width: 10px;
      }
-     .loc2 input, .loc3 p{
+     .loc2 input{
           font-size: 11px;
      }
      input{
           width: 300px;
+          height: 23px;
 
+     }
+     .loc1, .loc2, .loc3{
+          height: 23px;
      }
      .loc3{
           padding-bottom: 5px;
-          height: 23px;
      }
      .loc2{
-          height: 28px;
           padding-left: 70px;
           padding-right: 75px;
      }
@@ -418,7 +450,7 @@
      
      .toto, .tata, .titi, .mimi, .meto, .mota{
           width:380px ;
-          height: 160px;
+          height: 180px;
           box-shadow: 0px 3px 2px gainsboro;
      }
      .titi, .mota, .tata, .meto{
@@ -429,7 +461,7 @@
      }
      .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
           width:380px ;
-          height: 90px;
+          height: 100px;
      }
      .milieu{
           width: 368px;
@@ -438,20 +470,20 @@
           display:flex;
           flex-direction: column;
           width: 390px;
-          height: 400px;
+          height: 490px;
           margin-left: 0px;
           padding: 0px 0px 0px 10px;
      }
      .lineverticale img{
           width: 200px;
-          height: 100px;
+          height: 130px;
           margin-right: 5px;
      }
      .lineverticale strong, .lineverticale p{
           font-size: 11px;
      }
      .teta1{
-          margin-left: 290px;
+          margin-left: 200px;
      }
      .element i{
           font-size: 10px;
@@ -459,7 +491,7 @@
      
      .mami, .meme, .papi{
           width: 370px;
-          height: 100px;
+          height: 130px;
           margin-right: 10px;
           margin-bottom: 15px;
           margin-top: 5px;
@@ -511,7 +543,7 @@
 }    
 
 
-
+/* MEDIA WIDTH 375*/
 
 
 @media screen and (max-width: 375px){
@@ -606,7 +638,8 @@
          border: 1px solid gainsboro;
          border-bottom-right-radius: 12px;
          border-top-right-radius: 12px;
-         border:  1px solid blue;
+         border:  1px solid #0065fc;
+         height: 28px;
     }
 
     .loc3 em
@@ -653,6 +686,7 @@
     }
     .fichoi strong, .fichoi1 strong{
          font-size: 11px;
+         margin-top: 5px;
     }
 
     .tout3
@@ -699,12 +733,6 @@
         display: flex;
     }
 
-    .fichoi
-    {
-         margin-top: 5px;
-         display: flex;
-    }
-
     .chxa2
     {
          margin-top: 5px;
@@ -736,7 +764,7 @@
          width: 15px;
     }
      .chx3, .chx7{
-         width: 12px;
+         width: 15px;
     }
     .chx1 i, .chx3 i, .chx5 i, .chx7 i{
          margin-top: 3px;
@@ -749,7 +777,18 @@
          border-radius: 17px;
          height: 27px;
     }
-
+    .chx3, .chx5{
+         padding: 8px 10px 0px 10px;
+    }
+    .tout1{
+         width: 90px;
+    }
+    .tout2{
+         width: 110px;
+    }
+    .tout{
+         width: 120px;
+    }
     .chxa1 
     {
          border: 1px solid gainsboro;
@@ -773,7 +812,7 @@
     }
     .teta1
     {
-         margin-left: 240px;
+         margin-left: 260px;
          font-size: 10px;
     }
 
@@ -945,11 +984,13 @@
      .pied
     {
           margin-left: 10px;
-          width: 310px;
     }
  
 
 }
+
+/* MEDIA WIDTH 320 */
+
 
 
 @media screen and (max-width: 320px){
@@ -960,13 +1001,21 @@
      .tout1{
           width: 100px;
      }
-     .chx1 i, .chx3 i, .chx5 i, .chx7 i{
-          padding: 5px 5px 5px 0px;
+     .chx1{
+          padding: 7px 10px 5px 10px;
           width: 20px;
      }
-     .chx1, .chx3, .chx5, .chx7{
-          width: 15px;
+     .chx7{
+          padding: 7px 7px 7px 7px ;
+          width: 20px;
      }
+     .chx5{
+          padding: 7px 10px 15px 10px;
+     }
+     .chx3{
+          padding: 7px 10px 15px 10px;
+     }
+
      header h1{
           font-size: 11px;
      }
@@ -976,13 +1025,22 @@
      .navlist{
           margin-left: -180px;
      }
+     .loc1, .loc3{
+          height: 23px;
+     }
      .loc1{
-          height: 25px;
+         height: 25px; 
+     }
+     .teta1 i{
+          margin-left: 0px;
      }
 
      .loc2{
           padding-left: 40px;
           padding-right: 40px;
+     }
+     .loc3{
+          padding: 10px 10px 0px 10px;
      }
      .teta1{
           margin-left: 180px;
