@@ -556,6 +556,7 @@
           font-size: 9px;
           display: flex;
           flex-direction: column;
+          width: 414px;
      }
      footer strong{
           font-size: 12px;
