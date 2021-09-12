@@ -300,12 +300,21 @@
      }
      header h1{
           margin-top: 30px;
+          font-size: 14px;
      }
      
-      nav a:hover
+     nav a:hover
      {
          border-bottom: 2px solid #0065fc;
          border-top: none;
+     }
+     .fichoi strong:hover
+     {
+        color: #F2F2F2;
+     }
+     .fichoi1 strong:hover
+     {
+         color: #F2F2F2;
      }
      .tout:hover
      {
@@ -323,17 +332,21 @@
      {
         background-color: #0065FC;
      }
+
      .navlist{
           margin-left: -200px;
           margin-top: 20px;
          
      }
+
      .loc3 p{
           display: none;
      }
-     .loc3 i{
+
+     .loc3 em{
           display: contents;
      }
+
      #logo{
           width: 70px;
           font-size: 11px;
@@ -342,30 +355,39 @@
      .loc1 i{
           width: 10px;
      }
+
      .loc2 input{
           font-size: 11px;
-     }
-     input{
-          width: 300px;
           height: 23px;
+          width: 300px;
 
      }
-     .loc1, .loc2, .loc3{
+     
+     .loc1{
           height: 23px;
      }
-     .loc3{
-          padding-bottom: 5px;
+
+     .loc3 em, .loc1 i{
+          font-size: 14px;
      }
+
+     .loc3{
+          padding: 10px 10px 5px 10px;
+          height: 20px;
+     }
+
      .loc2{
           padding-left: 70px;
           padding-right: 75px;
      }
+
      .teta h3, .teta1{
           font-size: 10px;
           margin-top: 5px;
      }
+
      .teta1 i{
-          margin-left: -25px;
+          margin-left: 60px;
      }
      .tout2{
           width: 70px;
@@ -532,13 +554,16 @@
      }
      footer{
           font-size: 9px;
+          display: flex;
+          flex-direction: column;
      }
      footer strong{
-          font-size: 11px;
+          font-size: 12px;
      }
-     .pied3{
-          margin-left: 40px;
+     .pied2, .pied3{
+          margin-left: 11px;
      }
+
 
 }    
 
@@ -619,8 +644,8 @@
     
     .loc2
     {
-        padding-right: 65px;
-        padding-left: 65px;
+        padding-right: 60px;
+        padding-left: 60px;
         height: 33px;
     }
      .loc1
@@ -635,16 +660,20 @@
 
     .loc3
     {
-         border: 1px solid gainsboro;
          border-bottom-right-radius: 12px;
          border-top-right-radius: 12px;
          border:  1px solid #0065fc;
-         height: 28px;
+         padding: 0px 20px 10px 10px;
+         width: 20px;
+         height: 23px;
+         
     }
-
-    .loc3 em
+    .loc3 em{
+         display: contents;
+    }
+    .loc3 p
     {
-         padding: 10px 10px 5px 10px;
+         display: none;
     }
     .fichoi{
          margin-left: 0px;
@@ -706,20 +735,9 @@
          margin-top: 10px;
      
     }
-
-    .loc3 p
-    {
-         display: none;
-    }
     .loc3 i{
          font-size: 14px;
     }
-
-    .loc3 em
-    {
-         display: contents;  
-    }
-
     .choix, .fichoi1
     {
          margin-top: 5px;
@@ -1036,11 +1054,12 @@
      }
 
      .loc2{
-          padding-left: 40px;
-          padding-right: 40px;
+          padding-left: 35px;
+          padding-right: 35px;
      }
      .loc3{
-          padding: 10px 10px 0px 10px;
+          padding: 0px 20px 10px 10px;
+          width: 20px;
      }
      .teta1{
           margin-left: 180px;
