@@ -293,6 +293,9 @@
 
 
 @media screen and (max-width: 414px){
+     .global{
+          margin-left: 0px;
+     }
 
      nav{
           display: flex;
@@ -302,7 +305,12 @@
           margin-top: 30px;
           font-size: 14px;
      }
-     
+     .navlist1{
+          margin-left: 0px;
+     }
+     .navlist{
+          margin-left: -200px;
+     }
      nav a:hover
      {
          border-bottom: 2px solid #0065fc;
@@ -338,8 +346,35 @@
           margin-top: 20px;
          
      }
+     .loc1, .loc3{
+          height: 23px;
+     }
+     .loc1{
+         height: 25px; 
+     }
+     .loc2{
+          padding-left: 79px;
+          padding-right: 79px;
+     }
+     input{
+          height: 25px;
+          padding-left: 79px;
+          padding-right: 79px;
+     }
+     .loc3{
+          padding: 10px 20px 0px 10px;
+          width: 20px;
+     }
+     .loc3 em{
+          display: contents;
+          font-size: 12px;
+     }
+     .loc3 p
+     {
+          display: none;
+     }
 
-     .loc3 p{
+     /*.loc3 p{
           display: none;
      }
 
@@ -358,13 +393,12 @@
 
      .loc2 input{
           font-size: 11px;
-          height: 23px;
+          height: 21px;
           width: 300px;
-
      }
      
      .loc1{
-          height: 23px;
+          height: 25px;
      }
 
      .loc3 em, .loc1 i{
@@ -372,14 +406,14 @@
      }
 
      .loc3{
-          padding: 10px 10px 5px 10px;
+          padding: 8px 10px 5px 10px;
           height: 20px;
      }
 
      .loc2{
-          padding-left: 70px;
-          padding-right: 75px;
-     }
+          padding-left: 90px;
+          padding-right: 90px;
+     }*/
 
      .teta h3, .teta1{
           font-size: 10px;
@@ -1053,10 +1087,6 @@
      .loc1{
          height: 25px; 
      }
-     .teta1 i{
-          margin-left: 0px;
-     }
-
      .loc2{
           padding-left: 35px;
           padding-right: 35px;
@@ -1065,6 +1095,11 @@
           padding: 0px 20px 10px 10px;
           width: 20px;
      }
+     .teta1 i{
+          margin-left: 0px;
+     }
+
+    
      .teta1{
           margin-left: 180px;
      }
