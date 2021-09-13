@@ -305,6 +305,9 @@
           margin-top: 30px;
           font-size: 14px;
      }
+     header{
+          margin-left: 7px;
+     }
      .navlist1{
           margin-left: 0px;
      }
@@ -447,6 +450,9 @@
      .mimi, .toto{
           margin-left: -5px;
      }
+     .mimi, .tata{
+          margin-left: 
+     }
      .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
           width:410px ;
           height: 100px;
@@ -518,6 +524,9 @@
      .activB1, .activD1{
           margin-bottom: 9px;
      }
+     aside{
+          margin-left: 5px;
+     }
      footer{
           font-size: 9px;
           display: flex;
@@ -526,6 +535,9 @@
      }
      footer strong{
           font-size: 12px;
+     }
+     footer{
+          margin-left: 5px;
      }
      .pied2, .pied3{
           margin-left: 11px;
