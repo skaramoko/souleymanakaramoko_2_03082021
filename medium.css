@@ -36,10 +36,11 @@
 @media (min-width: 481px) and (max-width: 768px) {
 
      .global{
-          font-size: 11px;     
+          font-size: 11px;
+          width: 100%;     
      }
      header{
-          width: 620px; 
+          width: 700px; 
           margin-left: 10px;
      }
      .choix strong{
@@ -47,6 +48,11 @@
      }
      #logo a img{
           width: 80px;
+     }
+     nav a:hover
+     {
+         border-top: 2px solid #0065fc;
+         padding-top: 10px;
      }
      article h1, h2, h3{
           font-size: 11px;
@@ -59,18 +65,18 @@
           margin-left: 100px;
      }
      .line1 img, .line2 img, .line3 img{
-          width: 180px;
+          width: 205px;
           height: 100px;
      }
      .lineverticale{
-          width: 585px;
-          height: 170px;
+          width: 670px;
+          height: 190px;
           margin-left: 0px;
      }
      article{
           display: flex;
           flex-direction: column;
-          width: 615px;
+          width: 700px;
      }
      .group{
           display: flex;     
@@ -81,7 +87,7 @@
      }
      
      .mami, .meme, .papi{
-          width: 180px;
+          width: 205px;
           height: 110px;
           margin-top: 5px;
      }
@@ -99,7 +105,10 @@
      }
      .mami img, .meme img, .papi img{
           height: 110px;
-          width: 90px;
+          width: 100px;
+     }
+     aside{
+          width: 700px;
      }
      .actimarseil{
           display: flex;
@@ -116,20 +125,20 @@
      }
      
      .activA img, .activB2 img, .activC img, .activD2 img{
-          width: 200px;
+          width: 230px;
           height: 100px;
      }
      .activA, .activB2, .activC, .activD2{
-          width: 200px;
+          width: 230px;
           height: 130px;
      }
      .activB1, .activD1{
-          width: 180px;
+          width: 200px;
           height: 130px;
           margin-right: 15px;
      }
      .activB1 img, .activD1 img{
-          width: 180px;
+          width: 200px;
           height: 100px;
      }
     
@@ -137,7 +146,7 @@
           margin-right: 40px;
      }
      footer{
-          width: 630px;
+          width: 715px;
           margin-left: 0px;
      }
      
