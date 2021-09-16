@@ -96,8 +96,11 @@
 @media screen and (max-width: 768px) {
 
      .global{
-          font-size: 11px;
-          
+          font-size: 11px;     
+     }
+     header{
+          width: 620px; 
+          margin-left: 10px;
      }
      .choix strong{
           font-size: 10px;
@@ -116,35 +119,88 @@
           margin-left: 100px;
      }
      .line1 img, .line2 img, .line3 img{
-          width: 130px;
+          width: 180px;
           height: 100px;
      }
      .lineverticale{
-          width: 230px;
+          width: 585px;
+          height: 170px;
+          margin-left: 0px;
+     }
+     article{
+          display: flex;
+          flex-direction: column;
+          width: 615px;
+     }
+     .group{
+          display: flex;     
+     }
+     .line1, .line2, .line3{
+          
+     }
+     .element{
+          display: flex;
      }
      
      .mami, .meme, .papi{
-          width: 220px;
-          height: 100px;
+          width: 180px;
+          height: 110px;
+          margin-top: 5px;
+     }
+     .mami i, .papi i{
+          margin-top: 24px;
+     }
+     .teta, .teta1{
+          margin-top: 5px;
+     }
+     .teta1{
+          margin-left: 470px;
+     }
+     .mami, .meme{
+          margin-right: 15px;
      }
      .mami img, .meme img, .papi img{
-          height: 100px;
-          width: 110px;
+          height: 110px;
+          width: 90px;
      }
-     .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
-          width: 175px;
+     .actimarseil{
+          display: flex;
+          flex-direction: column;
+     }
+     .actv1, .actv2{
+          display: flex;
      }
      .actimarseil p{
           font-size: 11px;
      }
-     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
-          width: 175px;
+     .activB, .activD{
+          display: flex;
      }
-     .activA img, .activC img{
-          height: 270px;
+     
+     .activA img, .activB2 img, .activC img, .activD2 img{
+          width: 200px;
+          height: 100px;
      }
+     .activA, .activB2, .activC, .activD2{
+          width: 200px;
+          height: 130px;
+     }
+     .activB1, .activD1{
+          width: 180px;
+          height: 130px;
+          margin-right: 15px;
+     }
+     .activB1 img, .activD1 img{
+          width: 180px;
+          height: 100px;
+     }
+    
      .pied{
           margin-right: 40px;
+     }
+     footer{
+          width: 630px;
+          margin-left: 0px;
      }
      
 }
