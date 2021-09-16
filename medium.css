@@ -1,4 +1,4 @@
-@media  screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
      .navlist1{
           margin-right: 10px;
      }
@@ -27,73 +27,13 @@
 
 }
 
-/* MEDIA WIDTH 800*/
 
 
-@media screen and (max-width: 800px){
 
-     .global{
-          font-size: 12px;
-     }
-     header h1{
-          font-size: 14px;
-     }
-     article h1, h2, h3{
-          font-size: 12px;
-     }
-     
-     .teta1 i{
-          margin-left: -10px;
-     }
-     .choix strong{
-          margin-top: 10px;
-     }
-     .chx1, .chx3, .chx5, .chx7{
-          padding-top: 8px;
-     }
-     .chxa2{
-          margin-top: 5px;
-          margin-left:5px;
-          
-     }
+/*media max-width 768PX */
 
-     .line1 img, .line2 img, .line3 img{
-          width: 140px;
-          height: 130px;
-     }
-     .lineverticale img{
-          width: 130px;
-          height: 100px;
-     }
-     .mami, .meme, .papi{
-          height: 100px;
-          width: 240px; 
-     }
-     .lineverticale{
-          width: 240px;
-     }
-     .atm h1{
-          font-size: 12px;
-     }
-     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
-          width: 183px;
-     }
-     .activA img, .activB img, .activC img, .activD img{
-          width: 183px;
-     }
-     .actimarseil p{
-          font-size: 12px;
-     }
-     footer{
-          margin: auto;
-          font-size: 12px;
-     }
-}
-
-/*media width 768PX */
-
-
-@media screen and (max-width: 768px) {
+/*
+@media (min-width: 481px) and (max-width: 768px) {
 
      .global{
           font-size: 11px;     
@@ -135,9 +75,7 @@
      .group{
           display: flex;     
      }
-     .line1, .line2, .line3{
-          
-     }
+    
      .element{
           display: flex;
      }
@@ -204,151 +142,13 @@
      }
      
 }
+*/
 
-/*MEDIA WIDTH 568*/
-
-
-@media screen and (max-width:568px){
-     #logo{
-          width: 80px;
-     }
-     .global{
-          font-size: 10px;
-     }
-     header h1{
-          font-size: 11px;
-     }
-     .localite{
-          font-size: 8px;
-          width: 100px;
-          height: 20px;
-     }
-     .loc1{
-          height: 20px;
-     }
-     .loc3{
-          height: 28px;
-     }
-     .loc2 input{
-          margin-top: -2px;
-          font-size: 11px;
-     }
-     .loc2{
-          height: 27px;
-     }
-     .loc1 i{
-          font-size: 11px;
-     }
-     .loc3 p{
-          font-size: 11px;
-     }
-     .loc1, .loc3{
-          margin-bottom:-5px;
-     }
-     .fichoi strong, .fichoi1 strong{
-          margin-top: 2px;
-     }
-     
-     .tout, .tout1, .tout2, .tout3{
-          height: 20px;
-          padding: 7px 0px 0px 0px;
-     }
-     .chx1, .chx3, .chx5, .chx7{
-          width: 10px;
-          margin-top: -7px;
-     }
-     .chxa2 p{
-          margin-top: 15px;
-     }
-
-     .milieu p, .milieu i, .milieu strong{
-          font-size: 8px;
-     }
-     .milieu h1, h2{
-          font-size: 8px;
-     }
-     .line1 img, .line2 img, .line3 img{
-          width: 90px;
-          height: 60px;
-     }
-     .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 90px;
-          height: 140px;
-     }
-     .teteline{
-          margin-top: 5px;
-          font-size: 10px;
-     }
-     .teta{
-          font-size: 10px;
-          margin-top: 5px;
-     }
-     .teta1{
-          margin-left: 70px;
-          margin-top: 7px;
-     }
-     .lineverticale{
-          width: 160px;
-     }
-     .lineverticale h3{
-          font-size: 8px;
-     }
-
-     .lineverticale img{
-          width: 80px;
-          height: 80px;
-     }
-     .lineverticale p, .lineverticale strong{
-          font-size: 8px;
-     }
-     .meme i, .mami i, .papi i{
-          font-size: 8px;
-     }
-     .mami{
-          margin-top: 10px;
-     }
-
-     .meme, .mami, .papi{
-          height: 80px;
-          width: 160px;
-     }
-     .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
-          width: 125px;
-     }
-     .activB1, .activB2, .activD1, .activD2{
-          width: 125px;
-          height: 112px;
-     } 
-     .activB1 img, .activB2 img, .activD1 img, .activD2 img{
-          height: 88px;
-     }  
-     .activA, .activC{
-          height: 245px;
-          width: 125px;
-     }
-     .activA img, .activC img{
-          height: 220px;
-     }
-     .actimarseil p{
-          font-size: 8px;
-     } 
-     aside h1{
-          font-size: 10px;
-     } 
-     .actimarseil p{
-          font-size: 8px;
-     }
-     footer, footer strong{
-          font-size: 10px;
-     }
+/* MEDIA max-width 414*/
 
 
-}          
+@media (min-width: 376px) and (max-width: 414px){
 
-/* MEDIA WIDTH 414*/
-
-
-@media screen and (max-width: 414px){
      .global{
           margin-left: 0px;
      }
@@ -358,23 +158,33 @@
           flex-direction: column-reverse;
      }
      header h1{
-          margin-top: 30px;
+          margin-top: 50px;
           font-size: 14px;
      }
      header{
           margin-left: 7px;
      }
      .navlist1{
-          margin-left: 0px;
-     }
-     .navlist{
-          margin-left: -200px;
+          margin-left: 30px;
      }
      nav a:hover
      {
          border-bottom: 2px solid #0065fc;
          border-top: none;
          padding-bottom: 10px;
+     }
+     .loc3 p{
+          display: none;
+     }
+     .loc3 em{
+          display: contents;
+     }
+     .loc3{
+          padding: 10px 10px 10px 10px;
+     }
+     .loc2{
+          padding-left: 85px;
+          padding-right: 85px;
      }
      .fichoi strong:hover
      {
@@ -433,17 +243,28 @@
           display: flex;
           flex-direction: column;
      }
+     .choix strong{
+          margin-top: 10px;
+     }
      
-     .fichoi, .fichoi1 strong{
-          font-size: 10px;
-          margin-top: 0px;
+     .choix{
+          font-size: 12px;
      }
      .fichoi{
           margin-top: 10px;
           margin-bottom: 10px;
      }
-     .chx1, .chx3, .chx5, .chx7{
-          padding-top: 7px;
+     .chx1{
+          padding: 7px 7px 7px 7px;
+     }
+     .chx3 i{
+          padding: 5px 8px 10px 5px;
+     }
+     .chx5{
+          padding: 10px 10px 10px 10px;
+     }
+     .chx7{
+          padding: 5px 7px 7px 7px;
      }
      .fichoi1{
           display: flex;
@@ -451,7 +272,7 @@
 
      }
      .tout{
-          width: 100px;
+          width: 110px;
      }
      .tout1{
           width: 80px;
@@ -461,25 +282,38 @@
           margin-bottom: 10px;
      }
      .tout3{
-          width: 150px;
+          width: 160px;
+     }
+     .chxa2 p{
+          font-size: 12px;
+          margin-left: 5px;
+          margin-top: 15px;
      }
      article{
           display: flex;
           flex-direction: column-reverse;
      }
      .teteline h1{
-          font-size: 11px;
+          font-size: 14px;
+     }
+     .teta h3{
+          font-size: 14px;
+     }
+     .teta1{
+          margin-left: 190px;
      }
      .milieu{
+          background-color: white;
           display: flex;
           flex-direction: column;
      }
      .group{
           display: flex;
-          flex-direction: column-reverse; 
+          flex-direction: column-reverse;
      }
-     .milieu{
-          background-color: white;
+     .element{
+          display: flex;
+          flex-direction: column;
      }
      .group p, .group h1, .group h2, .group strong{
           font-size: 11px;
@@ -494,23 +328,27 @@
      .line1{
           margin-left: 0px;
      }
+     .line1 h2{
+          font-size: 14px;
+          margin-left: -15px;
+     }
      
      .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 414px ;
+          width: 400px ;
           height: 180px;
           box-shadow: 0px 3px 2px gainsboro;
      }
      .titi, .mota, .tata, .meto{
-          margin-left: -10px;
+          margin-left: -18px;
      }
      .mimi, .toto{
-          margin-left: -5px;
+          margin-left: -20px;
      }
      .mimi, .tata{
           margin-left: 
      }
      .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
-          width:410px ;
+          width:400px ;
           height: 100px;
      }
      .milieu{
@@ -519,9 +357,9 @@
      .lineverticale{
           display:flex;
           flex-direction: column;
-          width: 414px;
-          height: 490px;
-          margin-left: 0px;
+          width: 408px;
+          height: 510px;
+          margin-left: -10px;
           padding: 0px 0px 0px 10px;
      }
      .lineverticale img{
@@ -531,9 +369,6 @@
      }
      .lineverticale strong, .lineverticale p{
           font-size: 11px;
-     }
-     .teta1{
-          margin-left: 200px;
      }
      .element i{
           font-size: 10px;
@@ -547,31 +382,44 @@
           margin-top: 5px;
      }
      .atm h1{
-          font-size: 11px;
+          font-size: 14px;
+          margin-left: -5px;
      }
+
      .actimarseil{
           display: flex;
           flex-direction: column;
+          margin-left: -10px;
      }
+
+     .actv1{
+          display: flex;
+          flex-direction: column;
+     }
+     .actv2{
+          display: flex;
+          flex-direction: column;
+     }
+     
      .actimarseil p{
-          font-size: 11px;
+          font-size: 12px;
      }
      .activA, .activC{
           height: 200px;
-          width: 414px;
+          width: 405px;
           margin-right: 9px;
      }
      .activA img, .activC img{
           height: 170px;
-          width: 410px;
+          width: 405px;
      }
      .activB1, .activB2, .activD1, .activD2{
           height: 200px;
-          width: 414px;
+          width: 405px;
      }
      .activB1 img, .activB2 img, .activD1 img, .activD2 img{
           height: 170px;
-          width: 410px;
+          width: 405px;
           
      }
      .activB{
@@ -583,33 +431,31 @@
      aside{
           margin-left: 5px;
      }
+    
      footer{
-          font-size: 9px;
-          display: flex;
-          flex-direction: column;
-          width: 414px;
+          width: 411px;
+          font-size: 8px;
      }
-     footer strong{
-          font-size: 12px;
-     }
-     footer{
-          margin-left: 5px;
-     }
-     .pied2, .pied3{
-          margin-left: 11px;
+
+     .pied2{
+          margin-left: 10px;
      }
      .pied1, .pied2, .pied3{
-          width: 414px;
+          width: 33%;
      }
 
 
 }    
 
 
-/* MEDIA WIDTH 375*/
+/* MEDIA max-width 375*/
 
 
-@media screen and (max-width: 375px){
+@media (min-width:322px) and (max-width: 375px){
+
+     header{
+          width: 365px;
+     }
 
      .global{
          font-size: 11px;
@@ -902,7 +748,7 @@
      .milieu p, .milieu strong{
           font-size: 10px;
      }
-     .element{
+     .element, .milieu{
           display: flex;
           flex-direction: column;
      }
@@ -942,7 +788,7 @@
 
     .lineverticale img
     {
-         width: 150px;
+         width: 100px;
          height: 110px;
          border-bottom-left-radius: 9px;
          border-top-left-radius: 9px;
@@ -951,6 +797,8 @@
 
     .lineverticale
     {
+         display: flex;
+         flex-direction: column;
          border: 1px solid white;
          border-radius: 9px;
          background-color: #F2F2F2;
@@ -958,6 +806,7 @@
          height: 450px;
          margin-right: 0px;
     }
+    
     .lineverticale p, .lineverticale strong{
          font-size: 10px;
     }
@@ -972,14 +821,22 @@
          height: 110px;
          margin-bottom: 10px;
     }
+
     aside{
          margin-left: -10px;
+         display: flex;
+         flex-direction: column;
+    }
+    .actv1, .actv2{
+     display: flex;
+     flex-direction: column;
     }
     .actimarseil
     {
          display: flex;
         flex-direction: column;
     }
+    
 
     .actimarseil p
     {
@@ -1053,7 +910,9 @@
 
 @media screen and (max-width: 320px){
 
-     
+     header{
+          width: 310px;
+     }
 
      nav a:hover
      {
