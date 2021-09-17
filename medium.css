@@ -460,7 +460,7 @@
 }    
 
 
-/* MEDIA max-width 375*/
+/* MEDIA max-width 360*/
 
 
 @media (min-width:322px) and (max-width: 360px){
@@ -505,12 +505,12 @@
 
     .navlist1
     {
-         margin-right: 20px;
+         margin-left: 40px;
     }
     
     .navi
     {
-         margin-left: 40px;
+         margin-left: 100px;
 
     }
 
@@ -613,7 +613,7 @@
     }
     .fichoi strong, .fichoi1 strong{
          font-size: 11px;
-         margin-top: 5px;
+         margin-top: 7px;
     }
 
     .tout3
@@ -680,9 +680,9 @@
          width: 15px;
     }
      .chx3, .chx7{
-         width: 15px;
+         width: 10px;
     }
-    .chx1 i, .chx3 i, .chx5 i, .chx7 i{
+    .chx1 i, .chx7 i{
          margin-top: 3px;
     }
 
@@ -728,13 +728,14 @@
     }
     .teta1
     {
-         margin-left: 260px;
+         margin-left: 220px;
+         margin-top: 10px;
          font-size: 10px;
     }
 
     .teta
     {
-         margin: 15px 0px 0px 5px;
+         margin: 5px 0px 0px 5px;
     }
     .teta h3{
          font-size: 10px;
@@ -815,7 +816,7 @@
          border: 1px solid white;
          border-radius: 9px;
          background-color: #F2F2F2;
-         width: 360px;
+         width: 340px;
          height: 500px;
          margin-right: 0px;
          margin-left: 0px;
@@ -834,6 +835,7 @@
          width: 345px;
          height: 110px;
          margin-bottom: 10px;
+         margin-left: -5px;
     }
 
     aside{
@@ -878,16 +880,11 @@
 
      .activA, .activB1, .activB2, .activD1, .activD2
     {
-          margin-left: 10px;
+          margin-left: 5px;
     }
      .atm
     {
           margin-left: 10px;
-    }
-
-     .activC
-    {
-          margin: 10px;
     }
 
     footer
@@ -898,6 +895,7 @@
          background-color: #F2F2F2;
          width: 100%;
          font-size: 11px;
+         margin-left: 5px;
 
     }
     footer strong{
