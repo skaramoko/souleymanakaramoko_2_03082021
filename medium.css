@@ -453,7 +453,7 @@
           margin-left: 10px;
      }
      .pied1, .pied2, .pied3{
-          width: 33%;
+          width: auto;
      }
 
 
@@ -463,7 +463,7 @@
 /* MEDIA max-width 375*/
 
 
-@media (min-width:322px) and (max-width: 375px){
+@media (min-width:322px) and (max-width: 360px){
 
      header{
           width: 365px;
@@ -516,7 +516,7 @@
 
     header h1{
      font-size: 14px;
-     padding-top: 10px;
+     padding-top: 30px;
     }
 
     .localite
@@ -767,7 +767,7 @@
 
     .line1 img, .line2 img, .line3 img
     {
-         width: 360px;
+         width: 353px;
          height: 110px;
          border-top-left-radius: 9px;
          border-top-right-radius: 9px;
@@ -775,7 +775,7 @@
 
     .toto, .tata, .titi, .mimi, .meto, .mota
     {
-         width: 360px;
+         width: 352px;
          height: 170px;
          border: 5px solid white;
          border-radius: 9px;
@@ -787,9 +787,10 @@
     .toto, .tata, .mimi, .meto
     {
          margin-left: -10px;
+
     }
     .titi, .mota{
-         margin-left: -15px;
+         margin-left: -5px;
     }
     h2{
          font-size: 11px;
@@ -815,8 +816,9 @@
          border-radius: 9px;
          background-color: #F2F2F2;
          width: 360px;
-         height: 450px;
+         height: 500px;
          margin-right: 0px;
+         margin-left: 0px;
     }
     
     .lineverticale p, .lineverticale strong{
@@ -901,16 +903,17 @@
     footer strong{
          font-size: 10px;
     }
- 
+   
      .pied2, .pied3
     {
          margin-left: 20px;
-         width: 310px;
+         width: auto;
     }
 
      .pied
     {
           margin-left: 10px;
+          width: 100%;
     }
  
 
