@@ -446,6 +446,8 @@
      }
     
      footer{
+          display: flex;
+          flex-direction: column;
           width: 390px;
           font-size: 8px;
           margin-left: 0px;
@@ -454,21 +456,42 @@
      .pied2{
           margin-left: 10px;
      }
-     .pied1, .pied2, .pied3{
-          width: auto;
+     .pied3{
+          margin-left: 10px;
      }
 
 
-}    
+}  
+
+@media (min-width: 368px) and (max-width: 375px){
+
+     #logo a img{
+         width: 70px;
+     }
+     nav
+     {
+          display: flex;
+          flex-direction: column-reverse;
+          float: right;
+          margin-top: -30px;
+     }
+     .loc3 p{
+          display: none;
+     }
+     .lo3 em{
+          display: contents;
+     }
+
+}
 
 
 /* MEDIA max-width 360*/
 
 
-@media (min-width:322px) and (max-width: 360px){
+@media (min-width: 322px) and (max-width: 360px){
 
      header{
-          width: 365px;
+          width: 360px;
      }
 
      .global{
@@ -518,7 +541,7 @@
 
     header h1{
      font-size: 14px;
-     padding-top: 30px;
+     padding-top: 35px;
     }
 
     .localite
@@ -770,7 +793,7 @@
 
     .line1 img, .line2 img, .line3 img
     {
-         width: 353px;
+         width: 350px;
          height: 110px;
          border-top-left-radius: 9px;
          border-top-right-radius: 9px;
@@ -778,7 +801,7 @@
 
     .toto, .tata, .titi, .mimi, .meto, .mota
     {
-         width: 352px;
+         width: 350px;
          height: 170px;
          border: 5px solid white;
          border-radius: 9px;
@@ -793,7 +816,7 @@
 
     }
     .titi, .mota{
-         margin-left: -5px;
+         margin-left: -10px;
     }
     h2{
          font-size: 11px;
@@ -804,7 +827,7 @@
 
     .lineverticale img
     {
-         width: 100px;
+         width: 150px;
          height: 110px;
          border-bottom-left-radius: 9px;
          border-top-left-radius: 9px;
@@ -818,7 +841,7 @@
          border: 1px solid white;
          border-radius: 9px;
          background-color: #F2F2F2;
-         width: 340px;
+         width: 360px;
          height: 500px;
          margin-right: 0px;
          margin-left: 0px;
@@ -834,7 +857,7 @@
          border: 3px solid white;
          background-color: white;
          border-radius: 9px;
-         width: 345px;
+         width: 340px;
          height: 110px;
          margin-bottom: 10px;
          margin-left: -5px;
@@ -928,12 +951,61 @@
      header{
           width: 310px;
      }
+     header h1{
+          font-size: 12px;
+          padding-top: 10px;
+     }
+     nav
+     {
+          display: flex;
+          flex-direction: column-reverse;
+          float: right;
+          margin-top: -20px;
+          font-size: 10px;
+     }
+
+     #logo a img
+     {
+          width: 60px;
+          margin-top: 5px;
+     }  
 
      nav a:hover
      {
           border-bottom: 2px solid #0065fc;
           border-top: none;
           padding-bottom: 8px;
+     }
+    
+     .choix strong{
+          font-size: 10px;
+     }
+     
+     .loc1, .loc3{
+          height: 23px;
+     }
+     .loc3 p{
+          display: none;
+     }
+     .loc3 em{
+          display: contents;
+     }
+     .loc1{
+         height: 25px; 
+     }
+     .loc2{
+          padding-left: 35px;
+          padding-right: 35px;
+     }
+     .loc3{
+          padding: 10px 10px 0px 10px;
+          width: 20px;
+     }
+     .teta1 i{
+          margin-left: 0px;
+     }
+     .teta1{
+          margin-left: 100px;
      }
      
      .navlist{
@@ -946,8 +1018,26 @@
      .global{
           margin-right: 0px;
      }
+     .choix, .fichoi1{
+          display: flex;
+          flex-direction: column;
+     }
+     .fichoi{
+          margin-top: 10px;
+          margin-bottom: 10px;
+     }
+     .tout{
+          width: 110px;
+     }
      .tout1{
-          width: 100px;
+          width: 90px;
+     }
+     .tout2{
+          width: 120px;
+          margin-bottom: 10px;
+     }
+     .tout3{
+          width: 150px;
      }
      .chx1{
           padding: 7px 10px 5px 10px;
@@ -963,65 +1053,66 @@
      .chx3{
           padding: 7px 10px 15px 10px;
      }
-      
-     header h1{
-          font-size: 12px;
-          padding-top: 10px;
-     }
-     .choix strong{
-          font-size: 10px;
-     }
-     
-     .loc1, .loc3{
-          height: 23px;
-     }
-     .loc1{
-         height: 25px; 
-     }
-     .loc2{
-          padding-left: 35px;
-          padding-right: 35px;
-     }
-     .loc3{
-          padding: 0px 20px 10px 10px;
-          width: 20px;
-     }
-     .teta1 i{
-          margin-left: 0px;
-     }
-
-    
-     .teta1{
-          margin-left: 180px;
-     }
-
-     .mami, .meme, .papi{
-          width: 290px;
+     .group
+     {
+         display: flex;
+         flex-direction: column-reverse;
      }
      .lineverticale{
-          width: 310px;
+          height: 600px;
+          margin-left: 0px;
+     }
+     .lineverticale img{
+          width: 110px;
+          height: 100px;
+     }
+     .lineverticale{
+          width: 300px;
           height: 480px;
      }
      .lineverticale img{
           width: 150px;
      }
+     .mami, .meme, .papi{
+          height: 100px;
+          width: 290px;
+     }
      .line1 img, .line2 img, .line3 img{
-          width: 300px;
+          width: 290px;
+          height: 110px;
      }
      .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 300px;
-          margin-left: -5px;
+          width: 290px;
      }
-     .actimarseil img{
+     article{
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     
+     .actimarseil{
+          display: flex;
+          flex-direction: column;
+     }
+     .actv1, .actv2{
+          display: flex;
+          flex-direction: column;
+     }
+     .activA img, .activB img, .activC img, .activD img{
           width: 300px;
+          height: 110px;
+     }
+     .activA, .activB, .activC, .activD{
+          height: 140px;
      }
      .activA, .activB1, .activB2, .activC, .activD1, .activD2{
           width: 300px;
      }
 
      footer{
-          width: 320px;
-          margin-right: 0px;
+          display: flex;
+          flex-direction: column;
+          font-size: 10px;
+          
      }
 
 
