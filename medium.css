@@ -50,7 +50,7 @@
 /*media Min-width: 414px max-width 768PX */
 
 
-@media (min-width: 414px) and (max-width: 768px) {
+@media (min-width: 438px) and (max-width: 768px) {
 
      .global{
           font-size: 11px;
@@ -180,13 +180,13 @@
 }
 
 
-/* MEDIA max-width 412*/
+/* MEDIA max-width 413*/
 
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 437px){
 
      .global{
-          margin-left: 0px;
+          align-items: center;
      }
 
      nav{
@@ -199,16 +199,18 @@
      }
      header{
           margin: auto;
+          align-items: center;
      }
      .navlist{
           border-bottom: 1px solid gainsboro;
           padding-bottom: 11px;
      }
      .navlist1{
-          margin-left: 60px;
+          margin-left: 50px;
+          margin-right: 10px;
      }
      .navet{
-          margin-right: 70px;
+          margin-right: 50px;
      }
      nav a:hover
      {
@@ -323,7 +325,8 @@
      article{
           display: flex;
           flex-direction: column-reverse;
-          margin: auto;
+          margin-left: 10px;
+          align-items: center;
      }
      .teteline h1{
           font-size: 14px;
@@ -425,7 +428,7 @@
      .actimarseil{
           display: flex;
           flex-direction: column;
-          margin-left: -10px;
+          margin-left: 0px;
      }
 
      .actv1{
@@ -473,7 +476,7 @@
           flex-direction: column;
           width: 390px;
           font-size: 8px;
-          margin-left: 0px;
+          margin-left: 10px;
      }
 
      .pied2{
