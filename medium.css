@@ -342,7 +342,6 @@
      .group p, .group h1, .group h2, .group strong{
           font-size: 11px;
      }
-
      .line1, .line2, .line3{
           margin-right: 0px;
      }
@@ -396,6 +395,10 @@
      }
      .element i{
           font-size: 10px;
+          margin-top: 30px;
+     }
+     .element p{
+          margin-top: 40px;
      }
      
      .mami, .meme, .papi{
