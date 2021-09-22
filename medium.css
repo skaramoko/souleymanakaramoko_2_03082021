@@ -1,4 +1,8 @@
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
+
+     header{
+          width: auto;
+     }
      .navlist1{
           margin-right: 10px;
      }
@@ -24,24 +28,28 @@
     .activA img, .activB1 img, .activB2 img, .activC img, .activD1 img, .activD2 img{
          width: 239px;
     }
+    footer{
+         width: auto;
+    }
 
 }
 
 
 
 
-/*media max-width 768PX */
+/*media Min-width: 481px max-width 768PX */
 
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 767px) {
 
      .global{
           font-size: 11px;
           width: 100%;     
      }
      header{
-          width: 700px; 
+          width: auto; 
           margin-left: 10px;
+          margin: auto;
      }
      .choix strong{
           font-size: 10px;
@@ -77,6 +85,7 @@
           display: flex;
           flex-direction: column;
           width: 700px;
+          margin: auto;
      }
      .group{
           display: flex;     
@@ -109,6 +118,7 @@
      }
      aside{
           width: 700px;
+          margin: auto;
      }
      .actimarseil{
           display: flex;
@@ -146,17 +156,17 @@
           margin-right: 40px;
      }
      footer{
-          width: 715px;
-          margin-left: 0px;
+          width: auto;
+          margin: auto;
      }
      
 }
 
 
-/* MEDIA max-width 414*/
+/* MEDIA max-width 481*/
 
 
-@media (min-width: 376px) and (max-width: 414px){
+@media screen and (max-width: 481px){
 
      .global{
           margin-left: 0px;
@@ -171,13 +181,17 @@
           font-size: 14px;
      }
      header{
-          margin-left: 7px;
+          margin: auto;
+     }
+     .navlist{
+          border-bottom: 1px solid gainsboro;
+          padding-bottom: 11px;
      }
      .navlist1{
-          margin-left: 90px;
+          margin-left: 60px;
      }
      .navet{
-          margin-right: 90px;
+          margin-right: 70px;
      }
      nav a:hover
      {
@@ -304,6 +318,7 @@
      article{
           display: flex;
           flex-direction: column-reverse;
+          margin: auto;
      }
      .teteline h1{
           font-size: 14px;
@@ -442,7 +457,7 @@
           margin-bottom: 9px;
      }
      aside{
-          margin-left: 5px;
+          margin: 5px;
      }
     
      footer{
@@ -450,7 +465,7 @@
           flex-direction: column;
           width: 390px;
           font-size: 8px;
-          margin-left: 0px;
+          margin: auto;
      }
 
      .pied2{
@@ -463,657 +478,4 @@
 
 }  
 
-@media (min-width: 368px) and (max-width: 375px){
 
-     #logo a img{
-         width: 70px;
-     }
-     nav
-     {
-          display: flex;
-          flex-direction: column-reverse;
-          float: right;
-          margin-top: -30px;
-     }
-     .loc3 p{
-          display: none;
-     }
-     .lo3 em{
-          display: contents;
-     }
-
-}
-
-
-/* MEDIA max-width 360*/
-
-
-@media (min-width: 322px) and (max-width: 360px){
-
-     header{
-          width: 360px;
-     }
-
-     .global{
-         font-size: 11px;
-         width: 100%;
-    }
-     #logo a img
-    {
-         width: 70px;
-    }  
-
-     nav
-    {
-         display: flex;
-         flex-direction: column-reverse;
-         float: right;
-         margin-top: -30px;
-         font-size: 14px;
-    }
-
-     nav a:hover
-    {
-         border-bottom: 2px solid #0065fc;
-         padding-bottom: 10px;
-         border-top: none;
-
-    }
-
-    .navlist
-    {
-        margin-top: 2px;
-        margin-right: 50px;
-        display: flex;
-        margin-left: -220px;
-    }
-
-    .navlist1
-    {
-         margin-left: 40px;
-    }
-    
-    .navi
-    {
-         margin-left: 100px;
-
-    }
-
-    header h1{
-     font-size: 14px;
-     padding-top: 35px;
-    }
-
-    .localite
-    {
-         border: 2px solid white;
-         display: flex;
-         height: 30px;
-         width: 355px;
-         font-size: 14px;
-
-    }
-    .localite input{
-         font-size: 14px;
-         margin-bottom: 5px;
-         margin-top: 3px;
-    }
-    
-
-    .loc1, .loc2
-    {
-         border: 1px solid gainsboro;
-    }
-    
-    .loc2
-    {
-        padding-right: 60px;
-        padding-left: 60px;
-        height: 33px;
-    }
-     .loc1
-    {
-         padding-left: 10px;
-         padding-right: 10px;
-         border-bottom-left-radius: 12px;
-         border-top-left-radius: 12px;
-         background-color: gainsboro;
-         height: 25px;
-    }
-
-    .loc3
-    {
-         border-bottom-right-radius: 12px;
-         border-top-right-radius: 12px;
-         border:  1px solid #0065fc;
-         padding: 0px 20px 10px 10px;
-         width: 20px;
-         height: 23px;
-         
-    }
-    .loc3 em{
-         display: contents;
-    }
-    .loc3 p
-    {
-         display: none;
-    }
-    .fichoi{
-         margin-left: 0px;
-    }
-    .fichoi strong:hover
-    {
-        color: #F2F2F2;
-    }
-    .fichoi1 strong:hover
-    {
-         color: #F2F2F2;
-    }
-    
-    .tout:hover
-    {
-        background-color: #0065FC;
-    }
-    .tout1:hover
-    {
-        background-color: #0065FC;
-    }
-    .tout2:hover
-    {
-        background-color: #0065FC;
-    }
-    .tout3:hover
-    {
-        background-color: #0065FC;
-    }
-    .tout{
-         width: 100px;
-    }
-
-    .tout2
-    {
-         margin-bottom: 5px;
-         width: 100px;
-         height: 20px;
-    }
-    .fichoi strong, .fichoi1 strong{
-         font-size: 11px;
-         margin-top: 7px;
-    }
-
-    .tout3
-    {
-         width: 110px;
-         height: 20px;
-    }
-    
-
-    .navlist
-    {
-         margin-top: 20px; 
-    }  
-
-    .navlist1
-    {
-         margin-top: 10px;
-     
-    }
-    .loc3 i{
-         font-size: 14px;
-    }
-    .choix, .fichoi1
-    {
-         margin-top: 5px;
-         display: flex;
-         flex-direction: column;
-    }
-
-    .fichoi
-    {
-        margin-top: 5px;
-        display: flex;
-    }
-
-    .chxa2
-    {
-         margin-top: 5px;
-    }
-
-    .loc3 i
-    {
-         padding: 10px 10px 5px 10px;
-    }
-
-    .tout2
-    {
-         width: 100px;
-         margin-bottom: 5px;
-         height: 20px;
-    }
-
-    .tout3
-    {
-         width: 150px;
-         height: 20px;
-    }
-
-    .chx1, .chx3, .chx5, .chx7
-    {
-         display: flex;
-         border:  1px solid hsl(180, 47%, 93%);
-         background-color: #c8d8f0;
-         width: 15px;
-    }
-     .chx3, .chx7{
-         width: 10px;
-    }
-    .chx1 i, .chx7 i{
-         margin-top: 3px;
-    }
-
-    .tout, .tout1, .tout2, .tout3
-    {
-         display: flex;
-         border: 1px solid gainsboro;
-         border-radius: 17px;
-         height: 27px;
-    }
-    .chx3, .chx5{
-         padding: 8px 10px 0px 10px;
-    }
-    .tout1{
-         width: 90px;
-    }
-    .tout2{
-         width: 110px;
-    }
-    .tout{
-         width: 120px;
-    }
-    .chxa1 
-    {
-         border: 1px solid gainsboro;
-         border-radius: 19px;
-    }
-
-    .chxa
-    {
-         display: flex;
-    }
-    .chxa2 p{
-         margin-top: 10px;
-    }
-
-    .tateline
-    {
-         font-size: 12px;
-    }
-    .teteline h1{
-         font-size: 11px;
-    }
-    .teta1
-    {
-         margin-left: 210px;
-         margin-top: 10px;
-         font-size: 10px;
-    }
-
-    .teta
-    {
-         margin: 5px 0px 0px 5px;
-    }
-    .teta h3{
-         font-size: 10px;
-    }
-    article
-    {
-         display: flex;
-         flex-direction: column-reverse;
-         margin-left: -10px;
-         margin-right: 0px;
-    }
-
-    .group
-    {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-     .milieu
-     {
-          background-color: white;
-     }
-     .milieu p, .milieu strong{
-          font-size: 10px;
-     }
-     .element, .milieu{
-          display: flex;
-          flex-direction: column;
-     }
-
-    .line1 img, .line2 img, .line3 img
-    {
-         width: 350px;
-         height: 110px;
-         border-top-left-radius: 9px;
-         border-top-right-radius: 9px;
-    }
-
-    .toto, .tata, .titi, .mimi, .meto, .mota
-    {
-         width: 350px;
-         height: 170px;
-         border: 5px solid white;
-         border-radius: 9px;
-         
-         margin-bottom: 10px;
-         box-shadow: 0px 3px 2px gainsboro;
-    }
-
-    .toto, .tata, .mimi, .meto
-    {
-         margin-left: -10px;
-
-    }
-    .titi, .mota{
-         margin-left: -10px;
-    }
-    h2{
-         font-size: 11px;
-    }
-    .atm h1{
-         font-size: 11px;
-    }
-
-    .lineverticale img
-    {
-         width: 150px;
-         height: 110px;
-         border-bottom-left-radius: 9px;
-         border-top-left-radius: 9px;
-    }
-  
-
-    .lineverticale
-    {
-         display: flex;
-         flex-direction: column;
-         border: 1px solid white;
-         border-radius: 9px;
-         background-color: #F2F2F2;
-         width: 360px;
-         height: 500px;
-         margin-right: 0px;
-         margin-left: 0px;
-    }
-    
-    .lineverticale p, .lineverticale strong{
-         font-size: 10px;
-    }
- 
-    .mami, .meme, .papi
-    {
-         display: flex;
-         border: 3px solid white;
-         background-color: white;
-         border-radius: 9px;
-         width: 340px;
-         height: 110px;
-         margin-bottom: 10px;
-         margin-left: -5px;
-    }
-
-    aside{
-         margin-left: -10px;
-         display: flex;
-         flex-direction: column;
-    }
-    .actv1, .actv2{
-     display: flex;
-     flex-direction: column;
-    }
-    .actimarseil
-    {
-         display: flex;
-        flex-direction: column;
-    }
-    
-
-    .actimarseil p
-    {
-         font-size: 10px;
-    }
-
-    .activA img, .activB img, .activC img, .activD img
-    {
-         width: 360px;
-         height: 150px;
-         border-top-left-radius: 9px;
-         border-top-right-radius: 9px;
-    }
-
-    .activA, .activB1, .activB2, .activC, .activD1, .activD2 
-    {
-         width: 360px;
-         height: 180px;
-         border: 1px solid white;
-         border-radius: 9px;
-         box-shadow: 0px 3px 2px gainsboro;
-         margin-top: 10px;
-        
-    }
-
-     .activA, .activB1, .activB2, .activD1, .activD2
-    {
-          margin-left: 5px;
-    }
-     .atm
-    {
-          margin-left: 10px;
-    }
-
-    footer
-    {
-         display: flex;
-         flex-direction: column;
-         margin-top: 10px;
-         background-color: #F2F2F2;
-         width: 100%;
-         font-size: 11px;
-         margin-left: 5px;
-
-    }
-    footer strong{
-         font-size: 10px;
-    }
-   
-     .pied2, .pied3
-    {
-         margin-left: 20px;
-         width: auto;
-    }
-
-     .pied
-    {
-          margin-left: 10px;
-          width: 100%;
-    }
- 
-
-}
-
-/* MEDIA WIDTH 320 */
-
-
-
-@media screen and (max-width: 320px){
-
-     header{
-          width: 310px;
-     }
-     header h1{
-          font-size: 12px;
-          padding-top: 10px;
-     }
-     nav
-     {
-          display: flex;
-          flex-direction: column-reverse;
-          float: right;
-          margin-top: -20px;
-          font-size: 10px;
-     }
-
-     #logo a img
-     {
-          width: 60px;
-          margin-top: 5px;
-     }  
-
-     nav a:hover
-     {
-          border-bottom: 2px solid #0065fc;
-          border-top: none;
-          padding-bottom: 8px;
-     }
-    
-     .choix strong{
-          font-size: 10px;
-     }
-     
-     .loc1, .loc3{
-          height: 23px;
-     }
-     .loc3 p{
-          display: none;
-     }
-     .loc3 em{
-          display: contents;
-     }
-     .loc1{
-         height: 25px; 
-     }
-     .loc2{
-          padding-left: 35px;
-          padding-right: 35px;
-     }
-     .loc3{
-          padding: 10px 10px 0px 10px;
-          width: 20px;
-     }
-     .teta1 i{
-          margin-left: 0px;
-     }
-     .teta1{
-          margin-left: 100px;
-     }
-     
-     .navlist{
-          margin-left: -200px;
-     }
-     .navi{
-          margin-right: 20px;
-     }
-
-     .global{
-          margin-right: 0px;
-     }
-     .choix, .fichoi1{
-          display: flex;
-          flex-direction: column;
-     }
-     .fichoi{
-          margin-top: 10px;
-          margin-bottom: 10px;
-     }
-     .tout{
-          width: 110px;
-     }
-     .tout1{
-          width: 90px;
-     }
-     .tout2{
-          width: 120px;
-          margin-bottom: 10px;
-     }
-     .tout3{
-          width: 150px;
-     }
-     .chx1{
-          padding: 7px 10px 5px 10px;
-          width: 20px;
-     }
-     .chx7{
-          padding: 7px 7px 7px 7px ;
-          width: 20px;
-     }
-     .chx5{
-          padding: 7px 10px 15px 10px;
-     }
-     .chx3{
-          padding: 7px 10px 15px 10px;
-     }
-     .group
-     {
-         display: flex;
-         flex-direction: column-reverse;
-     }
-     .lineverticale{
-          height: 600px;
-          margin-left: 0px;
-     }
-     .lineverticale img{
-          width: 110px;
-          height: 100px;
-     }
-     .lineverticale{
-          width: 300px;
-          height: 480px;
-     }
-     .lineverticale img{
-          width: 150px;
-     }
-     .mami, .meme, .papi{
-          height: 100px;
-          width: 290px;
-     }
-     .line1 img, .line2 img, .line3 img{
-          width: 290px;
-          height: 110px;
-     }
-     .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 290px;
-     }
-     article{
-          display: flex;
-          flex-direction: column-reverse;
-     }
-     
-     .actimarseil{
-          display: flex;
-          flex-direction: column;
-     }
-     .actv1, .actv2{
-          display: flex;
-          flex-direction: column;
-     }
-     .activA img, .activB img, .activC img, .activD img{
-          width: 300px;
-          height: 110px;
-     }
-     .activA, .activB, .activC, .activD{
-          height: 140px;
-     }
-     .activA, .activB1, .activB2, .activC, .activD1, .activD2{
-          width: 300px;
-     }
-
-     footer{
-          display: flex;
-          flex-direction: column;
-          font-size: 10px;
-          
-     }
-
-
-}
