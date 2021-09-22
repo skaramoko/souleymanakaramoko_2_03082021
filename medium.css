@@ -62,8 +62,8 @@
      #logo a img{
           width: 80px;
      }
-     .navlist{
-          margin-left: -20px;
+     .navlist1{
+          margin-right: 20px;
      }
      nav a:hover
      {
@@ -81,18 +81,24 @@
           margin-left: 100px;
      }
      .line1 img, .line2 img, .line3 img{
-          width: 205px;
+          width: 212px;
           height: 100px;
      }
+     .meme2 i, .meme2 p{
+          margin-top: 25px;
+     }
+     .papi2 p{
+          margin-top: 10px;
+     }
      .lineverticale{
-          width: 700px;
+          width: 696px;
           height: 190px;
           margin-left: 0px;
      }
      article{
           display: flex;
           flex-direction: column;
-          width: 727px;
+          width: 725px;
           margin-left: 10px;
      }
      .group{
@@ -104,7 +110,7 @@
      }
      
      .mami, .meme, .papi{
-          width: 205px;
+          width: 212px;
           height: 110px;
           margin-top: 5px;
      }
@@ -125,7 +131,7 @@
           width: 100px;
      }
      aside{
-          width: 720px;
+          width: 715px;
           margin-left: 10px;
      }
      .actimarseil{
