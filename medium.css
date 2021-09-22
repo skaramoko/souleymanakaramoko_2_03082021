@@ -9,6 +9,9 @@
      article h1{
           margin-left: -20px;
      }
+     .tout3{
+          width: 160px;
+     }
      article{
           margin: auto;
      }
@@ -85,7 +88,7 @@
           height: 100px;
      }
      .meme2 i, .meme2 p{
-          margin-top: 25px;
+          margin-top: 20px;
      }
      .papi2 p{
           margin-top: 10px;
