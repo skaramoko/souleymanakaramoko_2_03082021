@@ -253,15 +253,6 @@
      .tout2{
           width: 70px;
      }
-     .tout1{
-          width: 60px;
-     }
-     .tout{
-          width: 80px;
-     }
-     .tout3{
-          width: 120px;
-     }
      .choix{
           display: flex;
           flex-direction: column;
