@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 900px){
 
      header{
-          width: auto;
+          width: 1010px;
      }
      .navlist1{
           margin-right: 10px;
@@ -39,7 +39,7 @@
          width: 239px;
     }
     footer{
-         width: auto;
+         width: 1010px;
     }
 
 }
@@ -173,7 +173,7 @@
           margin-right: 40px;
      }
      footer{
-          width: auto;
+          width: 740px;
           margin: auto;
      }
      
@@ -228,8 +228,8 @@
           padding: 10px 10px 10px 10px;
      }
      .loc2{
-          padding-left: 85px;
-          padding-right: 85px;
+          padding-left: 80px;
+          padding-right: 80px;
      }
      .fichoi strong:hover
      {
@@ -267,7 +267,7 @@
      }
 
      .teta1 i{
-          margin-left: 60px;
+          margin-left: 55px;
      }
      .tout2{
           width: 70px;
@@ -368,21 +368,21 @@
      }
      
      .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 380px ;
+          width: 370px ;
           height: 180px;
           box-shadow: 0px 3px 2px gainsboro;
      }
      .titi, .mota, .tata, .meto{
-          margin-left: -18px;
+          margin-left: -5px;
      }
      .mimi, .toto{
-          margin-left: -20px;
+          margin-left: -5px;
      }
      .mimi, .tata{
           margin-left: 
      }
      .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
-          width: 380px;
+          width: 370px;
           height: 100px;
      }
      .milieu{
@@ -391,15 +391,13 @@
      .lineverticale{
           display:flex;
           flex-direction: column;
-          width: 390px;
+          width: 365px;
           height: 520px;
-          margin-left: -10px;
-          padding: 0px 0px 0px 10px;
+          margin-left: -5px;
      }
      .lineverticale img{
           width: 180px;
           height: 130px;
-          margin-right: 5px;
      }
      .lineverticale strong, .lineverticale p{
           font-size: 11px;
@@ -413,7 +411,7 @@
      }
      
      .mami, .meme, .papi{
-          width: 380px;
+          width: 370px;
           height: 130px;
           margin-right: 10px;
           margin-bottom: 15px;
@@ -445,20 +443,20 @@
      }
      .activA, .activC{
           height: 200px;
-          width: 380px;
+          width: 370px;
           margin-right: 9px;
      }
      .activA img, .activC img{
           height: 170px;
-          width: 380px;
+          width: 370px;
      }
      .activB1, .activB2, .activD1, .activD2{
           height: 200px;
-          width: 380px;
+          width: 370px;
      }
      .activB1 img, .activB2 img, .activD1 img, .activD2 img{
           height: 170px;
-          width: 380px;
+          width: 370px;
           
      }
      .activB{
@@ -468,15 +466,14 @@
           margin-bottom: 9px;
      }
      aside{
-          margin: 5px;
+          margin: -2px;
      }
     
      footer{
           display: flex;
           flex-direction: column;
-          width: 390px;
-          font-size: 8px;
-          margin-left: 10px;
+          width: 380px;
+          font-size: 10px;
      }
 
      .pied2{
