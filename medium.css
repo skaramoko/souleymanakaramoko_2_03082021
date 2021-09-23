@@ -1,7 +1,7 @@
 @media (min-width: 768px) and (max-width: 900px){
 
      header{
-          width: 1010px;
+          width: auto;
      }
      .navlist1{
           margin-right: 10px;
