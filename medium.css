@@ -1,11 +1,9 @@
-@media (min-width: 768px) and (max-width: 900px){
+@media (min-width: 956px) and (max-width: 1024px){
 
      header{
-          width: auto;
+          width: 1024px;
      }
-     .navlist1{
-          margin-right: 10px;
-     }
+     
      article h1{
           margin-left: -20px;
      }
@@ -18,7 +16,9 @@
      .teta1{
           margin-left: 120px;
      }
-
+     .tout3{
+          width: 180px;
+     }
     .line1 img, .line2 img, .line3 img{
          width: 190px;
     }
@@ -39,182 +39,100 @@
          width: 239px;
     }
     footer{
-         width: 1010px;
+         width: 1024px;
     }
+
+
 
 }
 
 
+@media (min-width: 768px ) and (max-width: 1023px){
 
 
-/*media Min-width: 414px max-width 768PX */
-
-
-@media (min-width: 438px) and (max-width: 768px) {
-
-     .global{
-          font-size: 11px;
-          width: 100%;     
-     }
-     header{
-          margin-left: 20px;
-     }
-     .choix strong{
-          font-size: 10px;
-     }
-     #logo a img{
-          width: 80px;
-     }
-     .navlist1{
-          margin-right: 20px;
-     }
-     nav a:hover
-     {
-         border-top: 2px solid #0065fc;
-         padding-top: 10px;
-     }
-     article h1, h2, h3{
-          font-size: 11px;
-     }
-     article h1{
-          margin-left: -20px;
-     }
-     .teta1{
-          margin-top: 12px;
-          margin-left: 100px;
-     }
-     .line1 img, .line2 img, .line3 img{
-          width: 212px;
-          height: 100px;
-     }
-     .meme2 i, .meme2 p{
-          margin-top: 20px;
-     }
-     .papi2 p{
-          margin-top: 10px;
-     }
-     .lineverticale{
-          width: 696px;
-          height: 190px;
-          margin-left: 0px;
-     }
      article{
           display: flex;
           flex-direction: column;
-          width: 725px;
-          margin-left: 10px;
      }
-     .group{
-          display: flex;     
+     .milieu{
+          width: 720px;
      }
-    
+     .toto, .tata, .titi, .mota, .meto, .mimi{
+          width: 222px;
+     }
+     .toto img, .tata img, .titi img, .mota img, .meto img, .mimi img{
+          width: 222px;
+     }
      .element{
           display: flex;
      }
-     
-     .mami, .meme, .papi{
-          width: 212px;
-          height: 110px;
+     .lineverticale{
+          width: 720px;
+          height: 250px;
           margin-top: 5px;
-     }
-     .mami i, .papi i{
-          margin-top: 24px;
-     }
-     .teta, .teta1{
-          margin-top: 5px;
+          margin-left: 0px;
      }
      .teta1{
-          margin-left: 470px;
+          margin-left: 500px;
      }
-     .mami, .meme{
-          margin-right: 15px;
+     .teta h3, .teta1{
+          margin-top: 5px;
      }
-     .mami img, .meme img, .papi img{
-          height: 110px;
-          width: 100px;
+     .meme, .mami, .papi{
+          margin-top: 10px;
+          width: 220px;
      }
-     aside{
-          width: 715px;
-          margin-left: 10px;
+     .meme, .mami{
+          margin-right: 20px;
      }
-     .actimarseil{
-          display: flex;
-          flex-direction: column;
+     .meme img, .mami img, .papi img{
+          width: 105px;
      }
-     .actv1, .actv2{
-          display: flex;
+     .activA, .activB, .activC, .activD{
+          width: 175px;
      }
-     .actimarseil p{
-          font-size: 11px;
+     .activA img, .activB img, .activC img, .activD img{
+          width: 175px;
      }
-     .activB, .activD{
-          display: flex;
+     .activA img, .activC img{
+          height: 260px;
      }
-     
-     .activA img, .activB2 img, .activC img, .activD2 img{
-          width: 230px;
-          height: 100px;
-     }
-     .activA, .activB2, .activC, .activD2{
-          width: 230px;
-          height: 130px;
-     }
-     .activB1, .activD1{
-          width: 230px;
-          height: 130px;
-          margin-right: 15px;
-     }
-     .activB1 img, .activD1 img{
-          width: 230px;
-          height: 100px;
-     }
-    
-     .pied{
-          margin-right: 40px;
-     }
-     footer{
-          width: 740px;
-          margin: auto;
+     .activB img, .activD img{
+          height: 98px;
      }
      
 }
 
+@media screen and (max-width: 420px){
 
-/* MEDIA max-width 413*/
-
-
-@media screen and (max-width: 437px){
-
-
+     #logo a img{
+          width: 80px;
+     }
 
      nav{
           display: flex;
           flex-direction: column-reverse;
      }
-     header h1{
-          margin-top: 50px;
-          font-size: 14px;
-     }
-     header{
-          margin: auto;
-          align-items: center;
+     nav a:hover{
+          border-top: none;
+          border-bottom: 2px solid #0065fc;
+          padding-bottom: 10px;
      }
      .navlist{
+          margin-left: -340px;
           border-bottom: 1px solid gainsboro;
-          padding-bottom: 11px;
-     }
-     .navlist1{
-          margin-left: 50px;
-          margin-right: 10px;
+          padding: 10px;
      }
      .navet{
-          margin-right: 50px;
+          margin-top: 20px;
+          margin-right: 180px;
      }
-     nav a:hover
-     {
-         border-bottom: 2px solid #0065fc;
-         border-top: none;
-         padding-bottom: 10px;
+     .navi{
+          margin-top: 20px;
+     }
+     h1{
+          margin-top: 70px;
+          font-size: 11px;
      }
      .loc3 p{
           display: none;
@@ -222,263 +140,121 @@
      .loc3 em{
           display: contents;
      }
-     .loc3{
+     .loc3 i{
           padding: 10px 10px 10px 10px;
      }
      .loc2{
-          padding-left: 80px;
-          padding-right: 80px;
+          padding-left: 90px;
+          padding-right: 90px;
      }
-     .fichoi strong:hover
-     {
-        color: #F2F2F2;
-     }
-     .fichoi1 strong:hover
-     {
-         color: #F2F2F2;
-     }
-     .tout:hover
-     {
-        background-color: #0065FC;
-     }
-     .tout1:hover
-     {
-        background-color: #0065FC;
-     }
-     .tout2:hover
-     {
-        background-color: #0065FC;
-     }
-     .tout3:hover
-     {
-        background-color: #0065FC;
-     }
-
-     .navlist{
-          margin-left: -200px;
-          margin-top: 20px;
-     }
-
-     .teta h3, .teta1{
-          font-size: 10px;
-          margin-top: 5px;
-     }
-
-     .teta1 i{
-          margin-left: 55px;
-     }
-     .tout2{
-          width: 70px;
-     }
-     .choix{
+     .choix, .fichoi1{
           display: flex;
           flex-direction: column;
      }
-     .choix strong{
+     .fichoi, .fichoi1{
           margin-top: 10px;
      }
-     
      .choix{
-          font-size: 12px;
-     }
-     .fichoi{
-          margin-top: 10px;
           margin-bottom: 10px;
-     }
-     .chx1{
-          padding: 7px 7px 7px 7px;
-     }
-     .chx3 i{
-          padding: 5px 8px 10px 5px;
-     }
-     .chx5{
-          padding: 10px 10px 10px 10px;
-     }
-     .chx7{
-          padding: 5px 7px 7px 7px;
-     }
-     .fichoi1{
-          display: flex;
-          flex-direction: column;
-
-     }
-     .tout{
-          width: 110px;
-     }
-     .tout1{
-          width: 80px;
      }
      .tout2{
-          width: 110px;
-          margin-bottom: 10px;
+          width: 150px;
      }
      .tout3{
-          width: 160px;
-     }
-     .chxa2 p{
-          font-size: 12px;
-          margin-left: 5px;
-          margin-top: 15px;
-     }
-     article{
-          display: flex;
-          flex-direction: column-reverse;
-          margin-left: 10px;
-          align-items: center;
-     }
-     .teteline h1{
-          font-size: 14px;
-     }
-     .teta h3{
-          font-size: 14px;
+          margin-top: 10px;
+          width: 200px;
      }
      .teta1{
-          margin-left: 160px;
+          margin-left: 180px;
      }
-     .milieu{
-          background-color: white;
-          display: flex;
-          flex-direction: column;
+     article{
+          display:flex;
+          flex-direction: column-reverse;
+          font-size: 12px;
      }
      .group{
-          display: flex;
+          display:flex;
           flex-direction: column-reverse;
-     }
-     .element{
-          display: flex;
-          flex-direction: column;
-     }
-     .group p, .group h1, .group h2, .group strong{
-          font-size: 11px;
-     }
-     .line1, .line2, .line3{
-          margin-right: 0px;
-     }
-     .line1 i, .line2 i, .line3 i {
-          font-size: 10px;
-     }
-     .line1{
-          margin-left: 0px;
-     }
-     .line1 h2{
-          font-size: 14px;
-          margin-left: -5px;
-     }
-     
-     .toto, .tata, .titi, .mimi, .meto, .mota{
-          width: 370px ;
-          height: 180px;
-          box-shadow: 0px 3px 2px gainsboro;
-     }
-     .titi, .mota, .tata, .meto{
-          margin-left: -5px;
-     }
-     .mimi, .toto{
-          margin-left: -5px;
-     }
-     .toto img, .tata img, .titi img, .mimi img, .meto img, .mota img{
-          width: 370px;
-          height: 100px;
+          background-color: white;
      }
      .milieu{
-          width: 368px;
-     }
-     .lineverticale{
           display:flex;
           flex-direction: column;
-          width: 365px;
-          height: 520px;
-          margin-left: -5px;
+          background-color: white;
+          margin-top: 20px;
+          padding: 0px 0px 0px 12px;
+     }
+     .teteline h1{
+          margin-top: 10px;
+     }
+     .toto, .tata, .titi, .mota, .meto, .mimi{
+          width: 370px;
+          margin-right: 0px;
+          box-shadow: 0px 2px 3px gainsboro;
+     }
+     .toto img, .tata img, .titi img, .mota img, .meto img, .mimi img{
+          width: 370px;
+          height: 150px;
+     }
+     .lineverticale{
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-bottom: 10px;
+          width: 380px;
      }
      .lineverticale img{
-          width: 180px;
-          height: 130px;
+          width: 170px;
      }
-     .lineverticale strong, .lineverticale p{
-          font-size: 11px;
-     }
-     .element i{
-          font-size: 10px;
-          margin-top: 30px;
-     }
-     .element p{
+     .lineverticale i, .lineverticale p{
           margin-top: 40px;
      }
-     
-     .mami, .meme, .papi{
-          width: 370px;
-          height: 130px;
-          margin-right: 10px;
-          margin-bottom: 15px;
-          margin-top: 5px;
-          margin-left: -5px;
+
+     h3{
+          margin-top: 10px;
      }
-     .atm h1{
-          font-size: 14px;
-          margin-left: 2px;
+     .teta1{
+          margin-top: -25px;
+     }
+     aside{
+          display: inline-block;
+          font-size: 12px;
+     }
+     .actv1, .actv2{
+          display: inline-block;
+     }
+     .atm{
+          margin-left: 10px;
      }
 
      .actimarseil{
-          display: flex;
-          flex-direction: column;
-          margin-left: 0px;
-     }
-
-     .actv1{
-          display: flex;
-          flex-direction: column;
-     }
-     .actv2{
-          display: flex;
-          flex-direction: column;
-     }
-     
-     .actimarseil p{
-          font-size: 12px;
-     }
-     .activA, .activC{
-          height: 200px;
-          width: 370px;
-          margin-right: 9px;
+          display: inline-block;
      }
      .activA img, .activC img{
-          height: 170px;
-          width: 370px;
+          width: 380px;
+          height: 160px;
      }
-     .activB1, .activB2, .activD1, .activD2{
-          height: 200px;
-          width: 370px;
+     .activB img, .activD img{
+          width: 380px;
+          height: 160px;
      }
-     .activB1 img, .activB2 img, .activD1 img, .activD2 img{
-          height: 170px;
-          width: 370px;
-          
-     }
-     .activB{
-          margin-right: 0px;
-     }
-     .activB1, .activD1{
-          margin-bottom: 9px;
-     }
-     aside{
-          margin: -2px;
+     .activA,.activB1, .activB2, .activC, .activD1, .activD2{
+          height: 220px;
+          width: 380px;
+          margin-left: 10px;
      }
     
      footer{
-          display: flex;
-          flex-direction: column;
-          width: 380px;
-          font-size: 10px;
+          display: inline-block;
+          width: 100%;
+          font-size: 14px;
      }
-
-     .pied2{
-          margin-left: 10px;
-     }
-     .pied3{
+     .pied2, .pied3{
           margin-left: 10px;
      }
 
 
-}  
+}
+
+
 
 
