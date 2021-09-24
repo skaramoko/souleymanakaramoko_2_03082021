@@ -220,6 +220,9 @@
      .lineverticale img{
           width: 180px;
      }
+     .teta1{
+          margin-left: 170px;
+     }
      .element i, .element p{
          margin-top: 30px;
      
@@ -236,10 +239,7 @@
      h3{
           margin-top: 10px;
      }
-     .teta1{
-         margin: auto;
-          
-     }
+     
      aside{
           display: flex;
           flex-direction: column;
@@ -369,6 +369,9 @@
           width: 340px;
           margin-left: -5px;
           
+      }
+      .teta1{
+           margin-left: 130px;
       }
 
      .lineverticale img{
