@@ -293,4 +293,144 @@
 
 
 
+@media screen and (max-width: 377px){
+
+     nav{
+          display: flex;
+          flex-direction: column-reverse;
+     }
+     nav a:hover{
+          border-top: none;
+          border-bottom: 2px solid #0065fc;
+          padding: 20px;
+     }
+    
+     .navlist{
+          border-bottom: 1px solid gainsboro;
+          padding: 20px;
+          margin-top: 20px;
+          margin-left: -290px;
+     }
+     .navet{
+          margin-right: 90px;
+     
+     }
+     .navi{
+         margin-right: 20px;
+     
+     }
+
+     .loc3 p{
+          display: none;
+     }
+     .loc3 em{
+          display: contents;
+     }
+     .loc3 i{
+          padding: 10px 10px 10px 10Px;
+     
+     }
+     .loc2{
+          padding-left: 65px;
+          padding-right: 65px;
+     
+     }
+     .choix, .fichoi1{
+          display: flex;
+          flex-direction: column;
+          
+     }
+     .choix strong{
+          font-size: 14px;
+     }
+     .fichoi{
+          margin-top: 10px;
+     }
+     .choix{
+     
+
+     }
+     .tout2{
+          width: 180px; 
+          margin-top: 10px;
+     }
+     .tout3{
+          width: 200px;
+          margin-top: 10px;
+     
+     }
+     .chxa2 p{
+          font-size: 12px;
+     }
+     .milieu{
+          display: flex;
+          flex-direction: column;
+          width: 340px;  
+          margin-left: 0px;  
+          background-color: white;
+     }
+     .lineverticale{
+          display: flex;
+          flex-direction: column; 
+          height: 600px; 
+          width: 340px;
+          margin-left: 0px;
+          
+      }
+
+     .lineverticale img{
+          width: 160px;
+     }
+     .element i, .element p{
+         margin-top: 30px;
+     
+     }
+     .element{
+          display: flex;
+         flex-direction: column;
+     }
+     
+     .mami, .meme, .papi{
+          width: 330px;
+     }
+
+     .toto, .tata, .titi, .mota, .meto, .mimi{
+          width: 330px;    
+          box-shadow: 0px 2px 3px gainsboro; 
+          
+     }
+
+     .toto img, .tata img, .titi img, .mota img, .meto img, .mimi img{
+         width: 330px;
+         height: 130px;
+
+     }
+     .activA img, .activC img{
+          width: 340px;
+          height: 140px;
+     }
+     .activB img, .activD img{
+          width: 340px;
+          height: 140px;
+     }
+     .activA,.activB1, .activB2, .activC, .activD1, .activD2{
+          width: 340px;
+          margin-left: 13px;
+          height: 180px;
+
+     }
+     footer{
+          display: flex;
+          flex-direction: column;
+          font-size: 11px;
+     }
+     .pied2, .pied3{
+          margin-left: 10px;
+     }
+
+
+
+}
+
+
 
