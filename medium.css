@@ -1,4 +1,4 @@
-@media (min-width: 956px) and (max-width: 1024px){
+@media (min-width: 769px) and (max-width: 1024px){
 
      header{
           width: 1024px;
@@ -47,7 +47,7 @@
 }
 
 
-@media (min-width: 768px ) and (max-width: 955px){
+@media (min-width: 417px ) and (max-width: 768px){
 
 
      article{
@@ -103,10 +103,11 @@
      
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 416px){
 
      header{
-          margin-left: 10px;
+          margin-left: 5px;
+          margin-right: 5px;
      }
 
      #logo a img{
@@ -204,23 +205,34 @@
           height: 150px;
      }
      .lineverticale{
-          margin-left: 0px;
-          margin-right: 0px;
-          margin-bottom: 10px;
-          width: 380px;
+         display: flex;
+         flex-direction: column;
+         height: 600px;
+         width: 370px;
+         margin-left: 0px;
      }
      .lineverticale img{
-          width: 170px;
+          width: 155px;
      }
-     .lineverticale i, .lineverticale p{
-          margin-top: 40px;
+     .element i, .element p{
+          font-size: 12px;
+          margin-top: 25px;
+     }
+     .element{
+          display: flex;
+          flex-direction: column;
+          height: 580px;
+     }
+     .mami, .meme, .papi{
+          width: 365px;
      }
 
      h3{
           margin-top: 10px;
      }
      .teta1{
-          margin-top: -25px;
+          margin-left: auto;
+          margin-top: 10px;
      }
      aside{
           display: inline-block;
@@ -237,16 +249,16 @@
           display: inline-block;
      }
      .activA img, .activC img{
-          width: 380px;
+          width: 370px;
           height: 160px;
      }
      .activB img, .activD img{
-          width: 380px;
+          width: 370px;
           height: 160px;
      }
      .activA,.activB1, .activB2, .activC, .activD1, .activD2{
           height: 220px;
-          width: 380px;
+          width: 370px;
           margin-left: 10px;
      }
     
