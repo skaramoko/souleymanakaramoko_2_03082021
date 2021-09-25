@@ -271,7 +271,7 @@
      }
      .activA,.activB1, .activB2, .activC, .activD1, .activD2{
           width: 370px;
-          margin-left: 13px;
+          margin-left: 10px;
           height: 180px;
 
      }
@@ -280,7 +280,6 @@
           display: flex;
           flex-direction: column;
           font-size: 11px;
-          margin-left: 10px;
      }
      .pied2, .pied3{
           margin-left: 10px;
