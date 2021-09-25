@@ -214,7 +214,7 @@
          display: flex;
          flex-direction: column; 
          height: 600px; 
-         width: 400px;
+         width: 390px;
          margin-left: -10px;
          
      }
@@ -280,6 +280,7 @@
           display: flex;
           flex-direction: column;
           font-size: 11px;
+          margin-left: 10px;
      }
      .pied2, .pied3{
           margin-left: 10px;
