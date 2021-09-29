@@ -100,10 +100,31 @@
      .activB img, .activD img{
           height: 98px;
      }
-     
+     footer{
+          width: 100%;
+     }
 }
 
+
+@media screen and (max-width: 668px){
+
+
+     .tout3{
+          width: 210px;
+     }
+     footer{
+          width: 760px;
+     }
+
+}
+
+
+
 @media screen and (max-width: 416px){
+
+     .global{
+          overflow: hidden;
+     }
 
      header{
           margin-left: 10px;
@@ -112,18 +133,18 @@
      nav{
           display: flex;
           flex-direction: column-reverse;
-          margin-left: -300px;
+         
      }
      nav a:hover{
           border-top: none;
           border-bottom: 2px solid #0065fc;
-          padding: 20px;
+          padding-bottom: 20px;
      }
     
      .navlist{
           border-bottom: 1px solid gainsboro;
           padding: 20px;
-          margin-top: 20px;
+          margin-left: -300px;
      }
      .navet{
           margin-right: 110px;
@@ -169,7 +190,7 @@
           margin-top: 10px;
      }
      .tout3{
-          width: 200px;
+          width: 220px;
           margin-top: 10px;
      
      }
@@ -281,9 +302,13 @@
           display: flex;
           flex-direction: column;
           font-size: 11px;
+          width: 100%;
      }
      .pied2, .pied3{
           margin-left: 10px;
+     }
+     .pied, .pied2, .pied3{
+          width: 100%;
      }
 
 
@@ -292,6 +317,10 @@
 
 
 @media screen and (max-width: 377px){
+
+     .global{
+          overflow: hidden;
+     }
 
      nav{
           display: flex;
@@ -309,7 +338,7 @@
           border-bottom: 1px solid gainsboro;
           padding: 10px;
           margin-top: 10px; 
-          margin-left:-250px; 
+          margin-left:-265px; 
      }
 
      .navet{
@@ -353,7 +382,7 @@
           margin-top: 10px;
      }
      .tout3{
-          width: 200px;
+          width: 220px;
           margin-top: 10px;
      
      }
@@ -428,12 +457,15 @@
           display: flex;
           flex-direction: column;
           font-size: 11px;
+          width: 100%;
      }
 
      .pied2, .pied3{
           margin-left: 10px;
      }
-
+     .pied, .pied2, .pied3{
+          width: 100%;
+     }
 
 
 }
