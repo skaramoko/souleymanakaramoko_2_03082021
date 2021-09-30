@@ -103,6 +103,8 @@
      footer{
           width: 100%;
      }
+
+
 }
 
 
@@ -115,18 +117,19 @@
           width: 760px;
      }
 
+
+
 }
 
 
 
 @media screen and (max-width: 416px){
 
-     .global{
-          overflow: hidden;
-     }
+     
 
      header{
           margin-left: 10px;
+          margin-right: 0px;
      }
 
      nav{
@@ -200,8 +203,6 @@
      article{
          display: flex;
          flex-direction: column-reverse;
-          
-     
      }
      .group{
           display: flex;
@@ -265,7 +266,6 @@
      aside{
           display: flex;
           flex-direction: column;
-          
      
      }
      .actv1, .actv2{
@@ -300,8 +300,9 @@
      footer{
           display: flex;
           flex-direction: column;
-          font-size: 11px;
+          font-size: 14px;
           width: 100%;
+     
      }
      .pied2, .pied3{
           margin-left: 10px;
@@ -317,8 +318,8 @@
 
 @media screen and (max-width: 377px){
 
-     .global{
-          overflow: hidden;
+     header{
+          margin-right: 0px;
      }
 
      nav{
@@ -326,8 +327,7 @@
           flex-direction: column-reverse;
      }
 
-     nav a:hover
-     {
+     nav a:hover{
          border-bottom: 2px solid #0065fc;
          border-top: none;
          padding-bottom: 10px;
@@ -337,7 +337,7 @@
           border-bottom: 1px solid gainsboro;
           padding: 10px;
           margin-top: 10px; 
-          margin-left:-265px; 
+          margin-left:-260px; 
      }
 
      .navet{
@@ -352,26 +352,29 @@
      .loc3 p{
           display: none;
      }
+
      .loc3 em{
           display: contents;
      }
+
      .loc3 i{
           padding: 10px 10px 10px 10Px;
-     
      }
+
      .loc2{
           padding-left: 65px;
           padding-right: 65px;
-     
      }
+
      .choix, .fichoi1{
           display: flex;
-          flex-direction: column;
-          
+          flex-direction: column;  
      }
+
      .choix strong{
           font-size: 14px;
      }
+
      .fichoi{
           margin-top: 10px;
      }
@@ -388,6 +391,7 @@
      .chxa2 p{
           font-size: 12px;
      }
+
      .milieu{
           display: flex;
           flex-direction: column;
@@ -395,6 +399,7 @@
           margin-left: -5px;  
           background-color: white;
      }
+
      .lineverticale{
           display: flex;
           flex-direction: column; 
@@ -403,6 +408,7 @@
           margin-left: -5px;
           
       }
+
       .teta1{
            margin-left: 130px;
       }
@@ -410,10 +416,12 @@
      .lineverticale img{
           width: 160px;
      }
+
      .element i, .element p{
          margin-top: 30px;
      
      }
+     
      .element{
           display: flex;
          flex-direction: column;
@@ -455,7 +463,7 @@
      footer{
           display: flex;
           flex-direction: column;
-          font-size: 11px;
+          font-size: 12px;
           width: 100%;
      }
 
