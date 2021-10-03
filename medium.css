@@ -171,10 +171,13 @@
      
      }
      .loc2{
-          padding-left: 80px;
-          padding-right: 80px;
+          padding-right: 160px;
      
      }
+     input{
+          padding-right: 128px;
+     }
+     
      .choix, .fichoi1{
           display: flex;
           flex-direction: column;
@@ -361,8 +364,10 @@
      }
 
      .loc2{
-          padding-left: 65px;
-          padding-right: 65px;
+          padding-right: 130px;
+     }
+     input{
+          padding-right: 98px;
      }
 
      .choix, .fichoi1{
